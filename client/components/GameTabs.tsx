@@ -2,12 +2,12 @@ import { useState } from 'react';
 
 const games = {
   SLOT: [
-    { name: '918Kiss', img: 'https://ufo9au.net/wp-content/uploads/2024/02/games918kiss-1-1024x379.jpg' },
-    { name: 'Mega888', img: 'https://ufo9au.net/wp-content/uploads/2024/02/gamesmega888-1024x379.jpg' },
-    { name: '3win8', img: 'https://ufo9au.net/wp-content/uploads/2024/02/3win38-1024x379.jpg' },
-    { name: 'Asia Gaming', img: 'https://ufo9au.net/wp-content/uploads/2024/02/AG-1024x379.jpg' },
-    { name: 'XE88', img: 'https://ufo9au.net/wp-content/uploads/2024/02/xe888-1024x379.jpg' },
-    { name: 'ACE333', img: 'https://ufo9au.net/wp-content/uploads/2024/02/ace33-1024x379.jpg' },
+    { name: '918Kiss', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F30b34eeea7084fce90b4ce290d32729f' },
+    { name: 'Mega888', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F27d6602ccbba4749b213708f79a1ad42' },
+    { name: '3win8', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F61d697c070a144bf9f3d8081afecd385' },
+    { name: 'Asia Gaming', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F9dbdd46287764327b9d8f227f2cddbf1' },
+    { name: 'XE88', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fa815d03fda4c4dec8b1174a623f35858' },
+    { name: 'ACE333', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc99977d699d4409aa40275a70cf3f5db' },
   ],
   LIVE: [
     { name: 'CT855 Live Casino', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F4b9a379072bf4f25a5d0c628d3ac1634' },
