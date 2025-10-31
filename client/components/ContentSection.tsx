@@ -91,7 +91,7 @@ export default function ContentSection() {
           </p>
 
           <p className="text-gray-700 font-semibold">
-            If you're facing problems while playing our casino games, UFO9 customer support are available 24/7 hours on live chat.
+            If you're facing problems while playing our casino games, SPACE9 customer support are available 24/7 hours on live chat.
           </p>
         </div>
       </div>
