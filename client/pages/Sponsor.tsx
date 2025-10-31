@@ -11,13 +11,14 @@ export default function Sponsor() {
 
       {/* Hero Section */}
       <section
-        className="relative flex items-center justify-center min-h-[600px] bg-cover bg-center bg-no-repeat"
+        className="relative flex items-center justify-center min-h-[800px] bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F5fa3a0f6efef480eaf5f12e90c34c782)',
           backgroundPosition: '50% 50%',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
-          width: '90%',
+          width: '100%',
+          height: '50px',
           alignSelf: 'stretch',
         }}
       >
@@ -124,7 +125,7 @@ export default function Sponsor() {
                 style={{
                   display: 'block',
                   borderRadius: '16px',
-                  height: '377px',
+                  height: '373px',
                   width: '100%',
                   objectFit: 'cover',
                   transitionDuration: '0.15s',
@@ -149,7 +150,7 @@ export default function Sponsor() {
                 style={{
                   display: 'block',
                   borderRadius: '16px',
-                  height: '379px',
+                  height: '373px',
                   width: '100%',
                   objectFit: 'cover',
                   transitionDuration: '0.15s',
@@ -174,7 +175,7 @@ export default function Sponsor() {
                 style={{
                   display: 'block',
                   borderRadius: '16px',
-                  height: '378px',
+                  height: '373px',
                   width: '100%',
                   objectFit: 'cover',
                   transitionDuration: '0.15s',
