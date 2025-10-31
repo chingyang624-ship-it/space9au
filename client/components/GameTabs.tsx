@@ -10,11 +10,11 @@ const games = {
     { name: 'ACE333', img: 'https://ufo9au.net/wp-content/uploads/2024/02/ace33-1024x379.jpg' },
   ],
   LIVE: [
-    { name: 'CT855 Live Casino', img: 'https://via.placeholder.com/1024x379?text=CT855' },
-    { name: 'YB Official', img: 'https://via.placeholder.com/1024x379?text=YB' },
-    { name: 'WON Casino', img: 'https://via.placeholder.com/1024x379?text=WON' },
-    { name: 'Big Gaming', img: 'https://via.placeholder.com/1024x379?text=BIG' },
-    { name: 'Sexy Baccarat', img: 'https://via.placeholder.com/1024x379?text=SEXY' },
+    { name: 'CT855 Live Casino', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F4b9a379072bf4f25a5d0c628d3ac1634' },
+    { name: 'YB Official', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fec2c129b50e748a5ad29b17a850cc3d7' },
+    { name: 'WON Casino', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2217295b66c84449a3b2f33f8832e4f8' },
+    { name: 'Big Gaming', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F4b3bf20b7c734bb89768181d084a09a8' },
+    { name: 'Sexy Baccarat', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fcf307976c70e4130b31429757f66b939' },
   ],
   SPORTS: [
     { name: 'WWBET Sports', img: 'https://via.placeholder.com/1024x379?text=SPORTS' },
