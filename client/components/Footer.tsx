@@ -64,7 +64,7 @@ export default function Footer() {
           </p>
 
           <p className="text-gray-600 text-xs mt-4">
-            UFO9 Casino is licensed and regulated. Players must be 18+ to participate. Please gamble responsibly.
+            SPACE9 Casino is licensed and regulated. Players must be 18+ to participate. Please gamble responsibly.
           </p>
         </div>
       </div>
