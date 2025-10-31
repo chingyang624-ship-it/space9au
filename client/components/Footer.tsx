@@ -1,4 +1,4 @@
-import { Mail, Phone } from 'lucide-react';
+import { Mail, Phone, Facebook, Send } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -42,7 +42,7 @@ export default function Footer() {
 
         {/* Bottom Footer */}
         <div className="border-t border-gray-700 pt-8 text-center">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-6">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-8">
             <a
               href="mailto:support@space9.com"
               className="flex items-center gap-2 text-gray-400 hover:text-amber-500 transition-colors"
@@ -56,6 +56,28 @@ export default function Footer() {
             >
               <Phone size={18} />
               <span>24/7 Support Available</span>
+            </a>
+          </div>
+
+          {/* Social Media Links */}
+          <div className="flex justify-center gap-6 mb-8">
+            <a
+              href="https://www.facebook.com/profile.php?id=100093505265984"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-amber-500 transition-colors"
+              title="Follow us on Facebook"
+            >
+              <Facebook size={24} />
+            </a>
+            <a
+              href="https://t.me/+HplU5b6JfLBmNjk1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-amber-500 transition-colors"
+              title="Join us on Telegram"
+            >
+              <Send size={24} />
             </a>
           </div>
 
