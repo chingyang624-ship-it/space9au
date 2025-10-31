@@ -12,7 +12,7 @@ export default function Header({ mobileMenuOpen, setMobileMenuOpen }: HeaderProp
     { label: 'Home', href: '/' },
     { label: 'About us', href: '/about' },
     { label: 'Promotion', href: '/promotions' },
-    { label: 'Top up', href: '#' },
+    { label: 'Top up', href: 'https://space9au.com/RFGOOGLESEO99' },
     { label: 'Sponsor', href: '#' },
   ];
 
