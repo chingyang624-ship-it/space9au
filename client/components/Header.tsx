@@ -117,12 +117,22 @@ export default function Header({ mobileMenuOpen, setMobileMenuOpen }: HeaderProp
                 );
               })}
               <div className="flex gap-3 pt-4 border-t border-amber-500">
-                <button className="flex-1 px-4 py-2 bg-blue-900 text-white rounded border border-amber-400 font-semibold hover:bg-blue-800 transition-colors text-sm">
+                <a
+                  href="https://space9au.com/RFGOOGLESEO99"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 px-4 py-2 bg-blue-900 text-white rounded border border-amber-400 font-semibold hover:bg-blue-800 transition-colors text-sm text-center inline-block"
+                >
                   Register
-                </button>
-                <button className="flex-1 px-4 py-2 bg-blue-500 text-white rounded border border-amber-400 font-semibold hover:bg-blue-600 transition-colors text-sm">
+                </a>
+                <a
+                  href="https://space9au.com/RFGOOGLESEO99"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 px-4 py-2 bg-blue-500 text-white rounded border border-amber-400 font-semibold hover:bg-blue-600 transition-colors text-sm text-center inline-block"
+                >
                   Login
-                </button>
+                </a>
               </div>
             </nav>
           </div>
