@@ -22,9 +22,42 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold text-amber-500 mb-4">Payment Support</h3>
             <div className="bg-slate-800 p-6 rounded">
-              <p className="text-gray-300 text-sm">
-                We support multiple payment methods for your convenience including local bank transfers, e-wallets, and cryptocurrencies.
+              <p className="text-gray-300 text-sm mb-4">
+                We support multiple secure payment methods:
               </p>
+              <div className="grid grid-cols-2 gap-4">
+                {/* Visa */}
+                <div className="flex flex-col items-center p-3 bg-slate-700 rounded hover:bg-slate-600 transition-colors">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/0/07/Visa_Inc._logo.svg"
+                    alt="Visa"
+                    className="h-8 mb-2"
+                  />
+                  <span className="text-xs text-gray-300">Visa</span>
+                </div>
+
+                {/* Mastercard */}
+                <div className="flex flex-col items-center p-3 bg-slate-700 rounded hover:bg-slate-600 transition-colors">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/a/b7/Mastercard_Logo.svg"
+                    alt="Mastercard"
+                    className="h-8 mb-2"
+                  />
+                  <span className="text-xs text-gray-300">Mastercard</span>
+                </div>
+
+                {/* AUS Local Bank Transfer */}
+                <div className="flex flex-col items-center p-3 bg-slate-700 rounded hover:bg-slate-600 transition-colors">
+                  <Banknote size={32} className="text-amber-500 mb-2" />
+                  <span className="text-xs text-gray-300">Bank Transfer</span>
+                </div>
+
+                {/* Amopay */}
+                <div className="flex flex-col items-center p-3 bg-slate-700 rounded hover:bg-slate-600 transition-colors">
+                  <CreditCard size={32} className="text-amber-500 mb-2" />
+                  <span className="text-xs text-gray-300">Amopay</span>
+                </div>
+              </div>
             </div>
           </div>
 
