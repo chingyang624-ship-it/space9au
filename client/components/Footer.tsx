@@ -31,7 +31,7 @@ export default function Footer() {
           {/* Available Games */}
           <div>
             <h3 className="text-xl font-bold text-amber-500 mb-4">Available Games</h3>
-            <div className="space-y-2 text-gray-400 text-sm">
+            <div className="space-y-2 text-gray-400 text-sm" style={{ marginRight: '2px' }}>
               <p>✓ Slots & Keno</p>
               <p>✓ Live Dealer Games</p>
               <p>✓ Sports Betting</p>
