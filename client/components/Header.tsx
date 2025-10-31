@@ -18,10 +18,10 @@ export default function Header({ mobileMenuOpen, setMobileMenuOpen }: HeaderProp
             {/* Logo */}
             <div className="flex-shrink-0">
               <img
-                src="https://ufo9au.net/wp-content/uploads/2024/01/imgpsh_fullsize_anim.png"
-                alt="UFO9 Casino"
-                className="h-12 w-auto md:h-16"
-              />
+              src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc0a592f10b9e4c43978276155259ccc9"
+              alt="UFO9 Casino"
+              className="h-12 w-auto md:h-16"
+            />
             </div>
 
             {/* Desktop Navigation */}
