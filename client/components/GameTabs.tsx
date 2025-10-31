@@ -49,7 +49,7 @@ export default function GameTabs() {
           {games[activeTab].map((game, idx) => (
             <a
               key={idx}
-              href="https://ufo9.asia/RFGOOLGEADS"
+              href="https://space9au.com/RFGOOGLESEO99"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-all"

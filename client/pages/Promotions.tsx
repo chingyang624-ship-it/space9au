@@ -46,7 +46,7 @@ export default function Promotions() {
             {/* Banner 1 - VIP Program */}
             <div className="text-center">
               <a
-                href="https://ufo9.asia/RFGOOLGEADS"
+                href="https://space9au.com/RFGOOGLESEO99"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block"
@@ -62,7 +62,7 @@ export default function Promotions() {
             {/* Banner 2 - Every Deposit */}
             <div className="text-center">
               <a
-                href="https://ufo9.asia/RFGOOLGEADS"
+                href="https://space9au.com/RFGOOGLESEO99"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block"
@@ -78,7 +78,7 @@ export default function Promotions() {
             {/* Banner 3 - Welcome Bonus */}
             <div className="text-center">
               <a
-                href="https://ufo9.asia/RFGOOLGEADS"
+                href="https://space9au.com/RFGOOGLESEO99"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block"
