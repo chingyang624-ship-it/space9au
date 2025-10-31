@@ -6,10 +6,10 @@ export default function HeroSection() {
           {/* Left Content */}
           <div className="flex-1 text-center md:text-left">
             <h1 className="text-4xl md:text-5xl font-bold text-slate-200 mb-6">
-              UFO9 Casino – No.1 Trusted Online Casino Application in Australia
+              SPACE9 Casino – No.1 Trusted Online Casino Application in Australia
             </h1>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              Welcome to UFO9 Casino Official Website. UFO9 Casino is an online gaming platform that offers a diverse range of gambling activities including slots, sports games, and live casino dealer sessions. It distinguishes itself with a futuristic, UFO-themed interface.
+              Welcome to SPACE9 Casino Official Website. SPACE9 Casino is an online gaming platform that offers a diverse range of gambling activities including slots, sports games, and live casino dealer sessions. It distinguishes itself with a futuristic, UNIVERSE-themed interface.
             </p>
           </div>
 
