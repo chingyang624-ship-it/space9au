@@ -39,7 +39,7 @@ export default function ContentSection() {
 
           <ul className="text-gray-700 space-y-3 mb-8">
             <li>
-              <strong>Open the App:</strong> Launch the UFO9 Casino app on your device.
+              <strong>Open the App:</strong> Launch the SPACE9 Casino app on your device.
             </li>
             <li>
               <strong>Tap on Login:</strong> Find and tap the 'Login' button, usually at the top right corner.
