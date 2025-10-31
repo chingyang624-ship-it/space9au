@@ -8,7 +8,7 @@ export default function ContentSection() {
           </h2>
 
           <p className="text-gray-700 mb-4">
-            Downloading the UFO9 Casino app on your mobile device is simple and can be done in a few steps:
+            Downloading the SPACE9 Casino app on your mobile device is simple and can be done in a few steps:
           </p>
 
           <ul className="text-gray-700 space-y-3 mb-8">
