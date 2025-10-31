@@ -24,13 +24,17 @@ export default function Promotions() {
         }}
       >
         <div
-          className="absolute inset-0"
           style={{
             backgroundColor: 'rgba(0, 0, 0, 0.4)',
-            backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F1c64fdec9a7b4484a898d43e9059ef69)',
+            backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F155e921679114563800a312c4a646dd3)',
             backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center',
+            backgroundPosition: '50% 50%',
             backgroundSize: 'cover',
+            position: 'absolute',
+            bottom: '0px',
+            left: '1615px',
+            right: '0px',
+            top: '1506px',
           }}
         ></div>
       </section>
