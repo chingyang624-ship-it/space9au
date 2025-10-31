@@ -54,7 +54,11 @@ export default function Footer() {
 
                 {/* Amopay */}
                 <div className="flex flex-col items-center p-3 bg-slate-700 rounded hover:bg-slate-600 transition-colors">
-                  <CreditCard size={32} className="text-amber-500 mb-2" />
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdb030dba93fe4f3c81143d911699409e"
+                    alt="Amopay"
+                    className="h-8 mb-2"
+                  />
                   <span className="text-xs text-gray-300">Amopay</span>
                 </div>
               </div>
