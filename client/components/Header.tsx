@@ -51,9 +51,12 @@ export default function Header({ mobileMenuOpen, setMobileMenuOpen }: HeaderProp
               <button className="px-6 py-2 bg-blue-900 text-white rounded-lg border border-amber-400 font-semibold hover:bg-blue-800 transition-colors">
                 Register
               </button>
-              <button className="px-6 py-2 bg-blue-500 text-white rounded-lg border border-amber-400 font-semibold hover:bg-blue-600 transition-colors">
+              <a
+                href="https://space9au.com/login"
+                className="px-6 py-2 bg-blue-500 text-white rounded-lg border border-amber-400 font-semibold hover:bg-blue-600 transition-colors inline-block cursor-pointer"
+              >
                 Login
-              </button>
+              </a>
             </div>
 
             {/* Mobile Menu Button */}
