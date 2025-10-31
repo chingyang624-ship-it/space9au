@@ -57,7 +57,7 @@ export default function Footer() {
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdb030dba93fe4f3c81143d911699409e"
                     alt="Amopay"
-                    className="h-8 mb-2"
+                    style={{ height: "20px", width: "100px", margin: "11px 0 8px" }}
                   />
                   <span className="text-xs text-gray-300">Amopay</span>
                 </div>
