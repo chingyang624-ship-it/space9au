@@ -11,7 +11,7 @@ export default function Header({ mobileMenuOpen, setMobileMenuOpen }: HeaderProp
   const navItems = [
     { label: 'Home', href: '/' },
     { label: 'About us', href: '/about' },
-    { label: 'Promotion', href: '#' },
+    { label: 'Promotion', href: '/promotions' },
     { label: 'Top up', href: '#' },
     { label: 'Sponsor', href: '#' },
   ];
