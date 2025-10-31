@@ -29,7 +29,7 @@ export default function Footer() {
                 {/* Visa */}
                 <div className="flex flex-col items-center p-3 bg-slate-700 rounded hover:bg-slate-600 transition-colors">
                   <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/0/07/Visa_Inc._logo.svg"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F03d729d9c0a3496da92a68527e678e08"
                     alt="Visa"
                     className="h-8 mb-2"
                   />
@@ -39,7 +39,7 @@ export default function Footer() {
                 {/* Mastercard */}
                 <div className="flex flex-col items-center p-3 bg-slate-700 rounded hover:bg-slate-600 transition-colors">
                   <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/a/b7/Mastercard_Logo.svg"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7f2bfd517d8f4e2e80d1fd76a6875843"
                     alt="Mastercard"
                     className="h-8 mb-2"
                   />
