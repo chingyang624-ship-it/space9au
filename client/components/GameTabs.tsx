@@ -17,7 +17,7 @@ const games = {
     { name: 'Sexy Baccarat', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fcf307976c70e4130b31429757f66b939' },
   ],
   SPORTS: [
-    { name: 'WWBET Sports', img: 'https://via.placeholder.com/1024x379?text=SPORTS' },
+    { name: 'WWBET Sports', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F5bc7be0b30e24f5cbed2b96cc6d066ab' },
   ],
 };
 
