@@ -33,9 +33,9 @@ export default function ContentSection() {
             Ensure your device settings allow installation from unknown sources if you are downloading an APK file for Android directly from the site.
           </p>
 
-          <h3 className="text-2xl font-bold text-slate-900 mb-4">How to Login UFO9: Directions</h3>
+          <h3 className="text-2xl font-bold text-slate-900 mb-4">How to Login SPACE9 : Directions</h3>
 
-          <p className="text-gray-700 mb-4">To log into UFO9 Casino on mobile, follow these steps:</p>
+          <p className="text-gray-700 mb-4">To log into SPACE9 Casino on mobile, follow these steps:</p>
 
           <ul className="text-gray-700 space-y-3 mb-8">
             <li>
