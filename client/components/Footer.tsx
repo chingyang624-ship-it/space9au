@@ -14,7 +14,7 @@ export default function Footer() {
               className="h-12 mb-4"
             />
             <p className="text-gray-400 text-sm leading-relaxed">
-              SPACE9 is a popular online casino in Malaysia and slot game platform that offers a wide range of games, including slot games, table games, and arcade games.
+              SPACE9 is a popular online casino in Australia and slot game platform that offers a wide range of games, including slot games, table games, and arcade games.
             </p>
           </div>
 
