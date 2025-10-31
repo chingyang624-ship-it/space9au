@@ -60,7 +60,7 @@ export default function Footer() {
           </div>
 
           <p className="text-gray-500 text-sm">
-            COPYRIGHT © UFO9 Casino. All rights reserved. Responsible Gaming.
+            COPYRIGHT © SPACE9 Casino. All rights reserved. Responsible Gaming.
           </p>
 
           <p className="text-gray-600 text-xs mt-4">
