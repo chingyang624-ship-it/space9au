@@ -87,7 +87,7 @@ export default function ContentSection() {
           </div>
 
           <p className="text-gray-700 mb-4">
-            Each game on UFO9 Casino promises a unique and engaging experience with the opportunity to win substantial rewards, making it a preferred destination for online slot enthusiasts.
+            Each game on SPACE9 Casino promises a unique and engaging experience with the opportunity to win substantial rewards, making it a preferred destination for online slot enthusiasts.
           </p>
 
           <p className="text-gray-700 font-semibold">
