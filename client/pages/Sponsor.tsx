@@ -191,7 +191,7 @@ export default function Sponsor() {
       {/* Main Content Section */}
       <section
         style={{
-          backgroundColor: 'rgb(15, 23, 42)',
+          backgroundColor: 'rgba(252, 253, 255, 1)',
           padding: '64px 16px',
         }}
       >
