@@ -48,7 +48,7 @@ export default function Promotions() {
                 className="inline-block"
               >
                 <img
-                  src="https://ufo9au.net/wp-content/uploads/2024/03/banner_740-x-288_VIP-Program-check-in-program.jpg"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F8c45d351165444cea245ced7b4f94797"
                   alt="VIP Program Check-in Program"
                   className="w-full max-w-2xl rounded hover:opacity-90 transition-opacity"
                 />
@@ -64,7 +64,7 @@ export default function Promotions() {
                 className="inline-block"
               >
                 <img
-                  src="https://ufo9au.net/wp-content/uploads/2024/03/banner_740-x-288_Every-Deposit-30-Get-1-Free-Lucky-Wheel-Spin.jpg"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fe1b12944b47c421e9e50fcebf6828c1d"
                   alt="Every Deposit Get Free Lucky Wheel Spin"
                   className="w-full max-w-2xl rounded hover:opacity-90 transition-opacity"
                 />
@@ -80,7 +80,7 @@ export default function Promotions() {
                 className="inline-block"
               >
                 <img
-                  src="https://ufo9au.net/wp-content/uploads/2024/03/banner_740-x-288_Welcome-bonus-70.jpg"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7f96814e47b644239208f01ad2eb9e78"
                   alt="Welcome Bonus 70"
                   className="w-full max-w-2xl rounded hover:opacity-90 transition-opacity"
                 />
@@ -94,7 +94,7 @@ export default function Promotions() {
       <section className="bg-white py-12">
         <div className="max-w-4xl mx-auto px-4">
           <h1 className="text-5xl md:text-6xl font-bold mb-8 leading-tight text-gray-800">
-            SPACE9 E-Wallet Casino | SPACE9 Login | SPACE9 Casino Free Credit
+            SPACE9 Australia Casino | SPACE9 Payid Pokies| SPACE9 Casino Free Credit
           </h1>
 
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-800">
