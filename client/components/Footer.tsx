@@ -44,11 +44,11 @@ export default function Footer() {
         <div className="border-t border-gray-700 pt-8 text-center">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-6">
             <a
-              href="mailto:support@ufo9.com"
+              href="mailto:support@space9.com"
               className="flex items-center gap-2 text-gray-400 hover:text-amber-500 transition-colors"
             >
               <Mail size={18} />
-              <span>support@ufo9.com</span>
+              <span>support@space9.com</span>
             </a>
             <a
               href="tel:+61234567890"
