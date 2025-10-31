@@ -35,15 +35,28 @@ export default function Header({ mobileMenuOpen, setMobileMenuOpen }: HeaderProp
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
-              {navItems.map((item) => (
-                <Link
-                  key={item.label}
-                  to={item.href}
-                  className="text-amber-500 font-semibold text-sm uppercase hover:text-amber-400 transition-colors"
-                >
-                  {item.label}
-                </Link>
-              ))}
+              {navItems.map((item) => {
+                const isExternal = item.href.startsWith('http');
+                return isExternal ? (
+                  <a
+                    key={item.label}
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-amber-500 font-semibold text-sm uppercase hover:text-amber-400 transition-colors cursor-pointer"
+                  >
+                    {item.label}
+                  </a>
+                ) : (
+                  <Link
+                    key={item.label}
+                    to={item.href}
+                    className="text-amber-500 font-semibold text-sm uppercase hover:text-amber-400 transition-colors"
+                  >
+                    {item.label}
+                  </Link>
+                );
+              })}
             </nav>
 
             {/* Auth Buttons Desktop */}
