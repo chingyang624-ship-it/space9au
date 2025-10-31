@@ -11,12 +11,28 @@ export default function Promotions() {
 
       {/* Hero Section */}
       <section
-        className="relative bg-cover bg-center min-h-96 border-b-2 border-amber-500"
+        className="relative border-b-2 border-amber-500 min-h-96"
         style={{
-          backgroundImage: 'url(https://ufo9au.net/wp-content/uploads/2024/02/Promotion-headerbg.jpg)',
+          backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F1c64fdec9a7b4484a898d43e9059ef69)',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: '50% 50%',
+          backgroundSize: 'cover',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'flex-start',
         }}
       >
-        <div className="absolute inset-0 bg-black/40"></div>
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundColor: 'rgba(0, 0, 0, 0.4)',
+            backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F1c64fdec9a7b4484a898d43e9059ef69)',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+          }}
+        ></div>
       </section>
 
       {/* Promotional Banners Section */}
