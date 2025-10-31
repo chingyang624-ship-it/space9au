@@ -95,6 +95,59 @@ export default function AboutUs() {
         </div>
       </section>
 
+      {/* Connect With Us Section */}
+      <section className="bg-gradient-to-r from-amber-600 to-amber-700 py-16 md:py-24">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
+            Connect With Us
+          </h2>
+
+          <p className="text-white text-lg mb-12 max-w-2xl mx-auto">
+            Stay updated with the latest promotions, games, and exclusive offers. Follow us on social media and join our community of players.
+          </p>
+
+          {/* Social Media Links */}
+          <div className="flex justify-center gap-8 mb-12">
+            <a
+              href="https://www.facebook.com/profile.php?id=100093505265984"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center gap-2 text-white hover:text-amber-200 transition-colors group"
+            >
+              <div className="bg-white/20 hover:bg-white/30 p-4 rounded-full transition-colors">
+                <Facebook size={32} />
+              </div>
+              <span className="font-semibold">Facebook</span>
+            </a>
+            <a
+              href="https://t.me/+HplU5b6JfLBmNjk1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-center gap-2 text-white hover:text-amber-200 transition-colors group"
+            >
+              <div className="bg-white/20 hover:bg-white/30 p-4 rounded-full transition-colors">
+                <Send size={32} />
+              </div>
+              <span className="font-semibold">Telegram</span>
+            </a>
+          </div>
+
+          {/* Download App CTA */}
+          <div className="mt-12">
+            <p className="text-white text-lg mb-6">Ready to play on the go?</p>
+            <a
+              href="https://www.space9aush5api.site/uploads/appwrap.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 bg-white hover:bg-gray-100 text-amber-700 font-bold py-4 px-8 rounded-lg transition-colors text-lg"
+            >
+              <Download size={24} />
+              Download SPACE9 App
+            </a>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
