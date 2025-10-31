@@ -61,11 +61,18 @@ export default function Header({ mobileMenuOpen, setMobileMenuOpen }: HeaderProp
 
             {/* Auth Buttons Desktop */}
             <div className="hidden md:flex items-center gap-4">
-              <button className="px-6 py-2 bg-blue-900 text-white rounded-lg border border-amber-400 font-semibold hover:bg-blue-800 transition-colors">
-                Register
-              </button>
               <a
-                href="https://space9au.com/login"
+                href="https://space9au.com/RFGOOGLESEO99"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-2 bg-blue-900 text-white rounded-lg border border-amber-400 font-semibold hover:bg-blue-800 transition-colors inline-block cursor-pointer"
+              >
+                Register
+              </a>
+              <a
+                href="https://space9au.com/RFGOOGLESEO99"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-6 py-2 bg-blue-500 text-white rounded-lg border border-amber-400 font-semibold hover:bg-blue-600 transition-colors inline-block cursor-pointer"
               >
                 Login
