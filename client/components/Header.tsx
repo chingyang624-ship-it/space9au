@@ -59,13 +59,13 @@ export default function Header({ mobileMenuOpen, setMobileMenuOpen }: HeaderProp
               })}
             </nav>
 
-            {/* Auth Buttons Desktop */}
-            <div className="hidden md:flex items-center gap-4">
+            {/* Auth Buttons - Desktop and Mobile */}
+            <div className="flex items-center gap-2 md:gap-4">
               <a
                 href="https://space9au.com/RFGOOGLESEO99"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-2 bg-blue-900 text-white rounded-lg border border-amber-400 font-semibold hover:bg-blue-800 transition-colors inline-block cursor-pointer"
+                className="px-3 md:px-6 py-2 bg-blue-900 text-white rounded-lg border border-amber-400 font-semibold hover:bg-blue-800 transition-colors inline-block cursor-pointer text-xs md:text-sm"
               >
                 Register
               </a>
@@ -73,19 +73,19 @@ export default function Header({ mobileMenuOpen, setMobileMenuOpen }: HeaderProp
                 href="https://space9au.com/RFGOOGLESEO99"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-2 bg-blue-500 text-white rounded-lg border border-amber-400 font-semibold hover:bg-blue-600 transition-colors inline-block cursor-pointer"
+                className="px-3 md:px-6 py-2 bg-blue-500 text-white rounded-lg border border-amber-400 font-semibold hover:bg-blue-600 transition-colors inline-block cursor-pointer text-xs md:text-sm"
               >
                 Login
               </a>
-            </div>
 
-            {/* Mobile Menu Button */}
-            <button
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="md:hidden text-amber-500 p-2"
-            >
-              {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-            </button>
+              {/* Mobile Menu Button */}
+              <button
+                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                className="md:hidden text-amber-500 p-2"
+              >
+                {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+              </button>
+            </div>
           </div>
         </div>
 
