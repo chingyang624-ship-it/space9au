@@ -8,7 +8,13 @@ interface HeaderProps {
 }
 
 export default function Header({ mobileMenuOpen, setMobileMenuOpen }: HeaderProps) {
-  const navItems = ['Home', 'About us', 'Promotion', 'Top up', 'Sponsor'];
+  const navItems = [
+    { label: 'Home', href: '/' },
+    { label: 'About us', href: '/about' },
+    { label: 'Promotion', href: '#' },
+    { label: 'Top up', href: '#' },
+    { label: 'Sponsor', href: '#' },
+  ];
 
   return (
     <header className="sticky top-0 z-50">
@@ -18,23 +24,25 @@ export default function Header({ mobileMenuOpen, setMobileMenuOpen }: HeaderProp
           <div className="flex items-center justify-between">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc0a592f10b9e4c43978276155259ccc9"
-              alt="UFO9 Casino"
-              className="h-12 w-auto md:h-16"
-            />
+              <Link to="/">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc0a592f10b9e4c43978276155259ccc9"
+                  alt="SPACE9 Casino"
+                  className="h-12 w-auto md:h-16"
+                />
+              </Link>
             </div>
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
               {navItems.map((item) => (
-                <a
-                  key={item}
-                  href="#"
+                <Link
+                  key={item.label}
+                  to={item.href}
                   className="text-amber-500 font-semibold text-sm uppercase hover:text-amber-400 transition-colors"
                 >
-                  {item}
-                </a>
+                  {item.label}
+                </Link>
               ))}
             </nav>
 
