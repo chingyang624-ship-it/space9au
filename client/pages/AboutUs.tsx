@@ -86,45 +86,6 @@ export default function AboutUs() {
         </div>
       </section>
 
-      {/* Payment & Games Section */}
-      <section className="bg-gradient-to-b from-blue-900 to-black text-white py-16">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Company Logo & Description */}
-            <div>
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F47b974d627d040ceb1812c1a024d4cee"
-                alt="SPACE9"
-                className="h-16 mb-6"
-              />
-              <p className="text-gray-300 text-sm leading-relaxed">
-                SPACE9 is a popular online casino in Malaysia and slot game platform that offers a wide range of games, including slot games, table games, and arcade games.
-              </p>
-            </div>
-
-            {/* Payment Methods */}
-            <div>
-              <h2 className="text-2xl font-bold text-amber-500 mb-6">Payment Support</h2>
-              <img
-                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjEiIGhlaWdodD0iMTAwIiB2aWV3Qm94PSIwIDAgMzYxIDEwMCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4="
-                alt="Payment Methods"
-                className="w-full max-w-xs rounded"
-              />
-            </div>
-
-            {/* Available Games */}
-            <div>
-              <h2 className="text-2xl font-bold text-amber-500 mb-6">Available Games</h2>
-              <img
-                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDYiIGhlaWdodD0iMTI1IiB2aWV3Qm94PSIwIDAgNDA2IDEyNSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4="
-                alt="Available Games"
-                className="w-full max-w-xs rounded"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
       <Footer />
     </div>
   );
