@@ -86,16 +86,29 @@ export default function Header({ mobileMenuOpen, setMobileMenuOpen }: HeaderProp
         {mobileMenuOpen && (
           <div className="md:hidden bg-black border-t border-amber-500">
             <nav className="flex flex-col space-y-2 p-4">
-              {navItems.map((item) => (
-                <Link
-                  key={item.label}
-                  to={item.href}
-                  className="text-amber-500 font-semibold py-2 hover:text-amber-400 transition-colors"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  {item.label}
-                </Link>
-              ))}
+              {navItems.map((item) => {
+                const isExternal = item.href.startsWith('http');
+                return isExternal ? (
+                  <a
+                    key={item.label}
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-amber-500 font-semibold py-2 hover:text-amber-400 transition-colors cursor-pointer block"
+                  >
+                    {item.label}
+                  </a>
+                ) : (
+                  <Link
+                    key={item.label}
+                    to={item.href}
+                    className="text-amber-500 font-semibold py-2 hover:text-amber-400 transition-colors"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    {item.label}
+                  </Link>
+                );
+              })}
               <div className="flex gap-3 pt-4 border-t border-amber-500">
                 <button className="flex-1 px-4 py-2 bg-blue-900 text-white rounded border border-amber-400 font-semibold hover:bg-blue-800 transition-colors text-sm">
                   Register
