@@ -13,7 +13,7 @@ export default function ContentSection() {
 
           <ul className="text-gray-700 space-y-3 mb-8">
             <li>
-              <strong>Visit Official Website:</strong> Use your device's web browser to navigate to the official UFO9 Casino website.
+              <strong>Visit Official Website:</strong> Use your device's web browser to navigate to the official SPACE9 Casino website.
             </li>
             <li>
               <strong>Locate the Mobile App Section:</strong> Find the section specifically for mobile downloads.
