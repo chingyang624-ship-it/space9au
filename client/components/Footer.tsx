@@ -1,4 +1,4 @@
-import { Mail, Phone, Facebook, Send, CreditCard, Banknote } from 'lucide-react';
+import { Mail, Phone, Facebook, Send, Banknote } from 'lucide-react';
 
 export default function Footer() {
   return (
