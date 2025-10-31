@@ -16,7 +16,15 @@ export default function AboutUs() {
           backgroundImage: 'url(https://ufo9au.net/wp-content/uploads/2024/01/aboutUs-headerbg.jpg)',
         }}
       >
-        <div className="absolute inset-0 bg-black/40"></div>
+        <div
+          className="absolute inset-0 bg-black/40"
+          style={{
+            backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F44831b6c2474469bbc80a8e3e34654d9)',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+          }}
+        ></div>
       </section>
 
       {/* Main Content Section */}
