@@ -19,19 +19,12 @@ export default function GameTabs() {
       <div className="max-w-7xl mx-auto px-4">
         {/* Tabs */}
         <div className="flex justify-center gap-4 mb-12 flex-wrap">
-          {(['SLOT', 'LIVE', 'SPORTS'] as const).map((tab) => (
-            <button
-              key={tab}
-              onClick={() => setActiveTab(tab)}
-              className={`px-8 py-3 rounded-full font-bold text-lg transition-all ${
-                activeTab === tab
-                  ? 'bg-amber-500 text-black shadow-lg'
-                  : 'bg-slate-800 text-white hover:bg-slate-700'
-              }`}
-            >
-              {tab}
-            </button>
-          ))}
+          <button
+            className={`px-8 py-3 rounded-full font-bold text-lg transition-all bg-amber-500 text-black shadow-lg`}
+            disabled
+          >
+            SLOT
+          </button>
         </div>
 
         {/* Games Grid */}
