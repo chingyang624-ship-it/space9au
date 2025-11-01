@@ -53,7 +53,7 @@ export default function BK8() {
       <BK8FAQ />
 
       {/* Live Casino Section */}
-      <section className="bg-gradient-to-b from-white to-gray-50 py-12 md:py-16">
+      <section id="live" className="bg-gradient-to-b from-white to-gray-50 py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Live Casino</h2>
           <p className="text-gray-700 text-lg leading-relaxed max-w-3xl">
