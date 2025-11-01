@@ -6,6 +6,20 @@ import BK8Promotions from '@/components/BK8Promotions';
 import BK8VIPProgram from '@/components/BK8VIPProgram';
 import BK8MobileApp from '@/components/BK8MobileApp';
 import BK8FAQ from '@/components/BK8FAQ';
+import BK8LiveCasinoProviderShowcase from '@/components/BK8LiveCasinoProviderShowcase';
+import BK8LiveCasinoFeaturedGames from '@/components/BK8LiveCasinoFeaturedGames';
+import BK8LiveCasinoHero from '@/components/BK8LiveCasinoHero';
+import BK8LiveCasinoWhy from '@/components/BK8LiveCasinoWhy';
+import BK8LiveCasinoGames from '@/components/BK8LiveCasinoGames';
+import BK8LiveCasinoProviders from '@/components/BK8LiveCasinoProviders';
+import BK8LiveCasinoMobile from '@/components/BK8LiveCasinoMobile';
+import BK8LiveCasinoFAQ from '@/components/BK8LiveCasinoFAQ';
+import BK8EsportsHero from '@/components/BK8EsportsHero';
+import BK8EsportsWhatIs from '@/components/BK8EsportsWhatIs';
+import BK8EsportsWhy from '@/components/BK8EsportsWhy';
+import BK8EsportsGames from '@/components/BK8EsportsGames';
+import BK8EsportsProviders from '@/components/BK8EsportsProviders';
+import BK8EsportsFAQ from '@/components/BK8EsportsFAQ';
 import BK8Footer from '@/components/BK8Footer';
 
 export default function BK8() {
@@ -14,8 +28,8 @@ export default function BK8() {
   return (
     <div className="min-h-screen bg-white">
       <BK8Header mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
-      
-      {/* Hero Content Section */}
+
+      {/* Main BK8 Hero Section */}
       <section className="bg-gradient-to-b from-gray-50 to-white py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-4">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -37,6 +51,43 @@ export default function BK8() {
       <BK8VIPProgram />
       <BK8MobileApp />
       <BK8FAQ />
+
+      {/* Live Casino Section */}
+      <section className="bg-gradient-to-b from-white to-gray-50 py-12 md:py-16">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Live Casino</h2>
+          <p className="text-gray-700 text-lg leading-relaxed max-w-3xl">
+            Experience the thrill of live casino gaming with our premium selection of live-streamed games. Play with real dealers in real-time and enjoy an authentic casino experience from the comfort of your home.
+          </p>
+        </div>
+      </section>
+
+      <BK8LiveCasinoProviderShowcase />
+      <BK8LiveCasinoFeaturedGames />
+      <BK8LiveCasinoHero />
+      <BK8LiveCasinoWhy />
+      <BK8LiveCasinoGames />
+      <BK8LiveCasinoProviders />
+      <BK8LiveCasinoMobile />
+      <BK8LiveCasinoFAQ />
+
+      {/* Esports Section */}
+      <section className="bg-gradient-to-b from-white to-gray-50 py-12 md:py-16">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Esports Betting</h2>
+          <p className="text-gray-700 text-lg leading-relaxed max-w-3xl">
+            Dive into the world of competitive esports betting with BK8. Bet on your favorite teams and players across popular games and tournaments with competitive odds and exciting opportunities.
+          </p>
+        </div>
+      </section>
+
+      <BK8EsportsHero />
+      <BK8EsportsWhatIs />
+      <BK8EsportsWhy />
+      <BK8EsportsGames />
+      <BK8EsportsProviders />
+      <BK8EsportsFAQ />
+
       <BK8Footer />
     </div>
   );
