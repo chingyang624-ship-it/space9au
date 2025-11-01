@@ -23,8 +23,6 @@ export const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/bk8" element={<BK8 />} />
-          <Route path="/bk8/esports" element={<BK8Esports />} />
-          <Route path="/bk8/live-casino" element={<BK8LiveCasino />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/promotions" element={<Promotions />} />
           <Route path="/sponsor" element={<Sponsor />} />
