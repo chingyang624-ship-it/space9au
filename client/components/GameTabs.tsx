@@ -29,7 +29,7 @@ export default function GameTabs() {
 
         {/* Games Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {games[activeTab].map((game, idx) => (
+          {games['SLOT'].map((game, idx) => (
             <a
               key={idx}
               href="https://space9au.com/RFGOOGLESEO99"
