@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import BK8Header from '@/components/BK8Header';
+import BK8LiveCasinoProviderShowcase from '@/components/BK8LiveCasinoProviderShowcase';
 import BK8LiveCasinoHero from '@/components/BK8LiveCasinoHero';
 import BK8LiveCasinoWhy from '@/components/BK8LiveCasinoWhy';
 import BK8LiveCasinoGames from '@/components/BK8LiveCasinoGames';
@@ -14,6 +15,7 @@ export default function BK8LiveCasino() {
   return (
     <div className="min-h-screen bg-white">
       <BK8Header mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
+      <BK8LiveCasinoProviderShowcase />
       <BK8LiveCasinoHero />
       <BK8LiveCasinoWhy />
       <BK8LiveCasinoGames />
