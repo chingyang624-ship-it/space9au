@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 const games = {
   SLOT: [
     { name: '918Kiss', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F30b34eeea7084fce90b4ce290d32729f' },
