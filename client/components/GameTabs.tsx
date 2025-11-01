@@ -9,20 +9,10 @@ const games = {
     { name: 'XE88', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fa815d03fda4c4dec8b1174a623f35858' },
     { name: 'ACE333', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc99977d699d4409aa40275a70cf3f5db' },
   ],
-  LIVE: [
-    { name: 'CT855 Live Casino', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F4b9a379072bf4f25a5d0c628d3ac1634' },
-    { name: 'YB Official', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fec2c129b50e748a5ad29b17a850cc3d7' },
-    { name: 'WON Casino', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2217295b66c84449a3b2f33f8832e4f8' },
-    { name: 'Big Gaming', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F4b3bf20b7c734bb89768181d084a09a8' },
-    { name: 'Sexy Baccarat', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fcf307976c70e4130b31429757f66b939' },
-  ],
-  SPORTS: [
-    { name: 'WWBET Sports', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F5bc7be0b30e24f5cbed2b96cc6d066ab' },
-  ],
 };
 
 export default function GameTabs() {
-  const [activeTab, setActiveTab] = useState<'SLOT' | 'LIVE' | 'SPORTS'>('SLOT');
+  const [activeTab, setActiveTab] = useState<'SLOT'>('SLOT');
 
   return (
     <section className="bg-gradient-to-b from-blue-950 to-slate-900 py-16">
