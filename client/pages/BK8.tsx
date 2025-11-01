@@ -30,7 +30,7 @@ export default function BK8() {
       <BK8Header mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
 
       {/* Main BK8 Hero Section */}
-      <section className="bg-gradient-to-b from-gray-50 to-white py-12 md:py-16">
+      <section id="slots" className="bg-gradient-to-b from-gray-50 to-white py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-4">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             BK8: Best Trusted Online Casino Betting Site in Malaysia
