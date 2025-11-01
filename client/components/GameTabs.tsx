@@ -10,8 +10,6 @@ const games = {
 };
 
 export default function GameTabs() {
-  const [activeTab, setActiveTab] = useState<'SLOT'>('SLOT');
-
   return (
     <section className="bg-gradient-to-b from-blue-950 to-slate-900 py-16">
       <div className="max-w-7xl mx-auto px-4">
