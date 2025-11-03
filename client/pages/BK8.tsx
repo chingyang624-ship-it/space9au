@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import BK8Header from '@/components/BK8Header';
+import { useSEO } from '@/hooks/useSEO';
 import BK8Features from '@/components/BK8Features';
 import BK8GameCategories from '@/components/BK8GameCategories';
 import BK8Promotions from '@/components/BK8Promotions';
