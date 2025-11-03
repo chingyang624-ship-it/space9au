@@ -11,6 +11,7 @@ export default function Header({ mobileMenuOpen, setMobileMenuOpen }: HeaderProp
   const navItems = [
     { label: 'Home', href: '/' },
     { label: 'About us', href: '/about' },
+    { label: 'Blog', href: '/blog' },
     { label: 'Promotion', href: '/promotions' },
     { label: 'Top up', href: 'https://space9au.com/RFGOOGLESEO99' },
     { label: 'Sponsor', href: '/sponsor' },
