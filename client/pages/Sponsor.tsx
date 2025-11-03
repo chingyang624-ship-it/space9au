@@ -1,9 +1,26 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useSEO } from '@/hooks/useSEO';
 
 export default function Sponsor() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  useEffect(() => {
+    useSEO({
+      title: 'Sponsors & Partners - SPACE9 Casino',
+      description: 'Discover SPACE9 Casino\'s official sponsors and partners. Learn about the brands and organizations supporting Australia\'s trusted online casino.',
+      keywords: 'casino sponsors, partner brands, SPACE9 partners, sports sponsorship',
+      canonicalUrl: 'https://space9au.net/sponsor',
+      schema: {
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        name: 'SPACE9 Sponsors',
+        description: 'Official sponsors and partners of SPACE9 Casino',
+        url: 'https://space9au.net/sponsor'
+      }
+    });
+  }, []);
 
   return (
     <div className="min-h-screen bg-white">
