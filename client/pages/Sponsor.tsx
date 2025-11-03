@@ -8,16 +8,24 @@ export default function Sponsor() {
 
   useEffect(() => {
     useSEO({
-      title: 'SPACE9 Casino Sponsors & Partners - Sports & Brand Partnerships',
-      description: 'Meet SPACE9 Casino\'s official sponsors and brand partners driving Australia\'s online gaming innovation. Discover partnerships with leading sports teams, game providers, and industry organizations supporting SPACE9.',
-      keywords: 'SPACE9 sponsors, casino partners, brand partnerships, sports sponsorship Australia, game providers',
+      title: 'SPACE9 Casino Sponsors & Brand Partners - Australian Gaming Championships',
+      description: 'Meet SPACE9 Casino official sponsors and partners. Explore brand partnerships with leading game providers, sports teams & gaming organizations. Australia Live Casino Championship sponsor information.',
+      keywords: 'SPACE9 sponsors, casino partners, brand partnerships, Australian gaming sponsors, game providers partnership, sports sponsorship',
       canonicalUrl: 'https://space9au.net/sponsor/',
+      ogType: 'website',
+      ogImage: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fe164342b0153494aade341b9660a90cf',
       schema: {
         '@context': 'https://schema.org',
-        '@type': 'WebPage',
-        name: 'SPACE9 Sponsors',
-        description: 'Official sponsors and partners of SPACE9 Casino',
-        url: 'https://space9au.net/sponsor'
+        '@type': 'Organization',
+        name: 'SPACE9 Casino',
+        url: 'https://space9au.net/sponsor/',
+        description: 'SPACE9 Casino sponsors and brand partnerships. Australia Live Casino Championship and official gaming sponsors.',
+        knowsAbout: ['Online Casino Gaming', 'Sports Betting', 'Live Dealer Games', 'Pokies'],
+        event: {
+          '@type': 'Event',
+          name: 'Australia Live Casino Championship',
+          description: 'Prestigious casino tournament at SPACE9'
+        }
       }
     });
   }, []);

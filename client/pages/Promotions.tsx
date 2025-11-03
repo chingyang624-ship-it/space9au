@@ -8,16 +8,23 @@ export default function Promotions() {
 
   useEffect(() => {
     useSEO({
-      title: 'SPACE9 Casino Promotions & Bonuses - Exclusive Offers & Free Spins',
-      description: 'Get the best SPACE9 promotions & bonuses including welcome offers, free spins on pokies, live casino bonuses, and sports betting rewards. Maximize your wins with exclusive Australian casino deals.',
-      keywords: 'casino promotions, welcome bonus, free spins, SPACE9 bonuses, exclusive deals, casino offers Australia',
+      title: 'SPACE9 Casino Promotions & Bonuses - Welcome Bonus, Free Spins & Exclusive Offers',
+      description: 'Unlock exclusive SPACE9 promotions: welcome bonuses, free spins on pokies, live casino bonuses, VIP rewards & sports betting deals. Maximize Australian casino winnings with SPACE9\'s best exclusive offers today.',
+      keywords: 'casino promotions, welcome bonus, free spins pokies, SPACE9 bonuses, VIP rewards, exclusive casino deals Australia, E-Wallet bonuses',
       canonicalUrl: 'https://space9au.net/promotions/',
+      ogType: 'website',
+      ogImage: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F155e921679114563800a312c4a646dd3',
       schema: {
         '@context': 'https://schema.org',
         '@type': 'WebPage',
-        name: 'SPACE9 Promotions',
-        description: 'Exclusive casino promotions and bonuses for SPACE9 players',
-        url: 'https://space9au.net/promotions'
+        name: 'SPACE9 Casino Promotions & Bonuses',
+        description: 'Exclusive casino promotions, bonuses, and rewards for SPACE9 players. Welcome offers, free spins, VIP programs, and more.',
+        url: 'https://space9au.net/promotions/',
+        offers: {
+          '@type': 'Offer',
+          name: 'SPACE9 Welcome Bonus',
+          description: 'Welcome bonus with free spins and exclusive rewards'
+        }
       }
     });
   }, []);

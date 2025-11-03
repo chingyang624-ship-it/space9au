@@ -9,23 +9,29 @@ export default function AboutUs() {
 
   useEffect(() => {
     useSEO({
-      title: 'About SPACE9 Casino - Australia\'s #1 Trusted Online Gaming Platform',
-      description: 'Discover SPACE9 Casino - Australia\'s leading online casino since 2024. Learn about our commitment to secure gaming, expert customer support, PayID pokies, and why thousands of Aussie players trust SPACE9 for slots & live dealer games.',
-      keywords: 'SPACE9 Casino, about SPACE9, trusted online casino Australia, PayID pokies, live dealer games, customer support',
+      title: 'About SPACE9 Casino - Australia\'s #1 Trusted Online Gaming Platform | Pokies & Live Dealer',
+      description: 'Discover SPACE9 Casino - Australia\'s #1 trusted online gaming platform since 2024. Secure PayID pokies, live dealer games, expert guides, 24/7 support. Why Aussies choose SPACE9 for slots, blackjack, baccarat & sports betting.',
+      keywords: 'SPACE9 Casino, about SPACE9, Australia trusted online casino, PayID pokies, live dealer games, customer support, online slots Australia',
       canonicalUrl: 'https://space9au.net/about/',
+      ogType: 'website',
+      ogImage: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F47b974d627d040ceb1812c1a024d4cee',
       schema: {
         '@context': 'https://schema.org',
         '@type': 'Organization',
         name: 'SPACE9 Casino',
         url: 'https://space9au.net/',
-        description: 'Australia\'s #1 trusted online casino with PayID pokies, live dealer games, and expert guides',
+        description: 'Australia\'s #1 trusted online casino with PayID pokies, live dealer games, and expert gaming guides',
         logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F47b974d627d040ceb1812c1a024d4cee',
+        sameAs: [
+          'https://www.facebook.com/profile.php?id=100093505265984',
+          'https://t.me/+HplU5b6JfLBmNjk1'
+        ],
         contactPoint: {
           '@type': 'ContactPoint',
           contactType: 'Customer Support',
           availableLanguage: 'en',
           contactOption: 'TollFree',
-          telephone: '+61-support'
+          contactOption: '24/7 Support'
         },
         address: {
           '@type': 'PostalAddress',
