@@ -36,6 +36,7 @@ export default function GameTabs() {
               <img
                 src={game.img}
                 alt={game.name}
+                loading="lazy"
                 className="w-full h-auto group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
