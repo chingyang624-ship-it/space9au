@@ -6,14 +6,14 @@ export default function HeroSection() {
           {/* Left Content */}
           <div className="flex-1 text-center md:text-left">
             <h1 className="text-4xl md:text-5xl font-bold text-slate-200 mb-6">
-              <p>SPACE9 Betting Tips & Guides – Learn How to Win with Expert Strategies</p>
+              <p>SPACE9 Pokies Tips & Casino Guides – Master the Strategy to Win More</p>
             </h1>
             <div className="text-gray-300 text-lg leading-relaxed mb-6" onClick={() => window.open('https://space9au.com/RFGOOGLESEO99', '_blank')} style={{ cursor: 'pointer', pointerEvents: 'auto' }}>
               <p>
-                Welcome to <strong>SPACE9 Betting Tips & Casino Guides</strong>, your go-to source for learning how to play smarter and win more. Here, we share expert insights on online pokies, sports betting strategies, and live casino tactics designed for Aussie players. Whether you're spinning the reels, placing your next wager, or exploring new PayID casinos, our guides help you make every move count.
+                Welcome to <strong>SPACE9 – Australia's Expert Casino & Pokies Guide Hub</strong>. Discover proven betting strategies, bankroll management tips, and game selection techniques from industry experts. Learn how to maximize your wins at online pokies, master live dealer games, and make smart sports betting decisions. Our comprehensive guides are designed for Australian players seeking to improve their gaming skills and win rate.
                 <br />
                 <br />
-                Ready to explore the SPACE9 universe? Visit <a href="https://space9au.com?utm_source=chatgpt.com" target="_blank" rel="noopener" style={{ textDecoration: 'underline' }}><b>SPACE9 Casino</b></a> for exclusive promotions, fast PayID deposits, and a truly next-gen gaming experience.
+                Unlock winning strategies at <a href="https://space9au.com?utm_source=chatgpt.com" target="_blank" rel="noopener" style={{ textDecoration: 'underline' }}><b>SPACE9 Casino</b></a> – featuring PayID deposits, exclusive bonuses, and 24/7 expert support.
                 <br />
               </p>
             </div>
