@@ -10,7 +10,7 @@ export default function ContentSection() {
             rel="noopener noreferrer"
             className="inline-block bg-amber-500 hover:bg-amber-600 text-white font-bold py-4 px-8 rounded-lg transition-colors text-lg"
           >
-            📱 Download SPACE9 App Now
+            &nbsp;Download SPACE9 App Now
           </a>
         </div>
 
