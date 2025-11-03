@@ -11,10 +11,10 @@ export default function Index() {
 
   useEffect(() => {
     useSEO({
-      title: 'SPACE9 Casino - Australia\'s No.1 Online Casino App | iOS & Android',
-      description: 'Australia\'s most trusted online casino with slots, live dealer games, and sports betting. Download SPACE9 on iOS & Android. 24/7 support, PayID deposits, and exclusive promotions.',
-      keywords: 'space9 casino, online casino Australia, pokies games, live dealer casino, sports betting, iOS android app, PayID casino',
-      canonicalUrl: 'https://space9au.net',
+      title: 'SPACE9 Casino - Australia\'s No.1 Online Casino & Pokies Guide | iOS & Android',
+      description: 'Australia\'s trusted online casino with expert pokies guides & winning strategies. Play slots, live dealer games, sports betting. Download SPACE9 on iOS & Android. 24/7 support, PayID deposits.',
+      keywords: 'space9 casino, pokies Australia, online casino Australia, live dealer games, sports betting, PayID pokies, casino app',
+      canonicalUrl: 'https://space9au.net/',
       schema: {
         '@context': 'https://schema.org',
         '@type': 'WebSite',
