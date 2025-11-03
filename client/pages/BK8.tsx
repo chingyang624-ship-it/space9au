@@ -28,10 +28,10 @@ export default function BK8() {
 
   useEffect(() => {
     useSEO({
-      title: 'BK8 Casino Malaysia - Slots, Live Casino & Esports Betting',
-      description: 'BK8 Malaysia\'s premier online casino with live dealer games, slots, esports betting, and sports betting. Licensed by Malta Gaming Authority. Secure gameplay and generous promotions.',
-      keywords: 'BK8 casino, BK8 Malaysia, live casino, esports betting, online slots, sports betting Malaysia',
-      canonicalUrl: 'https://space9au.net/bk8',
+      title: 'BK8 Casino Malaysia - Slots, Live Casino & Esports Betting | Expert Guide',
+      description: 'Explore BK8 Malaysia - Asia\'s premier online casino featuring live dealer games, premium slots from BNG & JILI, esports betting, and sports betting. Learn winning strategies & tips. Licensed by Malta Gaming Authority.',
+      keywords: 'BK8 casino, BK8 Malaysia, live casino Malaysia, esports betting, slots BK8, sports betting Malaysia',
+      canonicalUrl: 'https://space9au.net/bk8/',
       schema: {
         '@context': 'https://schema.org',
         '@type': 'GamingWebsite',
