@@ -1,9 +1,26 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { useSEO } from '@/hooks/useSEO';
 
 export default function Promotions() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  useEffect(() => {
+    useSEO({
+      title: 'SPACE9 Promotions & Bonuses - Exclusive Casino Offers',
+      description: 'Discover SPACE9\'s exclusive promotions, welcome bonuses, and special offers. Get the best deals on slots, live casino, and sports betting in Australia.',
+      keywords: 'casino promotions, welcome bonus, casino offers, SPACE9 bonuses, exclusive deals',
+      canonicalUrl: 'https://space9au.net/promotions',
+      schema: {
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        name: 'SPACE9 Promotions',
+        description: 'Exclusive casino promotions and bonuses for SPACE9 players',
+        url: 'https://space9au.net/promotions'
+      }
+    });
+  }, []);
 
   return (
     <div className="min-h-screen bg-white">
