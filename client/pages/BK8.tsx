@@ -26,6 +26,23 @@ import BK8Footer from '@/components/BK8Footer';
 export default function BK8() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  useEffect(() => {
+    useSEO({
+      title: 'BK8 Casino Malaysia - Slots, Live Casino & Esports Betting',
+      description: 'BK8 Malaysia\'s premier online casino with live dealer games, slots, esports betting, and sports betting. Licensed by Malta Gaming Authority. Secure gameplay and generous promotions.',
+      keywords: 'BK8 casino, BK8 Malaysia, live casino, esports betting, online slots, sports betting Malaysia',
+      canonicalUrl: 'https://space9au.net/bk8',
+      schema: {
+        '@context': 'https://schema.org',
+        '@type': 'GamingWebsite',
+        name: 'BK8 Casino',
+        url: 'https://bk8mycasino.com',
+        description: 'Premier online casino in Malaysia with live dealer games, slots, and esports betting',
+        sameAs: ['https://bk8mycasino.com']
+      }
+    });
+  }, []);
+
   return (
     <div className="min-h-screen bg-white">
       <BK8Header mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
