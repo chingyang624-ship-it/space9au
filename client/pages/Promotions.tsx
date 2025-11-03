@@ -8,10 +8,10 @@ export default function Promotions() {
 
   useEffect(() => {
     useSEO({
-      title: 'SPACE9 Promotions & Bonuses - Exclusive Casino Offers',
-      description: 'Discover SPACE9\'s exclusive promotions, welcome bonuses, and special offers. Get the best deals on slots, live casino, and sports betting in Australia.',
-      keywords: 'casino promotions, welcome bonus, casino offers, SPACE9 bonuses, exclusive deals',
-      canonicalUrl: 'https://space9au.net/promotions',
+      title: 'SPACE9 Casino Promotions & Bonuses - Exclusive Offers & Free Spins',
+      description: 'Get the best SPACE9 promotions & bonuses including welcome offers, free spins on pokies, live casino bonuses, and sports betting rewards. Maximize your wins with exclusive Australian casino deals.',
+      keywords: 'casino promotions, welcome bonus, free spins, SPACE9 bonuses, exclusive deals, casino offers Australia',
+      canonicalUrl: 'https://space9au.net/promotions/',
       schema: {
         '@context': 'https://schema.org',
         '@type': 'WebPage',
