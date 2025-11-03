@@ -71,10 +71,10 @@ export default function ContentSection() {
             Ensure you enter the correct credentials and have a stable internet connection.
           </p>
 
-          <h3 className="text-2xl font-bold text-slate-900 mb-4">Play Most Popular SPACE9 Online Casino Games</h3>
+          <h3 className="text-2xl font-bold text-slate-900 mb-4">SPACE9 Casino Games Guide – How to Win More</h3>
 
           <p className="text-gray-700 mb-6">
-            SPACE9 Casino offers a fantastic selection of popular slot games that cater to various interests and provide thrilling gaming experiences:
+            Master SPACE9's premium slot providers with expert tips and strategies. Learn which games offer the best winning potential, how to optimize your bets, and which titles deliver the highest RTP (Return to Player) percentages:
           </p>
 
           <div className="space-y-4 text-gray-700 mb-8">
