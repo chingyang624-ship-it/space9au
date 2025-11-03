@@ -9,20 +9,27 @@ export default function AboutUs() {
 
   useEffect(() => {
     useSEO({
-      title: 'About SPACE9 Casino - Australia\'s Trusted Online Casino',
-      description: 'Learn about SPACE9 Casino, Australia\'s #1 trusted online casino. Discover our mission, gaming selection, customer service, and why players choose SPACE9.',
-      keywords: 'about SPACE9, online casino Australia, trusted casino, gaming platform, PayID casino',
-      canonicalUrl: 'https://space9au.net/about',
+      title: 'About SPACE9 Casino - Australia\'s #1 Trusted Online Gaming Platform',
+      description: 'Discover SPACE9 Casino - Australia\'s leading online casino since 2024. Learn about our commitment to secure gaming, expert customer support, PayID pokies, and why thousands of Aussie players trust SPACE9 for slots & live dealer games.',
+      keywords: 'SPACE9 Casino, about SPACE9, trusted online casino Australia, PayID pokies, live dealer games, customer support',
+      canonicalUrl: 'https://space9au.net/about/',
       schema: {
         '@context': 'https://schema.org',
         '@type': 'Organization',
         name: 'SPACE9 Casino',
-        url: 'https://space9au.net',
-        description: 'Australia\'s trusted online casino with extensive gaming selection',
+        url: 'https://space9au.net/',
+        description: 'Australia\'s #1 trusted online casino with PayID pokies, live dealer games, and expert guides',
+        logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F47b974d627d040ceb1812c1a024d4cee',
         contactPoint: {
           '@type': 'ContactPoint',
           contactType: 'Customer Support',
-          availableLanguage: 'en'
+          availableLanguage: 'en',
+          contactOption: 'TollFree',
+          telephone: '+61-support'
+        },
+        address: {
+          '@type': 'PostalAddress',
+          addressCountry: 'AU'
         }
       }
     });
