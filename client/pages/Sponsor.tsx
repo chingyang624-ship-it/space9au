@@ -8,10 +8,10 @@ export default function Sponsor() {
 
   useEffect(() => {
     useSEO({
-      title: 'Sponsors & Partners - SPACE9 Casino',
-      description: 'Discover SPACE9 Casino\'s official sponsors and partners. Learn about the brands and organizations supporting Australia\'s trusted online casino.',
-      keywords: 'casino sponsors, partner brands, SPACE9 partners, sports sponsorship',
-      canonicalUrl: 'https://space9au.net/sponsor',
+      title: 'SPACE9 Casino Sponsors & Partners - Sports & Brand Partnerships',
+      description: 'Meet SPACE9 Casino\'s official sponsors and brand partners driving Australia\'s online gaming innovation. Discover partnerships with leading sports teams, game providers, and industry organizations supporting SPACE9.',
+      keywords: 'SPACE9 sponsors, casino partners, brand partnerships, sports sponsorship Australia, game providers',
+      canonicalUrl: 'https://space9au.net/sponsor/',
       schema: {
         '@context': 'https://schema.org',
         '@type': 'WebPage',
