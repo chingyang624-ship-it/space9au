@@ -13,6 +13,8 @@ const games = {
     { name: 'Sexy Baccarat', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fe97cc2a1c15844659ed5f21bc7b20515' },
     { name: 'Pragmatic Live', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F378dcae426164267ac7af7609fb72ae2' },
     { name: 'CT855', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F4b7dcd62237b4259aae1e13d84873c97' },
+    { name: 'Playtech', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fef96abd17d28422cb2777df40b596834' },
+    { name: 'Allbet', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F96121ce0b00c45aa87e16df7fa59d4ca' },
   ],
   SPORTS: [
     { name: 'SBObet', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r' },
