@@ -17,9 +17,7 @@ const games = {
     { name: 'Allbet', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F96121ce0b00c45aa87e16df7fa59d4ca' },
   ],
   SPORTS: [
-    { name: 'SBObet', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r' },
-    { name: 'Maxbet', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s' },
-    { name: 'Pinnacle', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t' },
+    { name: 'SBObet', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F817d5a4e776940aab86a35c3731c8bbd' },
   ],
 };
 
