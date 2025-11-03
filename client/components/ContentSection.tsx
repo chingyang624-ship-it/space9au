@@ -79,22 +79,22 @@ export default function ContentSection() {
 
           <div className="space-y-4 text-gray-700 mb-8">
             <p>
-              <strong>918Kiss:</strong> Renowned for its engaging themes and high win rates, 918Kiss offers a diverse array of slots and table games, making it a top pick for enthusiastic gamblers.
+              <strong>BNG:</strong> Renowned for its engaging themes and high win rates, BNG offers a diverse array of slots and table games, making it a top pick for enthusiastic gamblers.
             </p>
             <p>
-              <strong>Mega888:</strong> Known for its user-friendly interface and impressive graphics, Mega888 includes a variety of slots and casino games that promise big payouts and exciting bonuses.
+              <strong>JILI:</strong> Known for its user-friendly interface and impressive graphics, JILI includes a variety of slots and casino games that promise big payouts and exciting bonuses.
             </p>
             <p>
-              <strong>3win8:</strong> This game combines classic slots with modern graphics, providing a unique blend of old and new for an enjoyable gaming experience.
+              <strong>Pragmatic Play:</strong> This game combines classic slots with modern graphics, providing a unique blend of old and new for an enjoyable gaming experience.
             </p>
             <p>
-              <strong>Asia Gaming:</strong> A leader in the live dealer format, Asia Gaming also offers exclusive slot games with Asian-themed graphics and interactive gameplay.
+              <strong>V Power:</strong> A leader in the live dealer format, Asia Gaming also offers exclusive slot games with Asian-themed graphics and interactive gameplay.
             </p>
             <p>
-              <strong>XE88:</strong> This platform is all about variety, with numerous slots that range from classic to contemporary, each with distinctive features and rewards.
+              <strong>Imperium Games:</strong> This platform is all about variety, with numerous slots that range from classic to contemporary, each with distinctive features and rewards.
             </p>
             <p>
-              <strong>Ace333:</strong> Known for its high-quality visuals and sound effects, Ace333 provides a premium slot gaming experience with multiple chances to win big.
+              <strong>3oaks:</strong> Known for its high-quality visuals and sound effects, Ace333 provides a premium slot gaming experience with multiple chances to win big.
             </p>
           </div>
 
