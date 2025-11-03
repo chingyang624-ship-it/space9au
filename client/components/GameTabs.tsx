@@ -1,11 +1,11 @@
 const games = {
   SLOT: [
-    { name: '918Kiss', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F30b34eeea7084fce90b4ce290d32729f' },
-    { name: 'Mega888', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F27d6602ccbba4749b213708f79a1ad42' },
-    { name: '3win8', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F61d697c070a144bf9f3d8081afecd385' },
-    { name: 'Asia Gaming', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F9dbdd46287764327b9d8f227f2cddbf1' },
-    { name: 'XE88', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fa815d03fda4c4dec8b1174a623f35858' },
-    { name: 'ACE333', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc99977d699d4409aa40275a70cf3f5db' },
+    { name: 'Pragmatic Play', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd88d036a7edd4ba18e44373fab8d52a0' },
+    { name: 'JILI', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F53d139d6af9f445e9da33f0e70f0fe45' },
+    { name: 'BNG', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F26ecf2e5fdbc4502a9bfeb7ccca6408e' },
+    { name: '3oaks', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F14a8643d1b804b77a9dd20cb24f0d4f9' },
+    { name: 'Imperium Games', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc69c2fbd014940f1993cd48bc87a7f7f' },
+    { name: 'Vpower', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F59cda8595ac74f058c1c556476a5be37' },
   ],
 };
 
