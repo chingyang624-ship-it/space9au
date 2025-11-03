@@ -15,7 +15,7 @@ export function useSEO(config: SEOConfig) {
 
   // Update meta description
   updateMetaTag('name', 'description', config.description);
-  
+
   // Update keywords
   if (config.keywords) {
     updateMetaTag('name', 'keywords', config.keywords);
@@ -24,11 +24,12 @@ export function useSEO(config: SEOConfig) {
   // Update OG tags
   updateMetaTag('property', 'og:title', config.title);
   updateMetaTag('property', 'og:description', config.description);
-  
+  updateMetaTag('property', 'og:url', config.canonicalUrl || window.location.href);
+
   if (config.ogType) {
     updateMetaTag('property', 'og:type', config.ogType);
   }
-  
+
   if (config.ogImage) {
     updateMetaTag('property', 'og:image', config.ogImage);
   }
@@ -36,12 +37,12 @@ export function useSEO(config: SEOConfig) {
   // Update Twitter tags
   updateMetaTag('name', 'twitter:title', config.title);
   updateMetaTag('name', 'twitter:description', config.description);
-  
+
   if (config.twitterHandle) {
     updateMetaTag('name', 'twitter:creator', config.twitterHandle);
   }
 
-  // Update canonical URL
+  // Update canonical URL (ensure it ends with / consistently)
   if (config.canonicalUrl) {
     updateCanonicalLink(config.canonicalUrl);
   }
