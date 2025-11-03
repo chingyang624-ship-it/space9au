@@ -34,6 +34,21 @@ function expressPlugin(): Plugin {
 
       // Add Express app as middleware to Vite dev server
       server.middlewares.use(app);
+
+      // SPA fallback middleware - serve index.html for non-API routes
+      return () => {
+        server.middlewares.use((req, res, next) => {
+          // Skip API routes and static files
+          if (req.url.startsWith("/api/") ||
+              /\.\w+$/.test(req.url) ||
+              req.url === "/index.html") {
+            return next();
+          }
+          // Serve index.html for all other routes (SPA routing)
+          req.url = "/index.html";
+          next();
+        });
+      };
     },
   };
 }
