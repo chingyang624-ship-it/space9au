@@ -43,7 +43,8 @@ export default function AboutUs() {
       <section
         className="relative bg-cover bg-center min-h-96"
         style={{
-          backgroundImage: 'url(https://ufo9au.net/wp-content/uploads/2024/01/aboutUs-headerbg.jpg)',
+          backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6f5032b3a24942e29dbbb42dd41c50a6)',
+          backgroundAttachment: 'fixed',
         }}
       >
         <div
