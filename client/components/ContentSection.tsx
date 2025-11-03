@@ -79,22 +79,22 @@ export default function ContentSection() {
 
           <div className="space-y-4 text-gray-700 mb-8">
             <p>
-              <strong>BNG:</strong> Renowned for its engaging themes and high win rates, BNG offers a diverse array of slots and table games, making it a top pick for enthusiastic gamblers.
+              <strong>🏆 BNG:</strong> Best for High RTP Games. BNG titles feature 96-98% RTP rates. <em>Pro tip:</em> Focus on their 5-reel slots for more frequent wins. Popular games include explosive features that trigger bonus rounds up to 10 times per session.
             </p>
             <p>
-              <strong>JILI:</strong> Known for its user-friendly interface and impressive graphics, JILI includes a variety of slots and casino games that promise big payouts and exciting bonuses.
+              <strong>💎 JILI:</strong> Best for Beginners. User-friendly interface with lower volatility. <em>Strategy tip:</em> Start with JILI games to learn bankroll management. Their 3-reel classics have 95%+ RTP with steady payouts.
             </p>
             <p>
-              <strong>Pragmatic Play:</strong> This game combines classic slots with modern graphics, providing a unique blend of old and new for an enjoyable gaming experience.
+              <strong>⭐ Pragmatic Play:</strong> Best for Jackpot Seekers. High volatility with mega jackpots reaching 50,000x your bet. <em>Advanced tip:</em> Allocate 20% of your bankroll for high-volatility games, play max bet for jackpot eligibility.
             </p>
             <p>
-              <strong>V Power:</strong> A leader in the live dealer format, Asia Gaming also offers exclusive slot games with Asian-themed graphics and interactive gameplay.
+              <strong>🎰 V Power:</strong> Best for Live Gaming Strategy. Master live dealer blackjack with our card counting guides. <em>Winning strategy:</em> Use basic strategy charts to reduce house edge to under 1%. Ideal for serious players.
             </p>
             <p>
-              <strong>Imperium Games:</strong> This platform is all about variety, with numerous slots that range from classic to contemporary, each with distinctive features and rewards.
+              <strong>🚀 Imperium Games:</strong> Best for Variety & Flexibility. 100+ games with varying volatility levels. <em>Selection tip:</em> Mix low (for steady wins) and high volatility (for big payouts) to balance risk.
             </p>
             <p>
-              <strong>3oaks:</strong> Known for its high-quality visuals and sound effects, Ace333 provides a premium slot gaming experience with multiple chances to win big.
+              <strong>✨ 3oaks:</strong> Best for Quality & Features. Premium visuals with advanced bonus mechanics. <em>Bonus guide:</em> Understand scatter vs wild symbols. Free spins can be retriggered up to 50 times for massive payouts.
             </p>
           </div>
 
