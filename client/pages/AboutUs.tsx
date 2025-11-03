@@ -30,7 +30,6 @@ export default function AboutUs() {
           '@type': 'ContactPoint',
           contactType: 'Customer Support',
           availableLanguage: 'en',
-          contactOption: 'TollFree',
           contactOption: '24/7 Support'
         },
         address: {
