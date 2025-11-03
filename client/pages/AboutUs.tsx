@@ -1,10 +1,32 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Facebook, Send, Download } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { useSEO } from '@/hooks/useSEO';
 
 export default function AboutUs() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  useEffect(() => {
+    useSEO({
+      title: 'About SPACE9 Casino - Australia\'s Trusted Online Casino',
+      description: 'Learn about SPACE9 Casino, Australia\'s #1 trusted online casino. Discover our mission, gaming selection, customer service, and why players choose SPACE9.',
+      keywords: 'about SPACE9, online casino Australia, trusted casino, gaming platform, PayID casino',
+      canonicalUrl: 'https://space9au.net/about',
+      schema: {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'SPACE9 Casino',
+        url: 'https://space9au.net',
+        description: 'Australia\'s trusted online casino with extensive gaming selection',
+        contactPoint: {
+          '@type': 'ContactPoint',
+          contactType: 'Customer Support',
+          availableLanguage: 'en'
+        }
+      }
+    });
+  }, []);
 
   return (
     <div className="min-h-screen bg-white">
