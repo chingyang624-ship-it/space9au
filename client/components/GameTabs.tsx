@@ -19,7 +19,7 @@ export default function GameTabs() {
             className={`px-8 py-3 rounded-full font-bold text-lg transition-all bg-amber-500 text-black shadow-lg`}
             disabled
           >
-            SLOT
+            Hottest Slots Provider In SPACE9
           </button>
         </div>
 
