@@ -16,7 +16,7 @@ export default function ContentSection() {
 
         <div className="prose prose-lg max-w-none">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-            Download SPACE9 on IOS and Android Devices
+            <p>Download the SPACE9 App for iOS & Android – Play Anytime, Anywhere</p>
           </h2>
 
           <p className="text-gray-700 mb-4">
