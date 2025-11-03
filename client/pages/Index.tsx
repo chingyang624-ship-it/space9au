@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import GameTabs from '@/components/GameTabs';
@@ -38,7 +39,7 @@ export default function Index() {
 
       {/* Guides & Tips Section */}
       <section className="bg-gradient-to-b from-slate-100 to-white py-16 md:py-24">
-        <div className="max-w-4xl mx-auto px-4">
+        <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6 text-center">
             Popular Guides & Winning Strategies
           </h2>
@@ -46,42 +47,52 @@ export default function Index() {
             Learn from our expert guides to improve your gaming strategy and maximize wins at SPACE9
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-amber-500">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+            <Link to="/blog/australian-pokies-tips" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-amber-500 block">
               <h3 className="text-xl font-bold text-slate-900 mb-3">How to Choose High RTP Pokies</h3>
               <p className="text-gray-700 mb-4">Master the art of selecting pokies with the best Return to Player percentages to maximize your winnings.</p>
-              <a href="https://space9au.com/RFGOOGLESEO99" target="_blank" rel="noopener noreferrer" className="text-amber-600 font-semibold hover:text-amber-700">Read Guide →</a>
-            </div>
+              <span className="text-amber-600 font-semibold hover:text-amber-700">Read Guide →</span>
+            </Link>
 
-            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-amber-500">
+            <Link to="/blog/bankroll-management" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-amber-500 block">
               <h3 className="text-xl font-bold text-slate-900 mb-3">Bankroll Management Strategy</h3>
               <p className="text-gray-700 mb-4">Learn proven techniques to manage your casino budget effectively and extend your playing sessions.</p>
-              <a href="https://space9au.com/RFGOOGLESEO99" target="_blank" rel="noopener noreferrer" className="text-amber-600 font-semibold hover:text-amber-700">Read Guide →</a>
-            </div>
+              <span className="text-amber-600 font-semibold hover:text-amber-700">Read Guide →</span>
+            </Link>
 
-            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-amber-500">
+            <Link to="/blog/live-casino-winning-tips" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-amber-500 block">
               <h3 className="text-xl font-bold text-slate-900 mb-3">Live Blackjack Winning Tips</h3>
               <p className="text-gray-700 mb-4">Discover professional strategies for live dealer blackjack including basic strategy and card counting basics.</p>
-              <a href="https://space9au.com/RFGOOGLESEO99" target="_blank" rel="noopener noreferrer" className="text-amber-600 font-semibold hover:text-amber-700">Read Guide →</a>
-            </div>
+              <span className="text-amber-600 font-semibold hover:text-amber-700">Read Guide →</span>
+            </Link>
 
-            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-amber-500">
+            <Link to="/blog/free-spins-strategy" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-amber-500 block">
               <h3 className="text-xl font-bold text-slate-900 mb-3">Free Spins Strategy Guide</h3>
               <p className="text-gray-700 mb-4">Understand how to maximize free spins and bonus features for bigger payouts on SPACE9 pokies.</p>
-              <a href="https://space9au.com/RFGOOGLESEO99" target="_blank" rel="noopener noreferrer" className="text-amber-600 font-semibold hover:text-amber-700">Read Guide →</a>
-            </div>
+              <span className="text-amber-600 font-semibold hover:text-amber-700">Read Guide →</span>
+            </Link>
 
-            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-amber-500">
-              <h3 className="text-xl font-bold text-slate-900 mb-3">PayID Casino Safety Guide</h3>
-              <p className="text-gray-700 mb-4">Everything you need to know about safe PayID deposits and responsible gambling at SPACE9.</p>
-              <a href="https://space9au.com/RFGOOGLESEO99" target="_blank" rel="noopener noreferrer" className="text-amber-600 font-semibold hover:text-amber-700">Read Guide →</a>
-            </div>
+            <Link to="/blog/how-to-win-more-online-casino" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-amber-500 block">
+              <h3 className="text-xl font-bold text-slate-900 mb-3">How to Win More at Online Casinos</h3>
+              <p className="text-gray-700 mb-4">Learn comprehensive strategies to maximize your winning potential and reduce losses at any online casino.</p>
+              <span className="text-amber-600 font-semibold hover:text-amber-700">Read Guide →</span>
+            </Link>
 
-            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-amber-500">
-              <h3 className="text-xl font-bold text-slate-900 mb-3">Sports Betting Odds Explained</h3>
-              <p className="text-gray-700 mb-4">Learn how to read betting odds, calculate potential winnings, and make informed sports betting decisions.</p>
-              <a href="https://space9au.com/RFGOOGLESEO99" target="_blank" rel="noopener noreferrer" className="text-amber-600 font-semibold hover:text-amber-700">Read Guide →</a>
-            </div>
+            <Link to="/blog/sports-betting-strategies" className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-amber-500 block">
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Sports Betting Strategies</h3>
+              <p className="text-gray-700 mb-4">Learn how to read betting odds, conduct research, and make informed sports betting decisions at SPACE9.</p>
+              <span className="text-amber-600 font-semibold hover:text-amber-700">Read Guide →</span>
+            </Link>
+          </div>
+
+          {/* View All Guides CTA */}
+          <div className="text-center">
+            <Link
+              to="/blog"
+              className="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-8 rounded-lg transition-colors text-lg"
+            >
+              View All Guides & Blog Articles →
+            </Link>
           </div>
         </div>
       </section>
