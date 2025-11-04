@@ -17,7 +17,7 @@ const games = {
     { name: 'Allbet', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F96121ce0b00c45aa87e16df7fa59d4ca' },
   ],
   SPORTS: [
-    { name: 'SBObet', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F817d5a4e776940aab86a35c3731c8bbd' },
+    { name: 'SBObet', img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fab108bf7341b4fb0a60af4d351638af8' },
   ],
 };
 
