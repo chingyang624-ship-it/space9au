@@ -13,12 +13,15 @@ export default function Blog() {
       description: 'Discover expert tips, winning strategies, and comprehensive guides for pokies, live casino, and sports betting. Learn how to maximize wins at Australian online casinos on SPACE9 Blog.',
       keywords: 'casino blog, pokies tips, betting strategies, online casino guides, Australian gambling tips, SPACE9 blog, casino strategies',
       canonicalUrl: 'https://space9au.net/blog/',
+      ogImage: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2f967086f7e14485a125f30caf61f462?format=webp&width=1200',
+      ogType: 'website',
       schema: {
         '@context': 'https://schema.org',
         '@type': 'Blog',
         name: 'SPACE9 Casino Blog',
-        url: 'https://space9au.net/blog',
+        url: 'https://space9au.net/blog/',
         description: 'Expert guides, tips, and strategies for online casino gaming',
+        image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2f967086f7e14485a125f30caf61f462?format=webp&width=1200',
         publisher: {
           '@type': 'Organization',
           name: 'SPACE9 Casino',
