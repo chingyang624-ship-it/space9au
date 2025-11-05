@@ -14,11 +14,14 @@ export default function LiveCasinoWinningTips() {
       description: 'Discover proven strategies for live dealer games including blackjack basic strategy, baccarat patterns, and roulette betting. Learn professional approaches at SPACE9 Live Casino.',
       keywords: 'live casino tips, blackjack strategy, baccarat strategy, roulette betting, live dealer games, SPACE9 live casino, online casino strategies',
       canonicalUrl: 'https://space9au.net/blog/live-casino-winning-tips',
+      ogImage: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2f967086f7e14485a125f30caf61f462?format=webp&width=1200',
+      ogType: 'article',
       schema: {
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
         headline: 'Live Casino Winning Tips - Blackjack, Baccarat & Roulette Strategies',
         description: 'Discover proven strategies for live dealer games including blackjack basic strategy, baccarat patterns, and roulette betting.',
+        image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2f967086f7e14485a125f30caf61f462?format=webp&width=1200',
         datePublished: '2024-02-04',
         dateModified: '2024-02-04',
         author: {
@@ -29,7 +32,8 @@ export default function LiveCasinoWinningTips() {
           '@type': 'Organization',
           name: 'SPACE9 Casino',
           url: 'https://space9au.net'
-        }
+        },
+        wordCount: 2400
       }
     });
   }, []);

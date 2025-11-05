@@ -14,11 +14,14 @@ export default function AustralianPokiesTips() {
       description: 'Master Australian pokies with expert tips on RTP percentages, volatility, and betting strategies. Learn how to choose the best pokies and win more consistently at SPACE9 Casino.',
       keywords: 'pokies tips, australian pokies, high RTP pokies, pokies strategies, slots tips, online pokies Australia, SPACE9 pokies',
       canonicalUrl: 'https://space9au.net/blog/australian-pokies-tips',
+      ogImage: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2f967086f7e14485a125f30caf61f462?format=webp&width=1200',
+      ogType: 'article',
       schema: {
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
         headline: 'Australian Pokies Tips & High RTP Strategies - Win More Consistently at SPACE9',
         description: 'Master Australian pokies with expert tips on RTP percentages, volatility, and betting strategies. Learn how to choose the best pokies and win more consistently.',
+        image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2f967086f7e14485a125f30caf61f462?format=webp&width=1200',
         datePublished: '2024-02-08',
         dateModified: '2024-02-08',
         author: {
@@ -29,7 +32,8 @@ export default function AustralianPokiesTips() {
           '@type': 'Organization',
           name: 'SPACE9 Casino',
           url: 'https://space9au.net'
-        }
+        },
+        wordCount: 2500
       }
     });
   }, []);

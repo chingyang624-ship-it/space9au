@@ -14,11 +14,14 @@ export default function SportsBettingStrategies() {
       description: 'Learn sports betting strategies including understanding odds, research techniques, and bankroll management. Improve your sports betting success at SPACE9 Casino with expert guidance.',
       keywords: 'sports betting strategies, sports betting odds, australian sports betting, bet analysis, sports betting tips, SPACE9 sports betting',
       canonicalUrl: 'https://space9au.net/blog/sports-betting-strategies',
+      ogImage: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2f967086f7e14485a125f30caf61f462?format=webp&width=1200',
+      ogType: 'article',
       schema: {
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
         headline: 'Sports Betting Strategies for Australians - Odds, Research & Bankroll Tips',
         description: 'Learn sports betting strategies including understanding odds, research techniques, and bankroll management.',
+        image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2f967086f7e14485a125f30caf61f462?format=webp&width=1200',
         datePublished: '2024-02-06',
         dateModified: '2024-02-06',
         author: {
@@ -29,7 +32,8 @@ export default function SportsBettingStrategies() {
           '@type': 'Organization',
           name: 'SPACE9 Casino',
           url: 'https://space9au.net'
-        }
+        },
+        wordCount: 2200
       }
     });
   }, []);
@@ -272,7 +276,7 @@ export default function SportsBettingStrategies() {
               <li>✓ Manage your bankroll strictly – never risk more than 5% per bet</li>
               <li>✓ Specialize in sports you understand deeply</li>
               <li>✓ Track all bets and analyze your performance regularly</li>
-              <li>✓ Stay disciplined and avoid emotional decision-making</li>
+              <li>��� Stay disciplined and avoid emotional decision-making</li>
             </ul>
             <p className="text-gray-700 leading-relaxed mt-6">
               By implementing these sports betting strategies, you'll significantly improve your success rate at SPACE9 Casino. Remember that sports betting involves risk, so always bet responsibly.

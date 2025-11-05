@@ -14,11 +14,14 @@ export default function FreeSpinsStrategy() {
       description: 'Learn how to maximize free spins and bonus features on SPACE9 pokies. Understand wagering requirements and strategies to turn bonuses into real winnings.',
       keywords: 'free spins strategy, bonus features, pokies bonuses, wagering requirements, bonus pokies, SPACE9 free spins, casino bonuses',
       canonicalUrl: 'https://space9au.net/blog/free-spins-strategy',
+      ogImage: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2f967086f7e14485a125f30caf61f462?format=webp&width=1200',
+      ogType: 'article',
       schema: {
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
         headline: 'Free Spins Strategy Guide - Maximize Bonus Features & Payouts at SPACE9',
         description: 'Learn how to maximize free spins and bonus features on SPACE9 pokies. Strategies to turn bonuses into real winnings.',
+        image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2f967086f7e14485a125f30caf61f462?format=webp&width=1200',
         datePublished: '2024-01-31',
         dateModified: '2024-01-31',
         author: {
@@ -29,7 +32,8 @@ export default function FreeSpinsStrategy() {
           '@type': 'Organization',
           name: 'SPACE9 Casino',
           url: 'https://space9au.net'
-        }
+        },
+        wordCount: 2100
       }
     });
   }, []);
