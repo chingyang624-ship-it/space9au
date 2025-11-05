@@ -2,7 +2,8 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useSearchParams } from "react-router-dom";
+import { useEffect } from "react";
 import Index from "./pages/Index";
 import AboutUs from "./pages/AboutUs";
 import Promotions from "./pages/Promotions";
@@ -17,6 +18,20 @@ import BankrollManagement from "./pages/blog/BankrollManagement";
 import FreeSpinsStrategy from "./pages/blog/FreeSpinsStrategy";
 
 const queryClient = new QueryClient();
+
+// Handle GitHub Pages redirect
+function RedirectHandler() {
+  const [searchParams] = useSearchParams();
+
+  useEffect(() => {
+    const pathname = searchParams.get('p');
+    if (pathname) {
+      window.history.replaceState(null, '', '/' + pathname + (searchParams.get('q') ? '?' + searchParams.get('q') : ''));
+    }
+  }, [searchParams]);
+
+  return null;
+}
 
 export const App = () => (
   <QueryClientProvider client={queryClient}>
