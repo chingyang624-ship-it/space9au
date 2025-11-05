@@ -14,11 +14,14 @@ export default function HowToWinMoreOnlineCasino() {
       description: 'Learn proven techniques to maximize wins at Australian online casinos. Expert strategies for bankroll management, game selection, and winning approaches at SPACE9 Casino.',
       keywords: 'how to win casino games, casino winning strategies, online casino tips, Australian casino strategies, SPACE9 winning tips',
       canonicalUrl: 'https://space9au.net/blog/how-to-win-more-online-casino',
+      ogImage: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2f967086f7e14485a125f30caf61f462?format=webp&width=1200',
+      ogType: 'article',
       schema: {
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
         headline: 'How to Win More at Australian Online Casinos - Expert Strategies & Tips',
         description: 'Learn proven techniques to maximize wins at Australian online casinos. Expert strategies for bankroll management, game selection, and winning approaches.',
+        image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2f967086f7e14485a125f30caf61f462?format=webp&width=1200',
         datePublished: '2024-02-10',
         dateModified: '2024-02-10',
         author: {
@@ -30,10 +33,8 @@ export default function HowToWinMoreOnlineCasino() {
           name: 'SPACE9 Casino',
           url: 'https://space9au.net'
         },
-        mainEntity: {
-          '@type': 'Article',
-          headline: 'How to Win More at Australian Online Casinos - Expert Strategies & Tips'
-        }
+        articleBody: 'Expert guide on casino winning strategies...',
+        wordCount: 2000
       }
     });
   }, []);
