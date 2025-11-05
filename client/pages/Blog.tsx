@@ -1,96 +1,114 @@
-import { useState, useEffect } from 'react';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-import { useSEO } from '@/hooks/useSEO';
-import { Link } from 'react-router-dom';
+import { useState, useEffect } from "react";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import { useSEO } from "@/hooks/useSEO";
+import { Link } from "react-router-dom";
 
 export default function Blog() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     useSEO({
-      title: 'SPACE9 Casino Blog - Pokies Tips, Betting Strategies & Guides | Australia',
-      description: 'Discover expert tips, winning strategies, and comprehensive guides for pokies, live casino, and sports betting. Learn how to maximize wins at Australian online casinos on SPACE9 Blog.',
-      keywords: 'casino blog, pokies tips, betting strategies, online casino guides, Australian gambling tips, SPACE9 blog, casino strategies',
-      canonicalUrl: 'https://space9au.net/blog/',
-      ogImage: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2f967086f7e14485a125f30caf61f462?format=webp&width=1200',
-      ogType: 'website',
+      title:
+        "SPACE9 Casino Blog - Pokies Tips, Betting Strategies & Guides | Australia",
+      description:
+        "Discover expert tips, winning strategies, and comprehensive guides for pokies, live casino, and sports betting. Learn how to maximize wins at Australian online casinos on SPACE9 Blog.",
+      keywords:
+        "casino blog, pokies tips, betting strategies, online casino guides, Australian gambling tips, SPACE9 blog, casino strategies",
+      canonicalUrl: "https://space9au.net/blog/",
+      ogImage:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2f967086f7e14485a125f30caf61f462?format=webp&width=1200",
+      ogType: "website",
       schema: {
-        '@context': 'https://schema.org',
-        '@type': 'Blog',
-        name: 'SPACE9 Casino Blog',
-        url: 'https://space9au.net/blog/',
-        description: 'Expert guides, tips, and strategies for online casino gaming',
-        image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2f967086f7e14485a125f30caf61f462?format=webp&width=1200',
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        name: "SPACE9 Casino Blog",
+        url: "https://space9au.net/blog/",
+        description:
+          "Expert guides, tips, and strategies for online casino gaming",
+        image:
+          "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2f967086f7e14485a125f30caf61f462?format=webp&width=1200",
         publisher: {
-          '@type': 'Organization',
-          name: 'SPACE9 Casino',
-          url: 'https://space9au.net'
-        }
-      }
+          "@type": "Organization",
+          name: "SPACE9 Casino",
+          url: "https://space9au.net",
+        },
+      },
     });
   }, []);
 
   const blogPosts = [
     {
-      id: 'how-to-win-more-online-casino',
-      title: 'How to Win More at Australian Online Casinos - Expert Strategies',
-      excerpt: 'Learn proven techniques and strategies to maximize your wins at Australian online casinos. From bankroll management to game selection, discover what separates winning players from casual gamblers.',
-      date: '2024-02-10',
-      category: 'Casino Strategies',
-      readTime: '8 min read',
-      link: '/blog/how-to-win-more-online-casino'
+      id: "how-to-win-more-online-casino",
+      title: "How to Win More at Australian Online Casinos - Expert Strategies",
+      excerpt:
+        "Learn proven techniques and strategies to maximize your wins at Australian online casinos. From bankroll management to game selection, discover what separates winning players from casual gamblers.",
+      date: "2024-02-10",
+      category: "Casino Strategies",
+      readTime: "8 min read",
+      link: "/blog/how-to-win-more-online-casino",
     },
     {
-      id: 'australian-pokies-tips',
-      title: 'Australian Pokies Tips & High RTP Strategies - Win More Consistently',
-      excerpt: 'Master the art of pokies playing with expert tips on RTP percentages, volatility, and betting strategies. Learn how to choose the best pokies and maximize your winnings on SPACE9.',
-      date: '2024-02-08',
-      category: 'Pokies Tips',
-      readTime: '10 min read',
-      link: '/blog/australian-pokies-tips'
+      id: "australian-pokies-tips",
+      title:
+        "Australian Pokies Tips & High RTP Strategies - Win More Consistently",
+      excerpt:
+        "Master the art of pokies playing with expert tips on RTP percentages, volatility, and betting strategies. Learn how to choose the best pokies and maximize your winnings on SPACE9.",
+      date: "2024-02-08",
+      category: "Pokies Tips",
+      readTime: "10 min read",
+      link: "/blog/australian-pokies-tips",
     },
     {
-      id: 'sports-betting-strategies',
-      title: 'Sports Betting Strategies for Australians - Odds, Research & Bankroll Tips',
-      excerpt: 'Understand sports betting odds, learn research techniques, and discover bankroll management strategies. Improve your sports betting success rate with expert guidance from SPACE9.',
-      date: '2024-02-06',
-      category: 'Sports Betting',
-      readTime: '9 min read',
-      link: '/blog/sports-betting-strategies'
+      id: "sports-betting-strategies",
+      title:
+        "Sports Betting Strategies for Australians - Odds, Research & Bankroll Tips",
+      excerpt:
+        "Understand sports betting odds, learn research techniques, and discover bankroll management strategies. Improve your sports betting success rate with expert guidance from SPACE9.",
+      date: "2024-02-06",
+      category: "Sports Betting",
+      readTime: "9 min read",
+      link: "/blog/sports-betting-strategies",
     },
     {
-      id: 'live-casino-winning-tips',
-      title: 'Live Casino Winning Tips - Blackjack, Baccarat & Roulette Strategies',
-      excerpt: 'Discover proven strategies for live dealer games including blackjack basic strategy, baccarat patterns, and roulette betting systems. Learn how professional players approach live casino games.',
-      date: '2024-02-04',
-      category: 'Live Casino',
-      readTime: '11 min read',
-      link: '/blog/live-casino-winning-tips'
+      id: "live-casino-winning-tips",
+      title:
+        "Live Casino Winning Tips - Blackjack, Baccarat & Roulette Strategies",
+      excerpt:
+        "Discover proven strategies for live dealer games including blackjack basic strategy, baccarat patterns, and roulette betting systems. Learn how professional players approach live casino games.",
+      date: "2024-02-04",
+      category: "Live Casino",
+      readTime: "11 min read",
+      link: "/blog/live-casino-winning-tips",
     },
     {
-      id: 'bankroll-management',
-      title: 'Complete Bankroll Management Guide - Extend Your Casino Sessions',
-      excerpt: 'Master bankroll management to play longer and reduce losses. Learn about betting units, loss limits, and session management to become a smarter casino player.',
-      date: '2024-02-02',
-      category: 'Bankroll Management',
-      readTime: '7 min read',
-      link: '/blog/bankroll-management'
+      id: "bankroll-management",
+      title: "Complete Bankroll Management Guide - Extend Your Casino Sessions",
+      excerpt:
+        "Master bankroll management to play longer and reduce losses. Learn about betting units, loss limits, and session management to become a smarter casino player.",
+      date: "2024-02-02",
+      category: "Bankroll Management",
+      readTime: "7 min read",
+      link: "/blog/bankroll-management",
     },
     {
-      id: 'free-spins-strategy',
-      title: 'Free Spins Strategy Guide - Maximize Bonus Features & Payouts',
-      excerpt: 'Learn how to make the most of free spins and bonus features on SPACE9 pokies. Understand wagering requirements and strategies to turn bonuses into real winnings.',
-      date: '2024-01-31',
-      category: 'Pokies Tips',
-      readTime: '6 min read',
-      link: '/blog/free-spins-strategy'
-    }
+      id: "free-spins-strategy",
+      title: "Free Spins Strategy Guide - Maximize Bonus Features & Payouts",
+      excerpt:
+        "Learn how to make the most of free spins and bonus features on SPACE9 pokies. Understand wagering requirements and strategies to turn bonuses into real winnings.",
+      date: "2024-01-31",
+      category: "Pokies Tips",
+      readTime: "6 min read",
+      link: "/blog/free-spins-strategy",
+    },
   ];
 
   return (
     <div className="min-h-screen bg-white">
-      <Header mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
+      <Header
+        mobileMenuOpen={mobileMenuOpen}
+        setMobileMenuOpen={setMobileMenuOpen}
+      />
 
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-slate-900 to-blue-900 text-white py-16 md:py-24">
@@ -99,10 +117,12 @@ export default function Blog() {
             SPACE9 Casino Blog
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-4">
-            Expert Guides, Winning Strategies & Pro Tips for Australian Casino Players
+            Expert Guides, Winning Strategies & Pro Tips for Australian Casino
+            Players
           </p>
           <p className="text-lg text-gray-400">
-            Learn how to maximize wins at pokies, live casino, and sports betting with expert insights from experienced casino players.
+            Learn how to maximize wins at pokies, live casino, and sports
+            betting with expert insights from experienced casino players.
           </p>
         </div>
       </section>
@@ -121,7 +141,9 @@ export default function Blog() {
                     <span className="inline-block px-3 py-1 bg-amber-100 text-amber-700 rounded-full text-sm font-semibold">
                       {post.category}
                     </span>
-                    <span className="text-sm text-gray-500">{post.readTime}</span>
+                    <span className="text-sm text-gray-500">
+                      {post.readTime}
+                    </span>
                   </div>
 
                   <h2 className="text-xl font-bold text-slate-900 mb-3 flex-grow">
@@ -133,16 +155,14 @@ export default function Blog() {
                     </Link>
                   </h2>
 
-                  <p className="text-gray-600 mb-4 flex-grow">
-                    {post.excerpt}
-                  </p>
+                  <p className="text-gray-600 mb-4 flex-grow">{post.excerpt}</p>
 
                   <div className="flex items-center justify-between pt-4 border-t border-gray-200">
                     <span className="text-sm text-gray-500">
-                      {new Date(post.date).toLocaleDateString('en-AU', {
-                        year: 'numeric',
-                        month: 'short',
-                        day: 'numeric'
+                      {new Date(post.date).toLocaleDateString("en-AU", {
+                        year: "numeric",
+                        month: "short",
+                        day: "numeric",
                       })}
                     </span>
                     <Link
@@ -166,7 +186,9 @@ export default function Blog() {
             Ready to Start Winning at SPACE9?
           </h2>
           <p className="text-lg mb-8 text-amber-100">
-            Apply these strategies today and experience the SPACE9 difference. Download our app or visit space9au.com to start playing with expert strategies.
+            Apply these strategies today and experience the SPACE9 difference.
+            Download our app or visit space9au.com to start playing with expert
+            strategies.
           </p>
           <a
             href="https://space9au.com/RFGOOGLESEO99"
