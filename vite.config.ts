@@ -1,13 +1,19 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
+import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  root: "./client", // 👈 adjust this if your main app folder has another name
+  root: "./client",
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./client"),
+    },
+  },
   build: {
-    outDir: "../docs", // 👈 where GitHub Pages reads from
+    outDir: "../docs",
     emptyOutDir: true,
   },
-  base: "./", // 👈 important for relative asset paths on GitHub Pages
+  base: "./",
 });
