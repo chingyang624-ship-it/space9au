@@ -39,6 +39,7 @@ export const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <RedirectHandler />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<AboutUs />} />
