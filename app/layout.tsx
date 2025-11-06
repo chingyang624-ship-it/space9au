@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "../client/global.css";
-import { Toaster } from "@/client/components/ui/toaster";
-import { Toaster as Sonner } from "@/client/components/ui/sonner";
-import { TooltipProvider } from "@/client/components/ui/tooltip";
+import "./globals.css";
+import { Toaster } from "@/components/ui/toaster";
+import { Toaster as Sonner } from "@/components/ui/sonner";
+import { TooltipProvider } from "@/components/ui/tooltip";
 
 const inter = Inter({ subsets: ["latin"] });
 
