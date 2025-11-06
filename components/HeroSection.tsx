@@ -32,11 +32,11 @@ export default function HeroSection() {
                   SPACE9 – Australia's Expert Casino & Pokies Guide Hub
                 </strong>
                 . Discover proven betting strategies, bankroll management tips,
-                and game selection techniques from industry experts. Learn how to
-                maximize your wins at online pokies, master live dealer games,
-                and make smart sports betting decisions. Our comprehensive guides
-                are designed for Australian players seeking to improve their
-                gaming skills and win rate.
+                and game selection techniques from industry experts. Learn how
+                to maximize your wins at online pokies, master live dealer
+                games, and make smart sports betting decisions. Our
+                comprehensive guides are designed for Australian players seeking
+                to improve their gaming skills and win rate.
                 <br />
                 <br />
                 Unlock winning strategies at{" "}

@@ -133,9 +133,7 @@ export default function Blog() {
                     </Link>
                   </h2>
 
-                  <p className="text-gray-600 mb-4 flex-grow">
-                    {post.excerpt}
-                  </p>
+                  <p className="text-gray-600 mb-4 flex-grow">{post.excerpt}</p>
 
                   <div className="flex items-center justify-between pt-4 border-t border-gray-200">
                     <span className="text-sm text-gray-500">

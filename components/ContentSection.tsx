@@ -16,8 +16,7 @@ export default function ContentSection() {
         <div className="prose prose-lg max-w-none">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
             <p>
-              Download the SPACE9 App for iOS & Android – Play Anytime,
-              Anywhere
+              Download the SPACE9 App for iOS & Android – Play Anytime, Anywhere
             </p>
           </h2>
 
@@ -129,8 +128,8 @@ export default function ContentSection() {
               house edge to under 1%. Ideal for serious players.
             </p>
             <p>
-              <strong>🚀 Imperium Games:</strong> Best for Variety & Flexibility.
-              100+ games with varying volatility levels.{" "}
+              <strong>🚀 Imperium Games:</strong> Best for Variety &
+              Flexibility. 100+ games with varying volatility levels.{" "}
               <em>Selection tip:</em> Mix low (for steady wins) and high
               volatility (for big payouts) to balance risk.
             </p>

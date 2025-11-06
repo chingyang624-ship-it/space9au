@@ -14,8 +14,7 @@ export const metadata: Metadata = {
   keywords:
     "space9 casino, pokies Australia, online casino Australia, live dealer games, sports betting, PayID pokies, casino app",
   openGraph: {
-    title:
-      "SPACE9 Casino - Australia's No.1 Online Casino & Pokies Guide",
+    title: "SPACE9 Casino - Australia's No.1 Online Casino & Pokies Guide",
     description:
       "Australia's trusted online casino with expert pokies guides & winning strategies. Play slots, live dealer games, sports betting.",
     url: "https://space9au.net/",

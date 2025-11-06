@@ -4,46 +4,56 @@ import Link from "next/link";
 
 const blogPosts: Record<string, any> = {
   "how-to-win-more-online-casino": {
-    title: "How to Win More at Australian Online Casinos - Expert Strategies & Tips",
+    title:
+      "How to Win More at Australian Online Casinos - Expert Strategies & Tips",
     date: "2024-02-10",
     category: "Casino Strategies",
     readTime: "8 min read",
-    content: "Learn proven techniques and strategies to maximize your wins at Australian online casinos. From bankroll management to game selection, discover what separates winning players from casual gamblers.",
+    content:
+      "Learn proven techniques and strategies to maximize your wins at Australian online casinos. From bankroll management to game selection, discover what separates winning players from casual gamblers.",
   },
   "australian-pokies-tips": {
-    title: "Australian Pokies Tips & High RTP Strategies - Win More Consistently",
+    title:
+      "Australian Pokies Tips & High RTP Strategies - Win More Consistently",
     date: "2024-02-08",
     category: "Pokies Tips",
     readTime: "10 min read",
-    content: "Master the art of pokies playing with expert tips on RTP percentages, volatility, and betting strategies.",
+    content:
+      "Master the art of pokies playing with expert tips on RTP percentages, volatility, and betting strategies.",
   },
   "sports-betting-strategies": {
-    title: "Sports Betting Strategies for Australians - Odds, Research & Bankroll Tips",
+    title:
+      "Sports Betting Strategies for Australians - Odds, Research & Bankroll Tips",
     date: "2024-02-06",
     category: "Sports Betting",
     readTime: "9 min read",
-    content: "Understand sports betting odds, learn research techniques, and discover bankroll management strategies.",
+    content:
+      "Understand sports betting odds, learn research techniques, and discover bankroll management strategies.",
   },
   "live-casino-winning-tips": {
-    title: "Live Casino Winning Tips - Blackjack, Baccarat & Roulette Strategies",
+    title:
+      "Live Casino Winning Tips - Blackjack, Baccarat & Roulette Strategies",
     date: "2024-02-04",
     category: "Live Casino",
     readTime: "11 min read",
-    content: "Discover proven strategies for live dealer games including blackjack basic strategy and baccarat patterns.",
+    content:
+      "Discover proven strategies for live dealer games including blackjack basic strategy and baccarat patterns.",
   },
   "bankroll-management": {
     title: "Complete Bankroll Management Guide - Extend Your Casino Sessions",
     date: "2024-02-02",
     category: "Bankroll Management",
     readTime: "7 min read",
-    content: "Master bankroll management to play longer and reduce losses. Learn about betting units and loss limits.",
+    content:
+      "Master bankroll management to play longer and reduce losses. Learn about betting units and loss limits.",
   },
   "free-spins-strategy": {
     title: "Free Spins Strategy Guide - Maximize Bonus Features & Payouts",
     date: "2024-01-31",
     category: "Pokies Tips",
     readTime: "6 min read",
-    content: "Learn how to make the most of free spins and bonus features on SPACE9 pokies.",
+    content:
+      "Learn how to make the most of free spins and bonus features on SPACE9 pokies.",
   },
 };
 
@@ -88,7 +98,9 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
       <article className="max-w-4xl mx-auto px-4 py-12 md:py-16">
         <header className="mb-8">
           <div className="flex items-center gap-4 mb-4 text-sm text-gray-600">
-            <span>Published: {new Date(post.date).toLocaleDateString("en-AU")}</span>
+            <span>
+              Published: {new Date(post.date).toLocaleDateString("en-AU")}
+            </span>
             <span>•</span>
             <span>{post.readTime}</span>
             <span>•</span>

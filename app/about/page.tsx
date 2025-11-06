@@ -3,13 +3,13 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title:
-    "About SPACE9 Casino - Australia's #1 Trusted Online Gaming Platform",
+  title: "About SPACE9 Casino - Australia's #1 Trusted Online Gaming Platform",
   description:
     "Discover SPACE9 Casino - Australia's #1 trusted online gaming platform since 2024. Secure PayID pokies, live dealer games, expert guides, 24/7 support.",
   openGraph: {
     title: "About SPACE9 Casino",
-    description: "Australia's #1 trusted online gaming platform with PayID pokies, live dealer games, and expert support",
+    description:
+      "Australia's #1 trusted online gaming platform with PayID pokies, live dealer games, and expert support",
     url: "https://space9au.net/about",
     type: "website",
   },

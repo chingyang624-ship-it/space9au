@@ -28,7 +28,10 @@ export default function NotFound() {
             </Link>
             <p className="text-gray-600">
               or{" "}
-              <Link href="/blog" className="text-amber-600 hover:text-amber-700">
+              <Link
+                href="/blog"
+                className="text-amber-600 hover:text-amber-700"
+              >
                 Browse Our Blog
               </Link>
             </p>
