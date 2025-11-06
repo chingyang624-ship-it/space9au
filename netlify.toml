@@ -1,8 +1,7 @@
 [build]
-  command = "npm run build:client"
+  command = "npm run build"
   functions = "netlify/functions"
-  publish = "dist/spa"
-
+  publish = ".next/static"
 
 [functions]
   external_node_modules = ["express"]
@@ -13,9 +12,3 @@
   from = "/api/*"
   status = 200
   to = "/.netlify/functions/api/:splat"
-
-# SPA fallback - enable client-side routing refresh on all subpages
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
