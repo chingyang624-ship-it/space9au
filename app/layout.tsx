@@ -95,7 +95,6 @@ export default function RootLayout({
       <body>
         <TooltipProvider>
           <Toaster />
-          <Sonner />
           {children}
         </TooltipProvider>
       </body>
