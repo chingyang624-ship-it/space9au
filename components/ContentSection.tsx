@@ -2,7 +2,6 @@ export default function ContentSection() {
   return (
     <section className="bg-white py-16 md:py-24">
       <div className="max-w-4xl mx-auto px-4">
-        {/* Download App Button */}
         <div className="mb-12 text-center">
           <a
             href="https://www.space9aush5api.site/uploads/appwrap.html"
@@ -16,7 +15,7 @@ export default function ContentSection() {
 
         <div className="prose prose-lg max-w-none">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-            <p>Download the SPACE9 App for iOS & Android �� Play Anytime, Anywhere</p>
+            <p>Download the SPACE9 App for iOS & Android – Play Anytime, Anywhere</p>
           </h2>
 
           <p className="text-gray-700 mb-4">

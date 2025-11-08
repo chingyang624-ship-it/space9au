@@ -71,7 +71,6 @@ export default function GameTabs() {
   return (
     <section className="bg-gradient-to-b from-blue-950 to-slate-900 py-16">
       <div className="max-w-7xl mx-auto px-4">
-        {/* Tabs */}
         <div className="flex justify-center gap-4 mb-12 flex-wrap">
           {tabConfig.map((tab) => (
             <button
@@ -88,7 +87,6 @@ export default function GameTabs() {
           ))}
         </div>
 
-        {/* Games Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {games[activeTab as keyof typeof games].map((game, idx) => (
             <a

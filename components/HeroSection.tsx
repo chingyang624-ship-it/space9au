@@ -14,7 +14,6 @@ export default function HeroSection() {
     >
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-          {/* Left Content */}
           <div className="flex-1 text-center md:text-left">
             <h1 className="text-4xl md:text-5xl font-bold text-slate-200 mb-6">
               <p>SPACE9 Pokies Tips & Casino Guides – Master the Strategy to Win More</p>
@@ -48,7 +47,6 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* Right Image */}
           <div className="flex-1 flex justify-center">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F47b974d627d040ceb1812c1a024d4cee"

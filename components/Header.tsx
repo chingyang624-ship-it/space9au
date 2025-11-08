@@ -17,7 +17,6 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50">
-      {/* Top Banner */}
       <div className="bg-gradient-to-r from-black via-blue-900 to-black border-b border-amber-500 shadow-lg">
         <div
           className="mx-auto px-4 py-4"
@@ -30,7 +29,6 @@ export default function Header() {
           }}
         >
           <div className="flex items-center justify-between">
-            {/* Logo */}
             <div className="flex-shrink-0">
               <Link href="/">
                 <img
@@ -41,7 +39,6 @@ export default function Header() {
               </Link>
             </div>
 
-            {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
               {navItems.map((item) => {
                 const isExternal = item.href.startsWith('http');
@@ -67,7 +64,6 @@ export default function Header() {
               })}
             </nav>
 
-            {/* Auth Buttons - Desktop and Mobile */}
             <div className="flex items-center gap-2 md:gap-4">
               <a
                 href="https://space9au.com/RFGOOGLESEO99"
@@ -86,7 +82,6 @@ export default function Header() {
                 Login
               </a>
 
-              {/* Mobile Menu Button */}
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 className="md:hidden text-amber-500 p-2"
@@ -97,7 +92,6 @@ export default function Header() {
           </div>
         </div>
 
-        {/* Mobile Menu */}
         {mobileMenuOpen && (
           <div className="md:hidden bg-black border-t border-amber-500">
             <nav className="flex flex-col space-y-2 p-4">

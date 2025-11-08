@@ -3,10 +3,8 @@ import { Mail, Phone, Facebook, Send, Banknote } from 'lucide-react';
 export default function Footer() {
   return (
     <footer className="bg-gradient-to-b from-slate-900 to-black text-white">
-      {/* Main Footer Content */}
       <div style={{ maxWidth: '1087px' }} className="mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
-          {/* Company Info */}
           <div>
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F47b974d627d040ceb1812c1a024d4cee"
@@ -19,7 +17,6 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Payment Support */}
           <div>
             <h3 className="text-xl font-bold text-amber-500 mb-4">Payment Support</h3>
             <div className="bg-slate-800 p-6 rounded">
@@ -27,7 +24,6 @@ export default function Footer() {
                 We support multiple secure payment methods:
               </p>
               <div className="grid grid-cols-2 gap-4">
-                {/* Visa */}
                 <div className="flex flex-col items-center p-3 bg-slate-700 rounded hover:bg-slate-600 transition-colors">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F03d729d9c0a3496da92a68527e678e08"
@@ -37,7 +33,6 @@ export default function Footer() {
                   <span className="text-xs text-gray-300">Visa</span>
                 </div>
 
-                {/* Mastercard */}
                 <div className="flex flex-col items-center p-3 bg-slate-700 rounded hover:bg-slate-600 transition-colors">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7f2bfd517d8f4e2e80d1fd76a6875843"
@@ -47,13 +42,11 @@ export default function Footer() {
                   <span className="text-xs text-gray-300">Mastercard</span>
                 </div>
 
-                {/* AUS Local Bank Transfer */}
                 <div className="flex flex-col items-center p-3 bg-slate-700 rounded hover:bg-slate-600 transition-colors">
                   <Banknote size={32} className="text-amber-500 mb-2" />
                   <span className="text-xs text-gray-300">Bank Transfer</span>
                 </div>
 
-                {/* Amopay */}
                 <div className="flex flex-col items-center p-3 bg-slate-700 rounded hover:bg-slate-600 transition-colors">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdb030dba93fe4f3c81143d911699409e"
@@ -66,7 +59,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Available Games */}
           <div>
             <h3 className="text-xl font-bold text-amber-500 mb-4">Available Games</h3>
             <div className="space-y-2 text-gray-400 text-sm" style={{ marginRight: '2px' }}>
@@ -78,7 +70,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom Footer */}
         <div className="border-t border-gray-700 pt-8 text-center">
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-8">
             <a
@@ -97,7 +88,6 @@ export default function Footer() {
             </a>
           </div>
 
-          {/* Social Media Links */}
           <div className="flex justify-center gap-6 mb-8">
             <a
               href="https://www.facebook.com/profile.php?id=100093505265984"
