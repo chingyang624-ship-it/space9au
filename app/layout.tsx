@@ -79,18 +79,21 @@ export default function RootLayout({
           href="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2f967086f7e14485a125f30caf61f462?format=webp&width=800"
         />
         <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'Organization',
-            name: 'SPACE9 Casino',
-            url: 'https://space9au.net',
-            logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc0a592f10b9e4c43978276155259ccc9',
-            sameAs: [
-              'https://space9au.com',
-            ],
-          })}
-        </script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Organization',
+              name: 'SPACE9 Casino',
+              url: 'https://space9au.net',
+              logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc0a592f10b9e4c43978276155259ccc9',
+              sameAs: [
+                'https://space9au.com',
+              ],
+            }),
+          }}
+        />
       </head>
       <body>
         <TooltipProvider>
