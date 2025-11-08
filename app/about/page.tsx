@@ -1,75 +1,18 @@
-'use client';
+import type { Metadata } from 'next';
+import AboutClient from './about-client';
 
-import { Facebook, Send, Download } from 'lucide-react';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+export const metadata: Metadata = {
+  title: "About SPACE9 Casino - Australia's #1 Trusted Online Gaming Platform",
+  description: "Discover SPACE9 Casino - Australia's trusted online gaming platform with expert pokies guides, live dealer games, PayID deposits, and 24/7 support.",
+  keywords: ['about SPACE9', 'online casino Australia', 'trusted pokies', 'live dealer games'],
+  openGraph: {
+    title: "About SPACE9 Casino - Australia's #1 Trusted Online Gaming Platform",
+    description: "Learn about SPACE9 - Australia's trusted online gaming platform.",
+    url: 'https://space9au.net/about',
+    type: 'website',
+  },
+};
 
 export default function AboutUs() {
-  return (
-    <div className="min-h-screen bg-white">
-      <Header />
-
-      {/* Hero Section */}
-      <section
-        className="relative bg-cover bg-center min-h-96"
-        style={{
-          backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6f5032b3a24942e29dbbb42dd41c50a6)',
-          backgroundAttachment: 'fixed',
-        }}
-      >
-        <div
-          className="absolute inset-0 bg-black/40"
-          style={{
-            backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6f5032b3a24942e29dbbb42dd41c50a6?format=webp)',
-            backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center',
-            backgroundSize: 'cover',
-          }}
-        ></div>
-      </section>
-
-      {/* Main Content Section */}
-      <section className="bg-gradient-to-b from-slate-900 to-blue-900 text-white py-16">
-        <div className="max-w-4xl mx-auto px-4">
-          <h1 className="text-5xl md:text-6xl font-bold mb-8 leading-tight">
-            SPACE9: Your Trusted Gateway To High Wins
-          </h1>
-
-          <div className="space-y-6 text-base md:text-lg leading-relaxed text-gray-200">
-            <p>
-              SPACE9 is Australia's number one online casino of 2024! We've ascended the charts by constantly delivering secure and enjoyable gaming that is out of this world. Whether you are a seasoned cosmopolitan or a novice spaceman taking her tentative steps into space, SPACE9 has it all for everyone who would like to have unforgettable galactic trip at any time.
-            </p>
-
-            <p>
-              At SPACE9, we are proud to offer an extensive range of the most thrilling casinos games in Milky Way galaxy. Get involved with pokies that have stunning graphics and exciting features, find your way to the riches through blackjack or go on a journey full of possibilities from our wide selection of table games. We cater for every kind of gambler and with our ever increasing library there is always another planet to discover.
-            </p>
-
-            <p>
-              But SPACE9 isn't all about the games (although they are pretty darn stellar). We also strive to offer excellent customer service and unbeatable rewards. Our customer care team is always ready to help you with any inquiries you may have while our loyal program provides lavish prizes for your dedication. So, come on, space captain; get ready to take off with SPACE9!
-            </p>
-          </div>
-
-          <h2 className="text-4xl md:text-5xl font-bold mt-12 mb-6">
-            Explore A Universe Of Casino Games
-          </h2>
-
-          <div className="space-y-6 text-base md:text-lg leading-relaxed text-gray-200">
-            <p>
-              Ready yourself for a cosmic journey in the world of online casino games on SPACE9! Our list of pokies stretches over light years, with classic fruits and feature-filled video slots that will make you spin with exhilaration.
-            </p>
-
-            <p>
-              Try your luck at blackjack or test yourself at roulette; all against dealers. We also provide several other specialty versions including baccarat and poker for players seeking something different. In any case, SPACE9 has a game that will definitely skyrocket your chances of winning.
-            </p>
-
-            <p>
-              Our sports betting section is equally impressive, allowing players to bet on a range of sporting activities. Whether it's your passion for football, tennis, basketball or any other sport under the sun, SPACE9 has got the perfect betting options for you.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <Footer />
-    </div>
-  );
+  return <AboutClient />;
 }
