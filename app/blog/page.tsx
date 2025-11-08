@@ -125,11 +125,7 @@ export default function Blog() {
 
                   <div className="flex items-center justify-between pt-4 border-t border-gray-200">
                     <span className="text-sm text-gray-500">
-                      {new Date(post.date).toLocaleDateString("en-AU", {
-                        year: "numeric",
-                        month: "short",
-                        day: "numeric",
-                      })}
+                      {formatDate(post.date)}
                     </span>
                     <Link
                       href={`/blog/${post.slug}`}
