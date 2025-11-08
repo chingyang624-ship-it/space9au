@@ -29,7 +29,7 @@ export default function Header() {
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc0a592f10b9e4c43978276155259ccc9"
                   alt="SPACE9 Casino"
-                  className="h-12 w-auto md:h-16"
+                  style={{ height: '40px', width: 'auto' }}
                 />
               </Link>
             </div>
