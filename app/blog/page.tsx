@@ -1,12 +1,8 @@
+'use client';
+
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "SPACE9 Casino Blog - Pokies Tips, Betting Strategies & Guides",
-  description: "Discover expert tips, winning strategies, and comprehensive guides for pokies, live casino, and sports betting on SPACE9 Blog.",
-};
 
 const blogPosts = [
   {
