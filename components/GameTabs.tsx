@@ -71,16 +71,24 @@ export default function GameTabs() {
   return (
     <section className="bg-gradient-to-b from-blue-950 to-slate-900 py-16">
       <div className="max-w-7xl mx-auto px-4">
-        <div className="flex justify-center gap-4 mb-12 flex-wrap">
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', marginBottom: '48px', flexWrap: 'wrap' }}>
           {tabConfig.map((tab) => (
             <button
               key={tab.key}
               onClick={() => setActiveTab(tab.key)}
-              className={`px-8 py-3 rounded-full font-bold text-lg transition-all ${
-                activeTab === tab.key
-                  ? 'bg-amber-500 text-black shadow-lg'
-                  : 'bg-slate-700 text-amber-500 hover:bg-slate-600'
-              }`}
+              style={{
+                padding: '12px 32px',
+                borderRadius: '9999px',
+                fontWeight: 'bold',
+                fontSize: '18px',
+                transition: 'all 0.3s ease',
+                cursor: 'pointer',
+                border: 'none',
+                backgroundColor: activeTab === tab.key ? '#f59e0b' : '#475569',
+                color: activeTab === tab.key ? '#000000' : '#fbbf24',
+                boxShadow: activeTab === tab.key ? '0 10px 15px rgba(0,0,0,0.3)' : 'none',
+                whiteSpace: 'nowrap'
+              }}
             >
               {tab.label}
             </button>
