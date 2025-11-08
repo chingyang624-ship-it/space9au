@@ -4,12 +4,8 @@ import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import Link from 'next/link';
 
-interface HeaderProps {
-  mobileMenuOpen: boolean;
-  setMobileMenuOpen: (open: boolean) => void;
-}
-
-export default function Header({ mobileMenuOpen, setMobileMenuOpen }: HeaderProps) {
+export default function Header() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const navItems = [
     { label: 'Home', href: '/' },
     { label: 'About us', href: '/about' },
