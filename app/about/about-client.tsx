@@ -1,5 +1,6 @@
 'use client';
 
+import { Facebook, Send } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
@@ -137,36 +138,20 @@ export default function AboutClient() {
               href="https://www.facebook.com/profile.php?id=100093505265984"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex flex-col items-center justify-center w-16 h-16 rounded-full bg-white hover:bg-gray-100 transition-colors"
+              className="flex items-center justify-center w-16 h-16 rounded-full bg-white hover:bg-gray-100 transition-colors"
               title="Follow us on Facebook"
             >
-              <svg
-                className="w-8 h-8 text-blue-600"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-              >
-                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-              </svg>
-              <span className="text-xs text-gray-700 mt-1 text-center font-semibold">Facebook</span>
+              <Facebook size={28} className="text-blue-600" />
             </a>
 
             <a
               href="https://t.me/+HplU5b6JfLBmNjk1"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex flex-col items-center justify-center w-16 h-16 rounded-full bg-white hover:bg-gray-100 transition-colors"
+              className="flex items-center justify-center w-16 h-16 rounded-full bg-white hover:bg-gray-100 transition-colors"
               title="Join us on Telegram"
             >
-              <svg
-                className="w-8 h-8 text-blue-500"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-              >
-                <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a11.955 11.955 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.96 6.502-1.36 8.627-.168.919-.87 1.24-1.49 1.276-.573.025-1.095-.17-1.707-.595-.567-.38-1.088-.879-1.623-1.282-.895-.65-1.385-1.065-1.75-1.615-.27-.41-.053-.896.341-1.187.088-.078.177-.16.265-.248 1.144-1.074 2.057-2.007 2.387-2.614.023-.04.048-.083.069-.135.16-.36-.092-.75-.534-.82-.291-.033-.612.145-.899.462-1.256 1.193-4.423 4.385-5.995 3.942-1.358-.374-2.147-1.271-2.654-2.57-.461-1.205-.667-2.502-.41-3.949.121-.646.564-1.529 1.073-1.9.558-.425 1.186-.722 1.793-.972.249-.12.502-.249.754-.357.293-.119.68-.278 1.025-.39z" />
-              </svg>
-              <span className="text-xs text-gray-700 mt-1 text-center font-semibold">Telegram</span>
+              <Send size={28} className="text-blue-500" />
             </a>
           </div>
 
