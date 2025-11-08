@@ -90,7 +90,7 @@ export default function BlogArticle({ params }: BlogArticleProps) {
 
   return (
     <div className="min-h-screen bg-white">
-      <Header mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
+      <Header />
 
       {/* Breadcrumb */}
       <div className="bg-gray-50 border-b border-gray-200 py-4">
