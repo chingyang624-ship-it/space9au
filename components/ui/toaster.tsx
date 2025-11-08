@@ -7,14 +7,7 @@ export function Toaster() {
 }
 
 function Sonner() {
-  return (
-    <div
-      id="sonner-container"
-      role="region"
-      aria-label="Notifications"
-      data-sonner-toaster
-    />
-  );
+  return <div id="sonner-container" role="region" aria-label="Notifications" data-sonner-toaster />;
 }
 
 export default Toaster;

@@ -1,17 +1,20 @@
 # SPACE9 Casino Next.js Migration
 
 ## Overview
+
 Successfully migrated SPACE9 Casino from React + Vite to Next.js 14 with App Router.
 
 ## Key Changes
 
 ### Framework Migration
+
 - **Old**: React 18 + Vite + React Router (SPA)
 - **New**: Next.js 14 + App Router (MPA with SSR)
 
 ### Project Structure Changes
 
 #### Before (Vite + React Router)
+
 ```
 client/
   pages/
@@ -30,6 +33,7 @@ client/
 ```
 
 #### After (Next.js App Router)
+
 ```
 app/
   page.tsx                 # Home page
@@ -58,12 +62,14 @@ middleware.ts
 ```
 
 ### Routing Changes
+
 - React Router -> Next.js file-based routing
 - `/blog` path remains the same
 - Each page now has dedicated file in app directory
 - Dynamic routes use `[slug]` pattern
 
 ### SEO Improvements
+
 - **Server-side metadata**: Using Next.js Metadata API in layout.tsx
 - **Per-page metadata**: Each page can export metadata
 - **Dynamic sitemap**: Generated from sitemap.ts
@@ -71,6 +77,7 @@ middleware.ts
 - **Structured data**: JSON-LD in layout and pages
 
 ### Client-side state management
+
 - Removed React Router useSearchParams
 - Using Next.js hooks for params and search params
 - State management with useState for mobile menu
@@ -78,6 +85,7 @@ middleware.ts
 ## Running the Project
 
 ### Development
+
 ```bash
 npm run dev
 # or
@@ -85,6 +93,7 @@ pnpm dev
 ```
 
 ### Production Build
+
 ```bash
 npm run build
 npm start
@@ -94,11 +103,13 @@ pnpm start
 ```
 
 ### Testing
+
 ```bash
 npm run test
 ```
 
 ### Type Checking
+
 ```bash
 npm run typecheck
 ```
@@ -106,12 +117,15 @@ npm run typecheck
 ## Deployment
 
 ### Netlify
+
 The project is configured for Netlify deployment:
+
 - `netlify.toml` contains build configuration
 - Next.js outputs optimized build
 - Dynamic routes work automatically
 
 **Steps to deploy:**
+
 1. Push code to GitHub
 2. Connect repository to Netlify
 3. Set build command: `npm run build`
@@ -170,16 +184,19 @@ NEXT_PUBLIC_AFFILIATE_URL=https://space9au.com/RFGOOGLESEO99
 ## Troubleshooting
 
 ### Issue: Pages not loading
+
 - Clear `.next` folder
 - Run `npm install` again
 - Check middleware.ts for redirect issues
 
 ### Issue: Styling not applied
+
 - Ensure tailwind.config.ts paths are correct
 - Check global.css imports
 - Clear browser cache
 
 ### Issue: Link errors
+
 - Use `next/link` instead of React Router `Link`
 - For external links, use plain `<a>` tags or `target="_blank"`
 

@@ -20,50 +20,64 @@ export default function ContentSection() {
           </h2>
 
           <p className="text-gray-700 mb-4">
-            Downloading the SPACE9 Casino app on your mobile device is simple and can be done in a few steps:
+            Downloading the SPACE9 Casino app on your mobile device is simple and can be done in a
+            few steps:
           </p>
 
           <ul className="text-gray-700 space-y-3 mb-8">
             <li>
-              <strong>Visit Official Website:</strong> Use your device's web browser to navigate to the official SPACE9 Casino website.
+              <strong>Visit Official Website:</strong> Use your device's web browser to navigate to
+              the official SPACE9 Casino website.
             </li>
             <li>
-              <strong>Locate the Mobile App Section:</strong> Find the section specifically for mobile downloads.
+              <strong>Locate the Mobile App Section:</strong> Find the section specifically for
+              mobile downloads.
             </li>
             <li>
-              <strong>Choose Your Platform:</strong> Select the download link appropriate for your Android or iOS device.
+              <strong>Choose Your Platform:</strong> Select the download link appropriate for your
+              Android or iOS device.
             </li>
             <li>
-              <strong>Download and Install the App:</strong> Tap the download button. Once the download is complete, open the file and follow the prompts to install.
+              <strong>Download and Install the App:</strong> Tap the download button. Once the
+              download is complete, open the file and follow the prompts to install.
             </li>
             <li>
-              <strong>Register or Log In:</strong> Once installed, open the app, sign up or log into your existing account, and start playing.
+              <strong>Register or Log In:</strong> Once installed, open the app, sign up or log into
+              your existing account, and start playing.
             </li>
           </ul>
 
           <p className="text-gray-600 italic mb-8">
-            Ensure your device settings allow installation from unknown sources if you are downloading an APK file for Android directly from the site.
+            Ensure your device settings allow installation from unknown sources if you are
+            downloading an APK file for Android directly from the site.
           </p>
 
-          <h3 className="text-2xl font-bold text-slate-900 mb-4">How to Login SPACE9 : Directions</h3>
+          <h3 className="text-2xl font-bold text-slate-900 mb-4">
+            How to Login SPACE9 : Directions
+          </h3>
 
-          <p className="text-gray-700 mb-4">To log into SPACE9 Casino on mobile, follow these steps:</p>
+          <p className="text-gray-700 mb-4">
+            To log into SPACE9 Casino on mobile, follow these steps:
+          </p>
 
           <ul className="text-gray-700 space-y-3 mb-8">
             <li>
               <strong>Open the App:</strong> Launch the SPACE9 Casino app on your device.
             </li>
             <li>
-              <strong>Tap on Login:</strong> Find and tap the 'Login' button, usually at the top right corner.
+              <strong>Tap on Login:</strong> Find and tap the 'Login' button, usually at the top
+              right corner.
             </li>
             <li>
               <strong>Enter Your Details:</strong> Input your registered email and password.
             </li>
             <li>
-              <strong>Complete Security Check:</strong> If prompted, complete any CAPTCHA verification.
+              <strong>Complete Security Check:</strong> If prompted, complete any CAPTCHA
+              verification.
             </li>
             <li>
-              <strong>Access Your Account:</strong> Press 'Login' to access your account and start playing.
+              <strong>Access Your Account:</strong> Press 'Login' to access your account and start
+              playing.
             </li>
           </ul>
 
@@ -71,39 +85,58 @@ export default function ContentSection() {
             Ensure you enter the correct credentials and have a stable internet connection.
           </p>
 
-          <h3 className="text-2xl font-bold text-slate-900 mb-4">SPACE9 Casino Games Guide – How to Win More</h3>
+          <h3 className="text-2xl font-bold text-slate-900 mb-4">
+            SPACE9 Casino Games Guide – How to Win More
+          </h3>
 
           <p className="text-gray-700 mb-6">
-            Master SPACE9's premium slot providers with expert tips and strategies. Learn which games offer the best winning potential, how to optimize your bets, and which titles deliver the highest RTP (Return to Player) percentages:
+            Master SPACE9's premium slot providers with expert tips and strategies. Learn which
+            games offer the best winning potential, how to optimize your bets, and which titles
+            deliver the highest RTP (Return to Player) percentages:
           </p>
 
           <div className="space-y-4 text-gray-700 mb-8">
             <p>
-              <strong>🏆 BNG:</strong> Best for High RTP Games. BNG titles feature 96-98% RTP rates. <em>Pro tip:</em> Focus on their 5-reel slots for more frequent wins. Popular games include explosive features that trigger bonus rounds up to 10 times per session.
+              <strong>🏆 BNG:</strong> Best for High RTP Games. BNG titles feature 96-98% RTP rates.{' '}
+              <em>Pro tip:</em> Focus on their 5-reel slots for more frequent wins. Popular games
+              include explosive features that trigger bonus rounds up to 10 times per session.
             </p>
             <p>
-              <strong>💎 JILI:</strong> Best for Beginners. User-friendly interface with lower volatility. <em>Strategy tip:</em> Start with JILI games to learn bankroll management. Their 3-reel classics have 95%+ RTP with steady payouts.
+              <strong>💎 JILI:</strong> Best for Beginners. User-friendly interface with lower
+              volatility. <em>Strategy tip:</em> Start with JILI games to learn bankroll management.
+              Their 3-reel classics have 95%+ RTP with steady payouts.
             </p>
             <p>
-              <strong>⭐ Pragmatic Play:</strong> Best for Jackpot Seekers. High volatility with mega jackpots reaching 50,000x your bet. <em>Advanced tip:</em> Allocate 20% of your bankroll for high-volatility games, play max bet for jackpot eligibility.
+              <strong>⭐ Pragmatic Play:</strong> Best for Jackpot Seekers. High volatility with
+              mega jackpots reaching 50,000x your bet. <em>Advanced tip:</em> Allocate 20% of your
+              bankroll for high-volatility games, play max bet for jackpot eligibility.
             </p>
             <p>
-              <strong>🎰 V Power:</strong> Best for Live Gaming Strategy. Master live dealer blackjack with our card counting guides. <em>Winning strategy:</em> Use basic strategy charts to reduce house edge to under 1%. Ideal for serious players.
+              <strong>🎰 V Power:</strong> Best for Live Gaming Strategy. Master live dealer
+              blackjack with our card counting guides. <em>Winning strategy:</em> Use basic strategy
+              charts to reduce house edge to under 1%. Ideal for serious players.
             </p>
             <p>
-              <strong>🚀 Imperium Games:</strong> Best for Variety & Flexibility. 100+ games with varying volatility levels. <em>Selection tip:</em> Mix low (for steady wins) and high volatility (for big payouts) to balance risk.
+              <strong>🚀 Imperium Games:</strong> Best for Variety & Flexibility. 100+ games with
+              varying volatility levels. <em>Selection tip:</em> Mix low (for steady wins) and high
+              volatility (for big payouts) to balance risk.
             </p>
             <p>
-              <strong>✨ 3oaks:</strong> Best for Quality & Features. Premium visuals with advanced bonus mechanics. <em>Bonus guide:</em> Understand scatter vs wild symbols. Free spins can be retriggered up to 50 times for massive payouts.
+              <strong>✨ 3oaks:</strong> Best for Quality & Features. Premium visuals with advanced
+              bonus mechanics. <em>Bonus guide:</em> Understand scatter vs wild symbols. Free spins
+              can be retriggered up to 50 times for massive payouts.
             </p>
           </div>
 
           <p className="text-gray-700 mb-4">
-            Each game on SPACE9 Casino promises a unique and engaging experience with the opportunity to win substantial rewards, making it a preferred destination for online slot enthusiasts.
+            Each game on SPACE9 Casino promises a unique and engaging experience with the
+            opportunity to win substantial rewards, making it a preferred destination for online
+            slot enthusiasts.
           </p>
 
           <p className="text-gray-700 font-semibold">
-            If you're facing problems while playing our casino games, SPACE9 customer support are available 24/7 hours on live chat.
+            If you're facing problems while playing our casino games, SPACE9 customer support are
+            available 24/7 hours on live chat.
           </p>
         </div>
       </div>

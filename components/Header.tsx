@@ -19,7 +19,16 @@ export default function Header() {
     <header className="sticky top-0 z-50">
       {/* Top Banner */}
       <div className="bg-gradient-to-r from-black via-blue-900 to-black border-b border-amber-500 shadow-lg">
-        <div className="mx-auto px-4 py-4" style={{ backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc266b61de3a34ca59c71bda994cdff68)', backgroundRepeat: 'no-repeat', backgroundPosition: '50% 50%', backgroundSize: 'cover' }}>
+        <div
+          className="mx-auto px-4 py-4"
+          style={{
+            backgroundImage:
+              'url(https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc266b61de3a34ca59c71bda994cdff68)',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: '50% 50%',
+            backgroundSize: 'cover',
+          }}
+        >
           <div className="flex items-center justify-between">
             {/* Logo */}
             <div className="flex-shrink-0">

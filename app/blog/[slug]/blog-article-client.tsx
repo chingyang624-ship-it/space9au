@@ -15,7 +15,8 @@ const blogArticles: Record<string, any> = {
     date: '2024-02-10',
     category: 'Casino Strategies',
     readTime: '8 min read',
-    excerpt: 'Discover proven techniques and strategies that separate winning players from casual gamblers.',
+    excerpt:
+      'Discover proven techniques and strategies that separate winning players from casual gamblers.',
     content: `<h2>1. Master Bankroll Management</h2>
     <p>The foundation of successful casino gaming is effective bankroll management. Set aside money dedicated solely to gambling and manage it wisely.</p>
     <h2>2. Choose Games with Higher RTP</h2>
@@ -28,7 +29,8 @@ const blogArticles: Record<string, any> = {
     date: '2024-02-08',
     category: 'Pokies Tips',
     readTime: '10 min read',
-    excerpt: 'Master the art of pokies playing with expert tips on RTP percentages, volatility, and betting strategies.',
+    excerpt:
+      'Master the art of pokies playing with expert tips on RTP percentages, volatility, and betting strategies.',
     content: `<h2>Understanding Pokies RTP</h2>
     <p>RTP (Return to Player) is the percentage of all wagered money a pokie will pay back over time. Higher RTP means better odds for players.</p>`,
   },
@@ -37,7 +39,8 @@ const blogArticles: Record<string, any> = {
     date: '2024-02-06',
     category: 'Sports Betting',
     readTime: '9 min read',
-    excerpt: 'Understand sports betting odds, learn research techniques, and discover bankroll management strategies.',
+    excerpt:
+      'Understand sports betting odds, learn research techniques, and discover bankroll management strategies.',
     content: `<h2>Understanding Betting Odds</h2>
     <p>Learn how to read and interpret different odds formats to make informed betting decisions.</p>`,
   },
@@ -46,7 +49,8 @@ const blogArticles: Record<string, any> = {
     date: '2024-02-04',
     category: 'Live Casino',
     readTime: '11 min read',
-    excerpt: 'Discover proven strategies for live dealer games including blackjack basic strategy and baccarat patterns.',
+    excerpt:
+      'Discover proven strategies for live dealer games including blackjack basic strategy and baccarat patterns.',
     content: `<h2>Blackjack Strategy</h2>
     <p>Master the basics of blackjack including when to hit, stand, double down, or split.</p>`,
   },
@@ -119,12 +123,8 @@ export default function BlogArticleClient({ slug }: BlogArticleClientProps) {
               {article.category}
             </span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            {article.title}
-          </h1>
-          <p className="text-xl text-gray-600 leading-relaxed">
-            {article.excerpt}
-          </p>
+          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">{article.title}</h1>
+          <p className="text-xl text-gray-600 leading-relaxed">{article.excerpt}</p>
         </header>
 
         {/* Article Content */}
@@ -135,7 +135,9 @@ export default function BlogArticleClient({ slug }: BlogArticleClientProps) {
         {/* CTA */}
         <div className="bg-gradient-to-r from-amber-600 to-amber-700 text-white p-8 rounded-lg">
           <h3 className="text-2xl font-bold mb-4">Ready to Apply These Strategies?</h3>
-          <p className="mb-6">Start playing at SPACE9 Casino with expert strategies and maximize your winnings today.</p>
+          <p className="mb-6">
+            Start playing at SPACE9 Casino with expert strategies and maximize your winnings today.
+          </p>
           <a
             href="https://space9au.com/RFGOOGLESEO99"
             target="_blank"

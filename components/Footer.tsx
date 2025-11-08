@@ -14,7 +14,8 @@ export default function Footer() {
               className="h-12 mb-4"
             />
             <p className="text-gray-400 text-sm leading-relaxed">
-              SPACE9 is a popular online casino in Australia and slot game platform that offers a wide range of games, including slot games, table games, and arcade games.
+              SPACE9 is a popular online casino in Australia and slot game platform that offers a
+              wide range of games, including slot games, table games, and arcade games.
             </p>
           </div>
 
@@ -57,7 +58,7 @@ export default function Footer() {
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdb030dba93fe4f3c81143d911699409e"
                     alt="Amopay"
-                    style={{ height: "20px", width: "100px", margin: "11px 0 8px" }}
+                    style={{ height: '20px', width: '100px', margin: '11px 0 8px' }}
                   />
                   <span className="text-xs text-gray-300">Amopay</span>
                 </div>
@@ -123,7 +124,8 @@ export default function Footer() {
           </p>
 
           <p className="text-gray-600 text-xs mt-4">
-            SPACE9 Casino is licensed and regulated. Players must be 18+ to participate. Please gamble responsibly.
+            SPACE9 Casino is licensed and regulated. Players must be 18+ to participate. Please
+            gamble responsibly.
           </p>
         </div>
       </div>

@@ -24,11 +24,13 @@
 ## Environment Setup
 
 ### GitHub
+
 - [ ] Code pushed to main branch
 - [ ] Repository is public (or Netlify has access)
 - [ ] Branch protection rules configured (optional)
 
 ### Netlify
+
 - [ ] GitHub integration connected
 - [ ] Build command: `npm run build`
 - [ ] Publish directory: `.next`
@@ -46,6 +48,7 @@
 ## SEO Verification
 
 Before deploying, verify:
+
 - [ ] Homepage has title and description meta tags
 - [ ] All pages have unique titles
 - [ ] All pages have descriptive meta descriptions
@@ -59,6 +62,7 @@ Before deploying, verify:
 ## Post-Deployment
 
 ### Initial Checks
+
 - [ ] Site loads without errors
 - [ ] All pages accessible
 - [ ] Images loading correctly
@@ -67,18 +71,21 @@ Before deploying, verify:
 - [ ] Responsive design working on mobile
 
 ### Performance Checks
+
 - [ ] Lighthouse score acceptable (>80)
 - [ ] Core Web Vitals good
 - [ ] Page load time acceptable (<3s)
 - [ ] No 404 errors in console
 
 ### Content Verification
+
 - [ ] All blog articles display correctly
 - [ ] Links work (test at least 5)
 - [ ] Forms submit (if applicable)
 - [ ] CTA buttons clickable
 
 ### Analytics & SEO
+
 - [ ] Google Search Console connected
 - [ ] Sitemap submitted to Search Console
 - [ ] Google Analytics tracking working (if installed)
@@ -87,6 +94,7 @@ Before deploying, verify:
 ## Rollback Plan
 
 If issues occur after deployment:
+
 1. Revert to previous deployment in Netlify UI
 2. Check deployment logs for errors
 3. Fix locally and test thoroughly before redeploying
@@ -95,6 +103,7 @@ If issues occur after deployment:
 ## Ongoing Maintenance
 
 After successful deployment:
+
 - [ ] Set up monitoring alerts
 - [ ] Schedule weekly SEO check
 - [ ] Monitor Core Web Vitals monthly
@@ -105,18 +114,23 @@ After successful deployment:
 ## Common Issues & Solutions
 
 ### Build Fails
+
 **Solution**: Check build logs, verify dependencies, clear .next folder
 
 ### Pages Not Showing
+
 **Solution**: Check next.config.js output directory, verify routes in app/
 
 ### Images Not Loading
+
 **Solution**: Verify image paths, check next.config.js image settings
 
 ### Styles Not Applied
+
 **Solution**: Check tailwind.config.ts paths, verify CSS imports
 
 ### Slow Performance
+
 **Solution**: Enable caching in netlify.toml, optimize images, minimize CSS
 
 ## Support Resources

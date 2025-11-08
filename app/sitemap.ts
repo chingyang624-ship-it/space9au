@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://space9au.net';
-  
+
   const blogSlugs = [
     'how-to-win-more-online-casino',
     'australian-pokies-tips',
