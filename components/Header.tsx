@@ -16,9 +16,13 @@ export default function Header() {
   ];
 
   return (
-    <header className="sticky top-0 z-50">
-      <div className="bg-gradient-to-r from-black via-blue-900 to-black border-b border-amber-500 shadow-lg">
-        <div className="mx-auto px-4 py-4">
+    <header className="sticky top-0 z-50" style={{ backgroundColor: '#1a1a2e' }}>
+      <div style={{
+        background: 'linear-gradient(to right, #000000, #1e3a5f, #000000)',
+        borderBottom: '2px solid #f59e0b',
+        boxShadow: '0 4px 6px rgba(0,0,0,0.3)'
+      }}>
+        <div className="mx-auto px-4 py-4" style={{ maxWidth: '100%' }}>
           <div className="flex items-center justify-between">
             <div className="flex-shrink-0">
               <Link href="/">
