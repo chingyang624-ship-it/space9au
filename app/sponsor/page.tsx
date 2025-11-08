@@ -1,15 +1,10 @@
-'use client';
-
-import { useState } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export default function Sponsor() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   return (
     <div className="min-h-screen bg-white">
-      <Header mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
+      <Header />
 
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-slate-900 to-blue-900 text-white py-16 md:py-24">
