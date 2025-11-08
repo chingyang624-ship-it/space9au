@@ -71,13 +71,12 @@ const blogArticles: Record<string, any> = {
 };
 
 export default function BlogArticle({ params }: BlogArticleProps) {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const article = blogArticles[params.slug];
 
   if (!article) {
     return (
       <div className="min-h-screen bg-white">
-        <Header mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
+        <Header />
         <div className="max-w-4xl mx-auto px-4 py-16 text-center">
           <h1 className="text-4xl font-bold text-slate-900 mb-4">Article Not Found</h1>
           <Link href="/blog" className="text-amber-600 hover:text-amber-700">
