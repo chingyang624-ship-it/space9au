@@ -1,3 +1,5 @@
+'use client';
+
 export default function HeroSection() {
   return (
     <section className="relative py-12 md:py-20" style={{ backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F80c0097d9d0c4ec2a9c2cdef62bddaf1)', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover' }}>
