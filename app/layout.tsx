@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { TooltipProvider } from '@/components/ui/tooltip';
-import { Toaster } from '@/components/ui/toaster';
-import { Toaster as Sonner } from '@/components/ui/sonner';
+import { Toaster } from '@/components/ui/sonner';
 import '@/global.css';
 
 export const metadata: Metadata = {
