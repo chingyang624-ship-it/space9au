@@ -1,12 +1,8 @@
+'use client';
+
 import { Facebook, Send, Download } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import type { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: "About SPACE9 Casino - Australia's #1 Trusted Online Gaming Platform",
-  description: "Discover SPACE9 Casino - Australia's #1 trusted online gaming platform. Secure PayID pokies, live dealer games, expert guides, 24/7 support.",
-};
 
 export default function AboutUs() {
   return (
