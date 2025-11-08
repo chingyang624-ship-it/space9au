@@ -1,5 +1,21 @@
 User-agent: *
 Allow: /
 Disallow: /admin
+Disallow: /.next
+Disallow: /private
 
+# Allow all crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemaps
 Sitemap: https://space9au.net/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Request rate (10 requests per second max)
+Request-rate: 10/1s
