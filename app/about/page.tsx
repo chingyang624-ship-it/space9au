@@ -1,6 +1,3 @@
-'use client';
-
-import { useState } from 'react';
 import { Facebook, Send, Download } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -12,11 +9,9 @@ export const metadata: Metadata = {
 };
 
 export default function AboutUs() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   return (
     <div className="min-h-screen bg-white">
-      <Header mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
+      <Header />
 
       {/* Hero Section */}
       <section
