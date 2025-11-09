@@ -2,13 +2,24 @@ import type { Metadata } from 'next';
 import BlogClient from './blog-client';
 
 export const metadata: Metadata = {
-  title: 'SPACE9 Casino Blog - Pokies Tips, Betting Strategies & Expert Guides',
+  title: 'SPACE9 Blog | Pokies Tips, Casino Strategies & Winning Guides',
   description:
-    'Discover expert tips, winning strategies, and comprehensive guides for pokies, live casino games, and sports betting on SPACE9 Casino Blog.',
-  keywords: ['casino blog', 'pokies tips', 'betting strategies', 'casino guides', 'SPACE9 blog'],
+    'Expert pokies tips, RTP guides, bankroll management, live dealer strategies, and sports betting guides for Australian players. Learn winning techniques from industry experts.',
+  keywords: [
+    'pokies tips and strategies',
+    'casino guides Australia',
+    'bankroll management',
+    'RTP pokies guide',
+    'live casino strategies',
+    'free spins strategy',
+    'sports betting guide',
+    'online gaming tips',
+    'casino blog Australia',
+  ],
   openGraph: {
-    title: 'SPACE9 Casino Blog - Pokies Tips, Betting Strategies & Expert Guides',
-    description: 'Expert guides and winning strategies for online casino games and sports betting.',
+    title: 'SPACE9 Blog | Expert Pokies & Casino Strategies',
+    description:
+      'Comprehensive guides for improving your gaming skills and winning potential at online casinos.',
     url: 'https://space9au.net/blog',
     type: 'website',
   },

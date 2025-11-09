@@ -2,13 +2,22 @@ import type { Metadata } from 'next';
 import SponsorClient from './sponsor-client';
 
 export const metadata: Metadata = {
-  title: 'SPACE9 Casino Sponsorship - Partner Opportunities',
+  title: 'Partner With SPACE9 | Sponsorship & Gaming Partnerships',
   description:
-    "Partner with SPACE9 Casino - Australia's leading online gaming platform. Explore sponsorship opportunities and grow your brand with us.",
-  keywords: ['casino sponsorship', 'partnership', 'SPACE9 sponsor', 'gaming partnerships'],
+    'Join forces with SPACE9 - Australia\'s leading online casino guide. Explore brand partnerships, sponsorship deals, and collaborative opportunities for gaming businesses.',
+  keywords: [
+    'casino partnership Australia',
+    'sponsorship opportunities',
+    'gaming brand partnership',
+    'sports sponsorship',
+    'casino affiliate program',
+    'gaming industry partnership',
+    'cooperative marketing',
+  ],
   openGraph: {
-    title: 'SPACE9 Casino Sponsorship - Partner Opportunities',
-    description: 'Sponsorship opportunities with SPACE9 Casino.',
+    title: 'Partner With SPACE9 | Sponsorship Opportunities',
+    description:
+      'Build your brand with SPACE9. Explore partnership and sponsorship opportunities in the gaming industry.',
     url: 'https://space9au.net/sponsor',
     type: 'website',
   },

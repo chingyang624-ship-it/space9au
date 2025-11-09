@@ -2,13 +2,22 @@ import type { Metadata } from 'next';
 import AboutClient from './about-client';
 
 export const metadata: Metadata = {
-  title: "About SPACE9 Casino - Australia's #1 Trusted Online Gaming Platform",
+  title: "About SPACE9 Casino | Trusted Australian Online Gaming Platform",
   description:
-    "Discover SPACE9 Casino - Australia's trusted online gaming platform with expert pokies guides, live dealer games, PayID deposits, and 24/7 support.",
-  keywords: ['about SPACE9', 'online casino Australia', 'trusted pokies', 'live dealer games'],
+    'Learn about SPACE9 - Australia\'s trusted online casino guide with expert pokies strategies, live dealer games, PayID support, and responsible gaming commitment.',
+  keywords: [
+    'about SPACE9 casino',
+    'online casino Australia trusted',
+    'Australian pokies guide',
+    'live dealer games Australia',
+    'PayID casino Australia',
+    'responsible gaming',
+    'casino licensing Australia',
+  ],
   openGraph: {
-    title: "About SPACE9 Casino - Australia's #1 Trusted Online Gaming Platform",
-    description: "Learn about SPACE9 - Australia's trusted online gaming platform.",
+    title: "About SPACE9 | Australia's Trusted Casino Guide",
+    description:
+      'Expert pokies strategies, live dealer guides, and responsible gaming for Australian players.',
     url: 'https://space9au.net/about',
     type: 'website',
   },

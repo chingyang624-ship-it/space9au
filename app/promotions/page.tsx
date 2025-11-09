@@ -2,13 +2,23 @@ import type { Metadata } from 'next';
 import PromotionsClient from './promotions-client';
 
 export const metadata: Metadata = {
-  title: 'SPACE9 Casino Promotions - Exclusive Bonuses & Offers',
+  title: 'SPACE9 Promotions | Exclusive Bonuses & Free Spins Australia',
   description:
-    'Discover exclusive promotions, welcome bonuses, free spins, and VIP rewards at SPACE9 Casino. Maximize your winnings with our amazing offers.',
-  keywords: ['casino promotions', 'welcome bonus', 'free spins', 'casino offers', 'VIP rewards'],
+    'Claim exclusive welcome bonuses, free spins, and VIP rewards at SPACE9 Casino. Maximize your bankroll with daily promotions for Australian players.',
+  keywords: [
+    'casino promotions Australia',
+    'welcome bonus pokies',
+    'free spins offer',
+    'VIP rewards',
+    'casino bonuses Australia',
+    'exclusive offers',
+    'daily promotions',
+    'free spins no deposit',
+  ],
   openGraph: {
-    title: 'SPACE9 Casino Promotions - Exclusive Bonuses & Offers',
-    description: 'Exclusive promotions and bonuses for SPACE9 Casino players.',
+    title: 'SPACE9 Promotions | Exclusive Bonuses & Free Spins',
+    description:
+      'Claim amazing bonuses and free spins at SPACE9. Maximize your gaming experience with our latest promotions.',
     url: 'https://space9au.net/promotions',
     type: 'website',
   },
