@@ -1,13 +1,7 @@
 'use client';
 
-import { Toaster as SonnerToaster } from '@/components/ui/sonner';
+import { Toaster as SonnerToaster } from 'sonner';
 
 export function Toaster() {
-  return <SonnerToaster />;
+  return <SonnerToaster position="top-center" richColors theme="system" closeButton />;
 }
-
-function Sonner() {
-  return <div id="sonner-container" role="region" aria-label="Notifications" data-sonner-toaster />;
-}
-
-export default Toaster;
