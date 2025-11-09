@@ -22,9 +22,9 @@ export default function CertificationsSection() {
   ];
 
   return (
-    <section className="py-16 bg-slate-900 text-white">
+    <section className="py-16 bg-gray-50">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
           Certifications & Security
         </h2>
         
@@ -32,43 +32,43 @@ export default function CertificationsSection() {
           {certifications.map((cert, idx) => {
             const Icon = cert.icon;
             return (
-              <div key={idx} className="p-6 rounded-lg bg-slate-800 border border-amber-500">
-                <Icon className="text-amber-400 mb-4" size={40} />
-                <h3 className="text-lg font-bold mb-2">{cert.title}</h3>
-                <p className="text-gray-300 text-sm">{cert.description}</p>
+              <div key={idx} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                <Icon className="text-amber-600 mb-4" size={40} />
+                <h3 className="text-xl font-bold text-slate-900 mb-2">{cert.title}</h3>
+                <p className="text-gray-600">{cert.description}</p>
               </div>
             );
           })}
         </div>
 
-        <div className="bg-slate-800 p-8 rounded-lg border border-amber-400">
-          <h3 className="text-2xl font-bold mb-6">Trust & Safety Standards</h3>
-          <div className="grid md:grid-cols-2 gap-4">
-            <div className="flex items-start gap-3">
-              <CheckCircle className="text-amber-400 flex-shrink-0 mt-1" size={20} />
-              <span className="text-gray-300">18+ Age Verification Required</span>
-            </div>
-            <div className="flex items-start gap-3">
-              <CheckCircle className="text-amber-400 flex-shrink-0 mt-1" size={20} />
-              <span className="text-gray-300">Responsible Gaming Tools Available</span>
-            </div>
-            <div className="flex items-start gap-3">
-              <CheckCircle className="text-amber-400 flex-shrink-0 mt-1" size={20} />
-              <span className="text-gray-300">Regular Security Audits</span>
-            </div>
-            <div className="flex items-start gap-3">
-              <CheckCircle className="text-amber-400 flex-shrink-0 mt-1" size={20} />
-              <span className="text-gray-300">Player Funds Protection</span>
-            </div>
-            <div className="flex items-start gap-3">
-              <CheckCircle className="text-amber-400 flex-shrink-0 mt-1" size={20} />
-              <span className="text-gray-300">Fair Game Certification</span>
-            </div>
-            <div className="flex items-start gap-3">
-              <CheckCircle className="text-amber-400 flex-shrink-0 mt-1" size={20} />
-              <span className="text-gray-300">24/7 Customer Support</span>
-            </div>
-          </div>
+        <div className="bg-white p-8 rounded-lg border-2 border-amber-200">
+          <h3 className="text-2xl font-bold text-slate-900 mb-4">Trust & Safety Standards</h3>
+          <ul className="grid md:grid-cols-2 gap-4 text-gray-700">
+            <li className="flex items-start gap-3">
+              <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={20} />
+              <span>18+ Age Verification Required</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={20} />
+              <span>Responsible Gaming Tools Available</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={20} />
+              <span>Regular Security Audits</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={20} />
+              <span>Player Funds Protection</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={20} />
+              <span>Fair Game Certification</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={20} />
+              <span>24/7 Customer Support</span>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
