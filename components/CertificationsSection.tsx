@@ -22,28 +22,28 @@ export default function CertificationsSection() {
   ];
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16 bg-gradient-to-b from-blue-900 to-slate-900 text-white">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
           Certifications & Security
         </h2>
-        
+
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           {certifications.map((cert, idx) => {
             const Icon = cert.icon;
             return (
-              <div key={idx} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
-                <Icon className="text-amber-600 mb-4" size={40} />
-                <h3 className="text-xl font-bold text-slate-900 mb-2">{cert.title}</h3>
-                <p className="text-gray-600">{cert.description}</p>
+              <div key={idx} className="bg-slate-800 bg-opacity-50 p-6 rounded-lg shadow-md hover:shadow-lg transition border border-amber-500 border-opacity-30">
+                <Icon className="text-amber-400 mb-4" size={40} />
+                <h3 className="text-xl font-bold text-white mb-2">{cert.title}</h3>
+                <p className="text-gray-300">{cert.description}</p>
               </div>
             );
           })}
         </div>
 
-        <div className="bg-white p-8 rounded-lg border-2 border-amber-200">
-          <h3 className="text-2xl font-bold text-slate-900 mb-4">Trust & Safety Standards</h3>
-          <ul className="grid md:grid-cols-2 gap-4 text-gray-700">
+        <div className="bg-slate-800 bg-opacity-50 p-8 rounded-lg border-2 border-amber-400 border-opacity-50">
+          <h3 className="text-2xl font-bold text-white mb-4">Trust & Safety Standards</h3>
+          <ul className="grid md:grid-cols-2 gap-4 text-gray-200">
             <li className="flex items-start gap-3">
               <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={20} />
               <span>18+ Age Verification Required</span>
