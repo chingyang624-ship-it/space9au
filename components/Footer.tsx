@@ -109,14 +109,38 @@ export default function Footer() {
             </a>
           </div>
 
+          <div className="flex flex-wrap justify-center gap-4 mb-6 text-sm">
+            <a href="/faq" className="text-gray-400 hover:text-amber-500 transition-colors">
+              FAQ
+            </a>
+            <a href="/compliance" className="text-gray-400 hover:text-amber-500 transition-colors">
+              Compliance
+            </a>
+            <a href="/about" className="text-gray-400 hover:text-amber-500 transition-colors">
+              About Us
+            </a>
+            <a href="/blog" className="text-gray-400 hover:text-amber-500 transition-colors">
+              Blog
+            </a>
+          </div>
+
           <p className="text-gray-500 text-sm">
             COPYRIGHT © SPACE9 Casino. All rights reserved. Responsible Gaming.
           </p>
 
-          <p className="text-gray-600 text-xs mt-4">
-            SPACE9 Casino is licensed and regulated. Players must be 18+ to participate. Please
-            gamble responsibly.
-          </p>
+          <div className="text-gray-600 text-xs mt-4 space-y-2">
+            <p>
+              ⚠️ Players must be 18+ years old to access this site. SPACE9 is committed to responsible gambling.
+            </p>
+            <p>
+              🆘 Need help? Call Gambler's Help: <span className="font-semibold">1800 858 858</span>
+            </p>
+            <p>
+              <a href="https://www.betstop.com.au" target="_blank" rel="noopener noreferrer" className="underline hover:text-amber-500">
+                Register with BetStop
+              </a> for national self-exclusion.
+            </p>
+          </div>
         </div>
       </div>
     </footer>
