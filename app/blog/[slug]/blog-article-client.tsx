@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import RelatedGuides from '@/components/RelatedGuides';
 
 interface BlogArticleClientProps {
   slug: string;
@@ -149,6 +150,7 @@ export default function BlogArticleClient({ slug }: BlogArticleClientProps) {
         </div>
       </article>
 
+      <RelatedGuides currentPage={`/blog/${slug}`} />
       <Footer />
     </div>
   );
