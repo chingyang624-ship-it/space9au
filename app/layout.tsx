@@ -94,7 +94,36 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               name: 'SPACE9 Casino',
               url: 'https://space9au.net',
               logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc0a592f10b9e4c43978276155259ccc9',
+              description: "Australia's trusted online casino and pokies guide with expert strategies, game reviews, and responsible gaming resources.",
               sameAs: ['https://space9au.com'],
+              contactPoint: {
+                '@type': 'ContactPoint',
+                contactType: 'Customer Support',
+                telephone: '+61-1300-SPACE9',
+                email: 'support@space9.com',
+                availableLanguage: ['en-AU'],
+                areaServed: 'AU',
+              },
+              areaServed: 'AU',
+              operatingCountry: 'AU',
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'WebSite',
+              url: 'https://space9au.net',
+              potentialAction: {
+                '@type': 'SearchAction',
+                target: {
+                  '@type': 'EntryPoint',
+                  urlTemplate: 'https://space9au.net/?q={search_term_string}',
+                },
+                'query-input': 'required name=search_term_string',
+              },
             }),
           }}
         />
