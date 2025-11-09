@@ -2,6 +2,7 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import RelatedGuides from '@/components/RelatedGuides';
 
 export default function LegalCasinosClient() {
   return (
@@ -217,6 +218,7 @@ export default function LegalCasinosClient() {
           </section>
         </article>
       </main>
+      <RelatedGuides currentPage="/guides/choose-legal-online-casinos" />
       <Footer />
     </div>
   );
