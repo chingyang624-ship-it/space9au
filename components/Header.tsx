@@ -24,7 +24,12 @@ export default function Header() {
       }}>
         <div className="mx-auto px-4 py-4" style={{ maxWidth: '100%' }}>
           <div className="flex items-center justify-between">
-            <div className="flex-shrink-0">
+            <div className="flex items-center gap-3 flex-shrink-0">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7e2ceb637c4e4d53a72de087e37d94cf"
+                alt="Logo"
+                style={{ height: '40px', width: 'auto' }}
+              />
               <Link href="/">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc0a592f10b9e4c43978276155259ccc9"
