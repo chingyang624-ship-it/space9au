@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     'best paying pokies',
     'low volatility pokies',
   ],
+  canonical: 'https://space9au.net/guides/high-rtp-pokies',
   openGraph: {
     title: 'High RTP Pokies Guide | Best Payout Slots',
     description: 'Find the highest RTP pokies and learn strategies to maximize your winnings.',
