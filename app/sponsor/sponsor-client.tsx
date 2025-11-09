@@ -1,9 +1,13 @@
 'use client';
 
+import { useState } from 'react';
+import { X } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export default function SponsorClient() {
+  const [showBannerModal, setShowBannerModal] = useState(true);
+
   const tournaments = [
     {
       title: 'Topuria',
@@ -31,29 +35,56 @@ export default function SponsorClient() {
     <div className="min-h-screen bg-white">
       <Header />
 
-      {/* Brand Ambassador Section */}
-      <section className="bg-gradient-to-b from-slate-900 to-blue-900 text-white py-16 md:py-24">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-5xl md:text-6xl font-bold mb-6">ILIA TOPURIA</h2>
-              <p className="text-xl text-amber-400 mb-4">SPACE9 Brand Ambassador 2023/24</p>
-              <p className="text-gray-300 text-lg leading-relaxed">
-                ILIA TOPURIA IS A GEORGIAN AND SPANISH PROFESSIONAL MIXED MARTIAL ARTIST. HE CURRENTLY
-                COMPETES IN THE FEATHERWEIGHT DIVISION IN THE ULTIMATE FIGHTING CHAMPIONSHIP, WHERE HE
-                IS THE CURRENT UFC FEATHERWEIGHT CHAMPION.
-              </p>
-            </div>
-            <div>
+      {/* Brand Ambassador Modal Banner */}
+      {showBannerModal && (
+        <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 p-4">
+          <div className="bg-slate-900 rounded-lg max-w-4xl w-full max-h-96 flex overflow-hidden relative">
+            {/* Close Button */}
+            <button
+              onClick={() => setShowBannerModal(false)}
+              className="absolute top-4 right-4 z-10 text-white hover:text-gray-300 transition-colors bg-black/40 p-2 rounded-full"
+            >
+              <X size={24} />
+            </button>
+
+            {/* Left Image Section */}
+            <div className="hidden md:flex w-1/3 bg-black">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F47b974d627d040ceb1812c1a024d4cee"
                 alt="Ilia Topuria"
-                className="w-full rounded-lg shadow-2xl"
+                className="w-full h-full object-cover"
               />
+            </div>
+
+            {/* Right Content Section */}
+            <div className="flex-1 p-8 md:p-10 flex flex-col justify-center">
+              <div className="flex items-center gap-3 mb-4">
+                <svg
+                  className="w-8 h-8"
+                  viewBox="0 0 100 100"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="50" cy="50" r="45" stroke="#f59e0b" strokeWidth="2" />
+                  <text x="50" y="55" textAnchor="middle" fill="#f59e0b" fontSize="20" fontWeight="bold">
+                    9
+                  </text>
+                </svg>
+                <span className="text-amber-500 font-bold text-sm">SPACE9</span>
+              </div>
+
+              <h2 className="text-4xl md:text-5xl font-bold text-white mb-2">ILIA TOPURIA</h2>
+              <p className="text-amber-400 font-bold text-lg mb-4">SPACE9 Brand Ambassador 2023/24</p>
+
+              <p className="text-gray-300 text-sm md:text-base leading-relaxed">
+                ILIA TOPURIA IS A GEORGIAN AND SPANISH PROFESSIONAL MIXED MARTIAL ARTIST. HE CURRENTLY
+                COMPETES IN THE FEATHERWEIGHT DIVISION IN THE ULTIMATE FIGHTING CHAMPIONSHIP, WHERE HE IS
+                THE CURRENT UFC FEATHERWEIGHT CHAMPION.
+              </p>
             </div>
           </div>
         </div>
-      </section>
+      )}
 
       {/* Tournament Cards Section */}
       <section className="bg-white py-16 md:py-24">
