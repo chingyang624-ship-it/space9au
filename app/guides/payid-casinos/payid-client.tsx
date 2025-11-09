@@ -2,6 +2,7 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import RelatedGuides from '@/components/RelatedGuides';
 
 export default function PayIDClient() {
   return (
@@ -222,6 +223,7 @@ export default function PayIDClient() {
           </section>
         </article>
       </main>
+      <RelatedGuides currentPage="/guides/payid-casinos" />
       <Footer />
     </div>
   );
