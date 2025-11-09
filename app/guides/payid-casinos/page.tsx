@@ -15,7 +15,9 @@ export const metadata: Metadata = {
     'PayID Osko',
     'real time payments Australia',
   ],
-  canonical: 'https://space9au.net/guides/payid-casinos',
+  alternates: {
+    canonical: 'https://space9au.net/guides/payid-casinos',
+  },
   openGraph: {
     title: 'PayID Online Casinos | Fast Deposits & Withdrawals',
     description: 'Use PayID for instant, secure casino deposits and withdrawals in Australia.',
