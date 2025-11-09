@@ -15,6 +15,60 @@ export default function HomeClient() {
       <GameTabs />
       <ContentSection />
 
+      {/* Why Choose SPACE9 Section */}
+      <section className="bg-white py-16 md:py-24 border-t border-gray-200">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 text-center">
+            Why Choose SPACE9?
+          </h2>
+          <p className="text-gray-700 text-center mb-12 text-lg max-w-3xl mx-auto">
+            Australia's trusted casino guide with expert strategies, comprehensive game reviews, and 24/7 support for responsible gaming
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="bg-amber-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <span className="text-3xl">🎯</span>
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-2">Expert Guides</h3>
+              <p className="text-gray-700">
+                Comprehensive guides written by industry experts to help you master winning strategies
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="bg-amber-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <span className="text-3xl">🔒</span>
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-2">Responsible Gaming</h3>
+              <p className="text-gray-700">
+                Licensed and regulated platform with tools and resources for safe and responsible play
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="bg-amber-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <span className="text-3xl">⚡</span>
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-2">24/7 Support</h3>
+              <p className="text-gray-700">
+                Round-the-clock customer support ready to help with any questions or concerns
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="bg-amber-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <span className="text-3xl">🏆</span>
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-2">Top Providers</h3>
+              <p className="text-gray-700">
+                Games from leading software providers including Pragmatic Play, JILI, and more
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Guides & Tips Section */}
       <section className="bg-gradient-to-b from-slate-100 to-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4">
