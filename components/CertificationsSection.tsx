@@ -45,27 +45,27 @@ export default function CertificationsSection() {
           <h3 className="text-2xl font-bold text-white mb-4">Trust & Safety Standards</h3>
           <ul className="grid md:grid-cols-2 gap-4 text-gray-200">
             <li className="flex items-start gap-3">
-              <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={20} />
+              <CheckCircle className="text-amber-400 flex-shrink-0 mt-1" size={20} />
               <span>18+ Age Verification Required</span>
             </li>
             <li className="flex items-start gap-3">
-              <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={20} />
+              <CheckCircle className="text-amber-400 flex-shrink-0 mt-1" size={20} />
               <span>Responsible Gaming Tools Available</span>
             </li>
             <li className="flex items-start gap-3">
-              <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={20} />
+              <CheckCircle className="text-amber-400 flex-shrink-0 mt-1" size={20} />
               <span>Regular Security Audits</span>
             </li>
             <li className="flex items-start gap-3">
-              <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={20} />
+              <CheckCircle className="text-amber-400 flex-shrink-0 mt-1" size={20} />
               <span>Player Funds Protection</span>
             </li>
             <li className="flex items-start gap-3">
-              <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={20} />
+              <CheckCircle className="text-amber-400 flex-shrink-0 mt-1" size={20} />
               <span>Fair Game Certification</span>
             </li>
             <li className="flex items-start gap-3">
-              <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={20} />
+              <CheckCircle className="text-amber-400 flex-shrink-0 mt-1" size={20} />
               <span>24/7 Customer Support</span>
             </li>
           </ul>
