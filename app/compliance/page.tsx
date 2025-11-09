@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     'Gambler\'s Help',
     'self-exclusion',
   ],
+  canonical: 'https://space9au.net/compliance',
   openGraph: {
     title: 'Compliance & Responsible Gaming | SPACE9',
     description:
