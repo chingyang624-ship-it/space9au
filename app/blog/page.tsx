@@ -16,7 +16,9 @@ export const metadata: Metadata = {
     'online gaming tips',
     'casino blog Australia',
   ],
-  canonical: 'https://space9au.net/blog',
+  alternates: {
+    canonical: 'https://space9au.net/blog',
+  },
   openGraph: {
     title: 'SPACE9 Blog | Expert Pokies & Casino Strategies',
     description:
