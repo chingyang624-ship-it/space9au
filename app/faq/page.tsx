@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     'online gaming help',
     'casino customer support',
   ],
+  canonical: 'https://space9au.net/faq',
   openGraph: {
     title: 'FAQ | Online Pokies & Casino Questions Answered',
     description: 'Get answers to frequently asked questions about online gaming in Australia.',
