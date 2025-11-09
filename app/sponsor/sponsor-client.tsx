@@ -113,6 +113,24 @@ export default function SponsorClient() {
         </div>
       </section>
 
+      {/* Additional Banner Section */}
+      <section className="bg-white py-8">
+        <div className="max-w-6xl mx-auto px-4">
+          <a
+            href="https://space9au.com/RFGOOGLESEO99"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:scale-105"
+          >
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff5c4840c2bca43879e5b2534839c2b60"
+              alt="SPACE9 Sponsor Banner"
+              className="w-full h-auto"
+            />
+          </a>
+        </div>
+      </section>
+
       {/* Tournaments Section */}
       <section className="bg-gradient-to-b from-slate-900 to-blue-900 text-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4">
