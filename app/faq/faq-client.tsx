@@ -175,15 +175,14 @@ export default function FAQClient() {
         {faqs.map((section, idx) => (
           <section key={idx} className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-6">{section.category}</h2>
-            <Accordion type="single" collapsible className="space-y-4">
+            <Accordion className="space-y-4">
               {section.items.map((item, itemIdx) => (
-                <AccordionItem key={itemIdx} value={`${idx}-${itemIdx}`}>
-                  <AccordionTrigger className="text-left hover:text-amber-700">
-                    <span className="font-semibold">{item.q}</span>
-                  </AccordionTrigger>
-                  <AccordionContent className="text-gray-700">
-                    {item.a}
-                  </AccordionContent>
+                <AccordionItem
+                  key={itemIdx}
+                  value={`${idx}-${itemIdx}`}
+                  trigger={<span className="font-semibold">{item.q}</span>}
+                >
+                  <div className="text-gray-700">{item.a}</div>
                 </AccordionItem>
               ))}
             </Accordion>
