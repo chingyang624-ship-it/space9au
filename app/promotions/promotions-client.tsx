@@ -6,25 +6,67 @@ import Footer from '@/components/Footer';
 export default function PromotionsClient() {
   const promotions = [
     {
-      title: 'MULTI-DEPOSIT BONUS',
-      subtitle: 'MAXIMISE YOUR DAY',
-      description: 'MULTIPLE DEPOSITS, MULTIPLE WINS!',
+      title: 'AUSSIE FORTUNE CLUB',
+      subtitle: 'EXCLUSIVE REWARDS',
+      description: 'FOR TRUE AUSSIE LEGENDS',
       image:
-        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fda2cfd54c2514c3fa17c5f89c1c3f27d',
+        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fb3214ec6a58347149763d0fc5f3f28a3',
+    },
+    {
+      title: 'VIP UPGRADE BONUS',
+      subtitle: 'AUD',
+      description: 'DAILY PROGRAM CHECK-IN / DAILY REWARDS',
+      image:
+        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F371707c1bcaa4027bb5158d8dcdc3097',
+    },
+    {
+      title: 'VIP LOYALTY BONUS',
+      subtitle: 'AUD',
+      description: 'LOYAL CUSTOMES WITH GENEROUS REWARD',
+      image:
+        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Faa5db6e9a81c47d8b493ba3971cac7b1',
     },
     {
       title: 'ELITE WEEKLY GIFT',
-      subtitle: 'WEEKLY GIFT IS FOR',
+      subtitle: 'WEEKLY GIFTS FOR',
       description: 'PLAYERS WHO PLAY LIKE CHAMPIONS',
       image:
-        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7a9f9f1c2b4d6e8f9a0b1c2d3e4f5a6b',
+        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F216c4075b0f44ceb839ab3a27c813205',
     },
     {
-      title: 'WELCOME BONUS',
-      subtitle: '60%',
-      description: 'START YOUR WINNING TODAY',
+      title: 'REFERRAL BONUS',
+      subtitle: 'AUD 30',
+      description: 'EARN BONUSES EFFORTLESSLY ONCE YOUR REFERRALS REACH DEPOSIT TARGETS',
       image:
-        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F8b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e',
+        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F58b1c025fd3844508cf6419af66a9864',
+    },
+    {
+      title: 'DAILY REBATE',
+      subtitle: '6%',
+      description: 'PLAY MORE, EARN MORE 6%',
+      image:
+        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc542fef11c74444c96e30c345567d946',
+    },
+    {
+      title: 'AUSSIE PRIME BONUS',
+      subtitle: 'PLAY SMART',
+      description: 'WIN PRIME',
+      image:
+        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fbb7963dcc2774955ab01b43efc8ae25f',
+    },
+    {
+      title: 'ELITE SLOT RUSH',
+      subtitle: 'RUSH IN',
+      description: 'SPIN HARD, WIN BIG!',
+      image:
+        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F45d02a1217ae4d7492e60556cd3e73d0',
+    },
+    {
+      title: 'SOCIAL BOOST BONUS',
+      subtitle: 'SHARE, EARN',
+      description: 'BOOST YOUR REWARDS',
+      image:
+        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fea46eff7993e43c0836c49a7d5fc2eaf',
     },
   ];
 
