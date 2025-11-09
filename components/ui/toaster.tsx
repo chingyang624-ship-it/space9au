@@ -1,9 +1,9 @@
 'use client';
 
-import { Toaster } from '@/components/ui/sonner';
+import { Toaster as SonnerToaster } from '@/components/ui/sonner';
 
 export function Toaster() {
-  return <Sonner />;
+  return <SonnerToaster />;
 }
 
 function Sonner() {
