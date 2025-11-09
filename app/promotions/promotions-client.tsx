@@ -4,83 +4,181 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export default function PromotionsClient() {
+  const promotions = [
+    {
+      title: 'MULTI-DEPOSIT BONUS',
+      subtitle: 'MAXIMISE YOUR DAY',
+      description: 'MULTIPLE DEPOSITS, MULTIPLE WINS!',
+      image:
+        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fda2cfd54c2514c3fa17c5f89c1c3f27d',
+    },
+    {
+      title: 'ELITE WEEKLY GIFT',
+      subtitle: 'WEEKLY GIFT IS FOR',
+      description: 'PLAYERS WHO PLAY LIKE CHAMPIONS',
+      image:
+        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7a9f9f1c2b4d6e8f9a0b1c2d3e4f5a6b',
+    },
+    {
+      title: 'WELCOME BONUS',
+      subtitle: '60%',
+      description: 'START YOUR WINNING TODAY',
+      image:
+        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F8b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e',
+    },
+  ];
+
   return (
     <div className="min-h-screen bg-white">
       <Header />
 
-      {/* Hero Section */}
+      {/* Hero Section with Space Theme */}
       <section
-        className="relative border-b-2 border-amber-500 min-h-96"
+        className="relative min-h-96"
         style={{
           backgroundImage:
             'url(https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F155e921679114563800a312c4a646dd3)',
           backgroundRepeat: 'no-repeat',
-          backgroundPosition: '50% 50%',
+          backgroundPosition: 'center',
           backgroundSize: 'cover',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'flex-start',
         }}
       >
-        <div className="max-w-4xl mx-auto px-4 py-16">
-          <h1 className="text-5xl md:text-6xl font-bold text-amber-500 mb-6">
-            Exclusive Promotions & Bonuses
-          </h1>
-          <p className="text-xl text-gray-300">
-            Maximize your wins with SPACE9's incredible promotional offers and bonus packages
-          </p>
+        <div
+          className="absolute inset-0"
+          style={{
+            background: 'linear-gradient(135deg, rgba(76, 29, 149, 0.6) 0%, rgba(37, 99, 235, 0.6) 100%)',
+          }}
+        ></div>
+      </section>
+
+      {/* Promotional Banners Section */}
+      <section className="bg-gradient-to-b from-blue-950 to-slate-900 py-16">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {promotions.map((promo, idx) => (
+              <div
+                key={idx}
+                className="relative overflow-hidden rounded-lg shadow-xl hover:shadow-2xl transition-shadow"
+              >
+                <img
+                  src={promo.image}
+                  alt={promo.title}
+                  className="w-full h-auto object-cover"
+                />
+                <div
+                  className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-center p-6"
+                  style={{ pointerEvents: 'none' }}
+                >
+                  <h3 className="text-white font-bold text-xl md:text-2xl mb-2">{promo.title}</h3>
+                  {promo.subtitle && (
+                    <p className="text-amber-400 font-bold text-lg">{promo.subtitle}</p>
+                  )}
+                  {promo.description && (
+                    <p className="text-white text-sm mt-2">{promo.description}</p>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* Main Content */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-slate-900 to-blue-900 text-white">
+      {/* Main Content Section */}
+      <section className="bg-white py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-8">Welcome to SPACE9 Promotions</h2>
+          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+            SPACE9 Australia Casino | SPACE9 Payid Pokies | SPACE9 Casino Free Credit
+          </h1>
 
-          <div className="space-y-8">
-            <div className="bg-slate-800 p-8 rounded-lg border-l-4 border-amber-500">
-              <h3 className="text-2xl font-bold mb-4">Welcome Bonus Package</h3>
-              <p className="text-gray-200">
-                New players receive an exclusive welcome bonus featuring free spins and bonus
-                credits to get started on the right foot.
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-amber-600">
+            Unlock Exciting Rewards with SPACE9 Promotions
+          </h2>
+
+          <div className="space-y-8 text-gray-700">
+            <div>
+              <h3 className="text-2xl font-bold text-slate-900 mb-3">
+                SPACE9 E Wallet Casino Bonuses:
+              </h3>
+              <p>
+                Enjoy exclusive bonuses and rewards while using the convenient and secure SPACE9 E
+                Wallet Casino. Our e-wallet promotions include welcome bonuses, reload bonuses among
+                others that give more value to your deposits so that you can maximize use of your gaming
+                potential.
               </p>
             </div>
 
-            <div className="bg-slate-800 p-8 rounded-lg border-l-4 border-amber-500">
-              <h3 className="text-2xl font-bold mb-4">Free Spins Promotions</h3>
-              <p className="text-gray-200">
-                Enjoy regular free spins on selected pokies and games. These bonus spins give you
-                more chances to win without risking your own money.
+            <div>
+              <h3 className="text-2xl font-bold text-slate-900 mb-3">
+                SPACE9 Casino Free Credit Offers:
+              </h3>
+              <p>
+                Increase your bankroll with SPACE9 Casino free credit promotions. Whether you are a new
+                player looking to begin your journey on SPACE9 or an existing player who wants extra
+                privilege, our free credit offers provide you with additional money for exploring various
+                games or offer plus increasing winning opportunities.
               </p>
             </div>
 
-            <div className="bg-slate-800 p-8 rounded-lg border-l-4 border-amber-500">
-              <h3 className="text-2xl font-bold mb-4">VIP Rewards Program</h3>
-              <p className="text-gray-200">
-                Our VIP members enjoy exclusive benefits including higher bonuses, faster
-                withdrawals, and personalized customer support.
+            <div>
+              <h3 className="text-2xl font-bold text-slate-900 mb-3">
+                Exclusive Promotions for Players:
+              </h3>
+              <p>
+                You being one of the valued SPACE9 community members means you will enjoy an array of
+                exclusive promotions, which are designed specifically for you as a gamer. Our players'
+                satisfaction is our priority thus we have weekly cashback rewards and VIP loyalty programs
+                among others.
               </p>
             </div>
 
-            <div className="bg-slate-800 p-8 rounded-lg border-l-4 border-amber-500">
-              <h3 className="text-2xl font-bold mb-4">Live Casino Bonuses</h3>
-              <p className="text-gray-200">
-                Special bonuses designed specifically for live dealer games including blackjack,
-                baccarat, and roulette.
-              </p>
+            <div className="bg-slate-50 p-8 rounded-lg border-l-4 border-amber-500">
+              <h3 className="text-2xl font-bold text-slate-900 mb-6">
+                Benefits of SPACE9 Casino Free Credit
+              </h3>
+              <ol className="space-y-4 list-decimal list-inside">
+                <li>
+                  <strong>Extended Playtime:</strong> SPACE9 Casino Free Credit gives more funds that can
+                  be used to prolong your stay at the casino.
+                </li>
+                <li>
+                  <strong>Risk-Free Gaming:</strong> With SPACE9 Casino Free Credit; there is no need to
+                  worry about losing money while trying new games or betting strategies. Since it's bonus
+                  credits gambling, feel free to try different gaming styles and patterns.
+                </li>
+                <li>
+                  <strong>Win Real Money:</strong> These are not just free credits; they offer you the
+                  chance to win real money. Whether one withdraw them or continues using them on their
+                  favorite games, all winnings obtained from playing with free credits can be taken out in
+                  form of real cash.
+                </li>
+                <li>
+                  <strong>Loyalty Rewards:</strong> As part of some promotions or loyalty programs, SPACE9
+                  sometimes offers free credits to regular players. It is our way to thank you for staying
+                  with us and also bring more benefits to you as a valued member of the SPACE9 community.
+                </li>
+                <li>
+                  <strong>Increased Bankroll Boost:</strong> Long-term as a new or a pro can greatly benefit
+                  from having a SPACE9 Casino Free Credit on your bankroll. Start your gambling journey with
+                  a higher balance or top up during promotional periods for maximum gambling fun.
+                </li>
+                <li>
+                  <strong>Get Exclusive Promotions:</strong> Occasionally, some SPACE9 promos may be
+                  reserved for those using the free credit option. When you take advantage of them, they
+                  offer perks and rewards that are not available to other players.
+                </li>
+              </ol>
             </div>
-          </div>
 
-          <div className="mt-12 text-center">
-            <a
-              href="https://space9au.com/RFGOOGLESEO99"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-4 px-12 rounded-lg transition-colors text-lg"
-            >
-              Claim Your Bonus Now
-            </a>
+            <div className="text-center">
+              <a
+                href="https://space9au.com/RFGOOGLESEO99"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-4 px-12 rounded-lg transition-colors text-lg"
+              >
+                Claim Your Bonus Now
+              </a>
+            </div>
           </div>
         </div>
       </section>
