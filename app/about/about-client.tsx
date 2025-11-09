@@ -126,6 +126,10 @@ export default function AboutClient() {
         </div>
       </section>
 
+      <CertificationsSection />
+
+      <TestimonialSection />
+
       {/* Connect With Us Section */}
       <section className="bg-gradient-to-b from-amber-600 to-amber-500 py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
