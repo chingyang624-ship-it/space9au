@@ -108,7 +108,7 @@ export default function PromotionsClient() {
                 <img
                   src={promo.image}
                   alt={promo.title}
-                  className="w-full h-56 object-cover"
+                  className="w-full h-auto"
                   loading="lazy"
                 />
               </a>
