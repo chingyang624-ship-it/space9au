@@ -2,6 +2,7 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import RelatedGuides from '@/components/RelatedGuides';
 
 export default function ResponsibleGamingClient() {
   return (
@@ -219,6 +220,7 @@ export default function ResponsibleGamingClient() {
           </section>
         </article>
       </main>
+      <RelatedGuides currentPage="/guides/responsible-gaming" />
       <Footer />
     </div>
   );
