@@ -96,29 +96,29 @@ export default function AboutClient() {
           <div className="space-y-6 text-base md:text-lg leading-relaxed text-gray-200">
             <p>
               As far as SPACE9, we take your privacy and safety into consideration. We make use of
-              the most up-to-date encryption technology in order to ensure that your private information
-              as well as your transactions remain safe so that you can only concentrate on playing the
-              games without enjoyment. Furthermore, we always see to it that fair and responsible gaming
-              environment is maintained.
+              the most up-to-date encryption technology in order to ensure that your private
+              information as well as your transactions remain safe so that you can only concentrate
+              on playing the games without enjoyment. Furthermore, we always see to it that fair and
+              responsible gaming environment is maintained.
             </p>
 
             <p>
-              Besides being dedicated to security, SPACE9 also has a rewarding loyalty program. In other
-              words, every time you place a bet on any game you earn points which can be converted into
-              cash prizes, free spins or any kind of thrilling incentives. The more you play, the more
-              you get!
+              Besides being dedicated to security, SPACE9 also has a rewarding loyalty program. In
+              other words, every time you place a bet on any game you earn points which can be
+              converted into cash prizes, free spins or any kind of thrilling incentives. The more
+              you play, the more you get!
             </p>
 
             <p>
-              Besides, we also have a number of bonuses and promotions designed to help you increase your
-              bankroll. Do not forget to claim your welcome bonus when you sign up for a new account and
-              keep checking our promotions page for latest offers.
+              Besides, we also have a number of bonuses and promotions designed to help you increase
+              your bankroll. Do not forget to claim your welcome bonus when you sign up for a new
+              account and keep checking our promotions page for latest offers.
             </p>
 
             <p>
-              So, why wait? Join SPACE9 today and embark on an exciting online casino journey! With a wide
-              range of games to choose from, excellent services, and unparalleled incentives, SPACE9 is
-              the all-round casino that with your needs.
+              So, why wait? Join SPACE9 today and embark on an exciting online casino journey! With
+              a wide range of games to choose from, excellent services, and unparalleled incentives,
+              SPACE9 is the all-round casino that with your needs.
             </p>
           </div>
         </div>

@@ -88,7 +88,8 @@ export default function PromotionsClient() {
         <div
           className="absolute inset-0"
           style={{
-            background: 'linear-gradient(135deg, rgba(76, 29, 149, 0.6) 0%, rgba(37, 99, 235, 0.6) 100%)',
+            background:
+              'linear-gradient(135deg, rgba(76, 29, 149, 0.6) 0%, rgba(37, 99, 235, 0.6) 100%)',
           }}
         ></div>
       </section>
@@ -105,12 +106,7 @@ export default function PromotionsClient() {
                 rel="noopener noreferrer"
                 className="overflow-hidden rounded-lg shadow-xl hover:shadow-2xl transition-all hover:scale-105 cursor-pointer block"
               >
-                <img
-                  src={promo.image}
-                  alt={promo.title}
-                  className="w-full h-auto"
-                  loading="lazy"
-                />
+                <img src={promo.image} alt={promo.title} className="w-full h-auto" loading="lazy" />
               </a>
             ))}
           </div>
@@ -136,8 +132,8 @@ export default function PromotionsClient() {
               <p>
                 Enjoy exclusive bonuses and rewards while using the convenient and secure SPACE9 E
                 Wallet Casino. Our e-wallet promotions include welcome bonuses, reload bonuses among
-                others that give more value to your deposits so that you can maximize use of your gaming
-                potential.
+                others that give more value to your deposits so that you can maximize use of your
+                gaming potential.
               </p>
             </div>
 
@@ -146,10 +142,10 @@ export default function PromotionsClient() {
                 SPACE9 Casino Free Credit Offers:
               </h3>
               <p>
-                Increase your bankroll with SPACE9 Casino free credit promotions. Whether you are a new
-                player looking to begin your journey on SPACE9 or an existing player who wants extra
-                privilege, our free credit offers provide you with additional money for exploring various
-                games or offer plus increasing winning opportunities.
+                Increase your bankroll with SPACE9 Casino free credit promotions. Whether you are a
+                new player looking to begin your journey on SPACE9 or an existing player who wants
+                extra privilege, our free credit offers provide you with additional money for
+                exploring various games or offer plus increasing winning opportunities.
               </p>
             </div>
 
@@ -158,10 +154,10 @@ export default function PromotionsClient() {
                 Exclusive Promotions for Players:
               </h3>
               <p>
-                You being one of the valued SPACE9 community members means you will enjoy an array of
-                exclusive promotions, which are designed specifically for you as a gamer. Our players'
-                satisfaction is our priority thus we have weekly cashback rewards and VIP loyalty programs
-                among others.
+                You being one of the valued SPACE9 community members means you will enjoy an array
+                of exclusive promotions, which are designed specifically for you as a gamer. Our
+                players' satisfaction is our priority thus we have weekly cashback rewards and VIP
+                loyalty programs among others.
               </p>
             </div>
 
@@ -171,34 +167,37 @@ export default function PromotionsClient() {
               </h3>
               <ol className="space-y-4 list-decimal list-inside">
                 <li>
-                  <strong>Extended Playtime:</strong> SPACE9 Casino Free Credit gives more funds that can
-                  be used to prolong your stay at the casino.
+                  <strong>Extended Playtime:</strong> SPACE9 Casino Free Credit gives more funds
+                  that can be used to prolong your stay at the casino.
                 </li>
                 <li>
-                  <strong>Risk-Free Gaming:</strong> With SPACE9 Casino Free Credit; there is no need to
-                  worry about losing money while trying new games or betting strategies. Since it's bonus
-                  credits gambling, feel free to try different gaming styles and patterns.
+                  <strong>Risk-Free Gaming:</strong> With SPACE9 Casino Free Credit; there is no
+                  need to worry about losing money while trying new games or betting strategies.
+                  Since it's bonus credits gambling, feel free to try different gaming styles and
+                  patterns.
                 </li>
                 <li>
-                  <strong>Win Real Money:</strong> These are not just free credits; they offer you the
-                  chance to win real money. Whether one withdraw them or continues using them on their
-                  favorite games, all winnings obtained from playing with free credits can be taken out in
-                  form of real cash.
+                  <strong>Win Real Money:</strong> These are not just free credits; they offer you
+                  the chance to win real money. Whether one withdraw them or continues using them on
+                  their favorite games, all winnings obtained from playing with free credits can be
+                  taken out in form of real cash.
                 </li>
                 <li>
-                  <strong>Loyalty Rewards:</strong> As part of some promotions or loyalty programs, SPACE9
-                  sometimes offers free credits to regular players. It is our way to thank you for staying
-                  with us and also bring more benefits to you as a valued member of the SPACE9 community.
+                  <strong>Loyalty Rewards:</strong> As part of some promotions or loyalty programs,
+                  SPACE9 sometimes offers free credits to regular players. It is our way to thank
+                  you for staying with us and also bring more benefits to you as a valued member of
+                  the SPACE9 community.
                 </li>
                 <li>
-                  <strong>Increased Bankroll Boost:</strong> Long-term as a new or a pro can greatly benefit
-                  from having a SPACE9 Casino Free Credit on your bankroll. Start your gambling journey with
-                  a higher balance or top up during promotional periods for maximum gambling fun.
+                  <strong>Increased Bankroll Boost:</strong> Long-term as a new or a pro can greatly
+                  benefit from having a SPACE9 Casino Free Credit on your bankroll. Start your
+                  gambling journey with a higher balance or top up during promotional periods for
+                  maximum gambling fun.
                 </li>
                 <li>
                   <strong>Get Exclusive Promotions:</strong> Occasionally, some SPACE9 promos may be
-                  reserved for those using the free credit option. When you take advantage of them, they
-                  offer perks and rewards that are not available to other players.
+                  reserved for those using the free credit option. When you take advantage of them,
+                  they offer perks and rewards that are not available to other players.
                 </li>
               </ol>
             </div>
