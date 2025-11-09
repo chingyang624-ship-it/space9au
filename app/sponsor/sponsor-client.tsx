@@ -12,22 +12,22 @@ export default function SponsorClient() {
     {
       title: 'Topuria',
       image:
-        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F47b974d627d040ceb1812c1a024d4cee',
+        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F26df65479942406f94b8a75350cbdb26',
     },
     {
-      title: 'Champion 1',
+      title: 'Makhachev',
       image:
-        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F47b974d627d040ceb1812c1a024d4cee',
+        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F3147b3ecb8fb4cff886e544270ac4dd9',
     },
     {
       title: 'Champion 2',
       image:
-        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F47b974d627d040ceb1812c1a024d4cee',
+        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F4ceee36db5374a2ab77964315f1c827c',
     },
     {
-      title: 'RANDHEW',
+      title: 'Elite Fighter',
       image:
-        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F47b974d627d040ceb1812c1a024d4cee',
+        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F41e6324722dc43d78452532a48486c0e',
     },
   ];
 
@@ -99,7 +99,7 @@ export default function SponsorClient() {
                 <img
                   src={tournament.image}
                   alt={tournament.title}
-                  className="w-full h-48 object-cover"
+                  className="w-full h-auto"
                 />
                 <div className="bg-slate-50 p-4 text-center">
                   <h3 className="font-bold text-slate-900">{tournament.title}</h3>
