@@ -96,11 +96,13 @@ export default function SponsorClient() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
             {tournaments.map((tournament, idx) => (
               <div key={idx} className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
-                <img
-                  src={tournament.image}
-                  alt={tournament.title}
-                  className="w-full h-auto"
-                />
+                <div className="w-full h-80 overflow-hidden">
+                  <img
+                    src={tournament.image}
+                    alt={tournament.title}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
                 <div className="bg-slate-50 p-4 text-center">
                   <h3 className="font-bold text-slate-900">{tournament.title}</h3>
                 </div>
