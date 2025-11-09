@@ -3,6 +3,7 @@
 ## 已实现的优化
 
 ### 1. 独立的 Meta 信息
+
 每个页面现在都有独立的 `<title>` 和 `<meta description>`：
 
 - **首页** (`/`)
@@ -26,30 +27,36 @@
   - Description: "Discover SPACE9 Casino's official sponsors and partners..."
 
 ### 2. 结构化数据 (Schema.org)
+
 使用 JSON-LD 为每个页面添加了结构化数据：
+
 - WebSite schema for 首页
 - Organization schema for 关于页面
 - GamingWebsite schema for BK8 页面
 - WebPage schema for 其他页面
 
 ### 3. 性能优化
+
 - ✅ 所有图片已添加 `loading="lazy"` 属性
 - ✅ 为 Hero 部分的图片添加了懒加载
 - ✅ GameTabs 中的提供商图片优化
 
 ### 4. 移动优化
+
 - ✅ 添加了 `viewport-fit=cover` 用于 notch 手机支持
 - ✅ 添加了 `mobile-web-app-capable` meta 标签
 - ✅ 添加了 `apple-mobile-web-app-status-bar-style`
 - ✅ 添加了 `theme-color` meta 标签
 
 ### 5. Sitemap 和 Robots
+
 - ✅ 创建了 `sitemap.xml` 包含所有主要页面
 - ✅ 更新了 `robots.txt` 指向 sitemap
 
 ## 技术实现
 
 ### useSEO Hook
+
 在 `client/hooks/useSEO.ts` 中创建了一个可复用的 SEO hook：
 
 ```typescript
@@ -62,11 +69,12 @@ useSEO({
     '@context': 'https://schema.org',
     '@type': 'WebPage',
     // ... 结构化数据
-  }
+  },
 });
 ```
 
 ### 如何在新页面中使用
+
 1. 在页面组件中导入 hook
 2. 在 `useEffect` 中调用 `useSEO()`
 3. 提供页面特定的 meta 信息
@@ -108,12 +116,14 @@ useEffect(() => {
 ## 验证 SEO
 
 ### 检查清单
+
 - [ ] 使用 Google Search Console 验证网站
 - [ ] 检查 Google PageSpeed Insights
 - [ ] 使用 Schema.org 验证工具检查结构化数据
 - [ ] 在 Mobile-Friendly Test 中测试
 
 ### 工具
+
 - Google Search Console: https://search.google.com/search-console
 - PageSpeed Insights: https://pagespeed.web.dev
 - Schema.org Validator: https://validator.schema.org
