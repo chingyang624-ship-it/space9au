@@ -59,17 +59,11 @@ export default function SponsorClient() {
             {/* Right Content Section */}
             <div className="flex-1 p-8 md:p-12 flex flex-col justify-center">
               <div className="flex items-center gap-3 mb-4">
-                <svg
-                  className="w-8 h-8"
-                  viewBox="0 0 100 100"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="50" cy="50" r="45" stroke="#f59e0b" strokeWidth="2" />
-                  <text x="50" y="55" textAnchor="middle" fill="#f59e0b" fontSize="20" fontWeight="bold">
-                    9
-                  </text>
-                </svg>
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7e2ceb637c4e4d53a72de087e37d94cf"
+                  alt="Logo"
+                  style={{ height: '32px', width: 'auto' }}
+                />
                 <span className="text-amber-500 font-bold text-sm">SPACE9</span>
               </div>
 
