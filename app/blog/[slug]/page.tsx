@@ -78,7 +78,9 @@ export async function generateMetadata({ params }: BlogArticleProps): Promise<Me
     title: article.title,
     description: article.description,
     keywords: [article.category, 'casino', 'strategy', 'gaming', 'SPACE9'],
-    canonical: `https://space9au.net/blog/${params.slug}`,
+    alternates: {
+      canonical: `https://space9au.net/blog/${params.slug}`,
+    },
     openGraph: {
       title: article.title,
       description: article.description,
