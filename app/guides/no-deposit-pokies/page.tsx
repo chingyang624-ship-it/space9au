@@ -15,7 +15,9 @@ export const metadata: Metadata = {
     'no deposit casino',
     'free online pokies',
   ],
-  canonical: 'https://space9au.net/guides/no-deposit-pokies',
+  alternates: {
+    canonical: 'https://space9au.net/guides/no-deposit-pokies',
+  },
   openGraph: {
     title: 'No Deposit Pokies Australia | Free Spins & Bonuses',
     description: 'Find the best no deposit pokie offers and free spins in Australia.',
