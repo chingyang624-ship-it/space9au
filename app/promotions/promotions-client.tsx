@@ -96,30 +96,22 @@ export default function PromotionsClient() {
       {/* Promotional Banners Section */}
       <section className="bg-gradient-to-b from-blue-950 to-slate-900 py-16">
         <div className="max-w-6xl mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {promotions.map((promo, idx) => (
-              <div
+              <a
                 key={idx}
-                className="relative overflow-hidden rounded-lg shadow-xl hover:shadow-2xl transition-shadow"
+                href="https://space9au.com/RFGOOGLESEO99"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="overflow-hidden rounded-lg shadow-xl hover:shadow-2xl transition-all hover:scale-105 cursor-pointer block"
               >
                 <img
                   src={promo.image}
                   alt={promo.title}
-                  className="w-full h-auto object-cover"
+                  className="w-full h-56 object-cover"
+                  loading="lazy"
                 />
-                <div
-                  className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-center p-6"
-                  style={{ pointerEvents: 'none' }}
-                >
-                  <h3 className="text-white font-bold text-xl md:text-2xl mb-2">{promo.title}</h3>
-                  {promo.subtitle && (
-                    <p className="text-amber-400 font-bold text-lg">{promo.subtitle}</p>
-                  )}
-                  {promo.description && (
-                    <p className="text-white text-sm mt-2">{promo.description}</p>
-                  )}
-                </div>
-              </div>
+              </a>
             ))}
           </div>
         </div>
