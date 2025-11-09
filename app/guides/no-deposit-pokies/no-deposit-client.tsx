@@ -2,6 +2,7 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import RelatedGuides from '@/components/RelatedGuides';
 
 export default function NoDepositClient() {
   return (
@@ -186,6 +187,7 @@ export default function NoDepositClient() {
           </section>
         </article>
       </main>
+      <RelatedGuides currentPage="/guides/no-deposit-pokies" />
       <Footer />
     </div>
   );
