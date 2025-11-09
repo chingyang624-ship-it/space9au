@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     'responsible gaming',
     'casino licensing Australia',
   ],
+  canonical: 'https://space9au.net/about',
   openGraph: {
     title: "About SPACE9 | Australia's Trusted Casino Guide",
     description:
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
     url: 'https://space9au.net/about',
     type: 'website',
   },
-};
+}
 
 export default function AboutUs() {
   return <AboutClient />;
