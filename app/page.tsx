@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     'online gambling Australia',
     'responsible gaming',
   ],
+  canonical: 'https://space9au.net',
   openGraph: {
     title: "SPACE9: Australia's Best Online Pokies & Casino Guide",
     description:
