@@ -3,6 +3,8 @@
 import { Facebook, Send } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import CertificationsSection from '@/components/CertificationsSection';
+import TestimonialSection from '@/components/TestimonialSection';
 
 export default function AboutClient() {
   return (
