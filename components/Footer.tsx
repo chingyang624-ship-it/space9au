@@ -122,6 +122,12 @@ export default function Footer() {
             <a href="/blog" className="text-gray-400 hover:text-amber-500 transition-colors">
               Blog
             </a>
+            <a href="/guides/responsible-gaming" className="text-gray-400 hover:text-amber-500 transition-colors">
+              Responsible Gaming
+            </a>
+            <a href="/guides/self-exclusion-guide" className="text-gray-400 hover:text-amber-500 transition-colors">
+              Self-Exclusion
+            </a>
           </div>
 
           <p className="text-gray-500 text-sm">
