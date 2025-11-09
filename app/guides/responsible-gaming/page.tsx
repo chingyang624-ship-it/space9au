@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     'play it safe',
     'gambling addiction recovery',
   ],
+  canonical: 'https://space9au.net/guides/responsible-gaming',
   openGraph: {
     title: 'Responsible Gaming Guide | Safe Online Gambling',
     description: 'Learn how to gamble safely and recognize problem gambling signs.',
