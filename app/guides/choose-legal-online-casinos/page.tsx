@@ -15,7 +15,9 @@ export const metadata: Metadata = {
     'casino regulation',
     'protected casino gaming',
   ],
-  canonical: 'https://space9au.net/guides/choose-legal-online-casinos',
+  alternates: {
+    canonical: 'https://space9au.net/guides/choose-legal-online-casinos',
+  },
   openGraph: {
     title: 'How to Choose a Safe, Legal Online Casino in Australia',
     description: 'Guide to finding licensed, regulated casinos that protect Australian players.',
