@@ -14,7 +14,9 @@ export const metadata: Metadata = {
     'responsible gaming',
     'casino licensing Australia',
   ],
-  canonical: 'https://space9au.net/about',
+  alternates: {
+    canonical: 'https://space9au.net/about',
+  },
   openGraph: {
     title: "About SPACE9 | Australia's Trusted Casino Guide",
     description:
