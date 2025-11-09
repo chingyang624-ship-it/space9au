@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     'Gambler\'s Help',
     'gambling addiction tools',
   ],
+  canonical: 'https://space9au.net/guides/self-exclusion-guide',
   openGraph: {
     title: 'Self-Exclusion Guide | BetStop & Gambling Breaks',
     description: 'Learn how to self-exclude from gambling in Australia using BetStop and other tools.',
