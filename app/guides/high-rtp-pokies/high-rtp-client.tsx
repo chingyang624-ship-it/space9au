@@ -2,6 +2,7 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import RelatedGuides from '@/components/RelatedGuides';
 
 export default function HighRTPClient() {
   return (
