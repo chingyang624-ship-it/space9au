@@ -58,6 +58,12 @@ const blogArticles: Record<string, any> = {
   },
 };
 
+export async function generateStaticParams() {
+  return Object.keys(blogArticles).map((slug) => ({
+    slug,
+  }));
+}
+
 export async function generateMetadata({ params }: BlogArticleProps): Promise<Metadata> {
   const article = blogArticles[params.slug];
 
