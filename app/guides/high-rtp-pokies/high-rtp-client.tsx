@@ -201,6 +201,7 @@ export default function HighRTPClient() {
           </section>
         </article>
       </main>
+      <RelatedGuides currentPage="/guides/high-rtp-pokies" />
       <Footer />
     </div>
   );
