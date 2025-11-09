@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
   reactStrictMode: true,
   swcMinify: true,
   images: {
@@ -10,7 +9,6 @@ const nextConfig = {
         hostname: 'cdn.builder.io',
       },
     ],
-    unoptimized: true,
   },
   redirects: async () => {
     return [];
