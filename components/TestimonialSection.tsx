@@ -33,44 +33,40 @@ export default function TestimonialSection() {
   return (
     <section className="py-16 bg-slate-800 text-white">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
           What Australian Players Say
         </h2>
-        <p className="text-gray-300 text-center mb-12 max-w-2xl mx-auto">
+        <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
           Real feedback from our community of responsible gaming enthusiasts across Australia.
         </p>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-6 mb-12">
           {testimonials.map((testimonial, idx) => (
-            <div key={idx} className="bg-slate-700 p-6 rounded-lg border border-amber-500 border-opacity-30 hover:border-opacity-50 transition">
-              <div className="flex items-center gap-2 mb-3">
+            <div key={idx} className="p-6 rounded-lg bg-slate-700 border border-amber-500">
+              <div className="flex items-center gap-1 mb-3">
                 {[...Array(testimonial.rating)].map((_, i) => (
-                  <Star key={i} size={18} className="fill-amber-400 text-amber-400" />
+                  <Star key={i} size={16} className="fill-amber-400 text-amber-400" />
                 ))}
               </div>
-              <p className="text-gray-200 mb-4 italic">"{testimonial.text}"</p>
-              <div className="flex justify-between items-center">
-                <div>
-                  <p className="font-bold text-white">{testimonial.name}</p>
-                  <p className="text-sm text-gray-400">{testimonial.location}, Australia</p>
-                </div>
+              <p className="text-gray-200 mb-4">"{testimonial.text}"</p>
+              <div>
+                <p className="font-bold text-white text-sm">{testimonial.name}</p>
+                <p className="text-gray-400 text-xs">{testimonial.location}, Australia</p>
               </div>
             </div>
           ))}
         </div>
 
-        <div className="mt-12 bg-gradient-to-r from-amber-600 to-amber-700 p-8 rounded-lg border-2 border-amber-400 text-center">
-          <p className="text-white mb-3">
-            <strong>Join thousands of satisfied Australian players</strong>
-          </p>
+        <div className="bg-amber-600 p-8 rounded-lg text-center">
+          <h3 className="text-2xl font-bold text-white mb-2">Join Thousands of Happy Players</h3>
           <p className="text-amber-50 mb-6">
             Experience secure, fair gaming with expert guides and responsible gaming tools.
           </p>
           <a
             href="/promotions"
-            className="inline-block bg-white text-amber-700 font-bold px-8 py-3 rounded-lg hover:bg-amber-50 transition"
+            className="inline-block bg-white text-amber-700 font-bold px-8 py-2 rounded hover:bg-gray-100 transition"
           >
-            Claim Your Welcome Bonus Today
+            Claim Welcome Bonus
           </a>
         </div>
       </div>
