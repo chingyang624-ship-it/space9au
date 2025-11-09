@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     'gaming industry partnership',
     'cooperative marketing',
   ],
+  canonical: 'https://space9au.net/sponsor',
   openGraph: {
     title: 'Partner With SPACE9 | Sponsorship Opportunities',
     description:
