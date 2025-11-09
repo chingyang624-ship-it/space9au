@@ -2,15 +2,33 @@ import type { Metadata } from 'next';
 import HomeClient from './home-client';
 
 export const metadata: Metadata = {
-  title: "SPACE9 Casino - Australia's #1 Online Pokies & Casino Games Guide",
+  title: "SPACE9: Australia's Best Online Pokies & Casino Guide",
   description:
-    'Master pokies & casino games with expert strategies. Learn winning tips, bankroll management, live dealer strategies & sports betting from SPACE9 Casino.',
-  keywords: ['space9 casino', 'pokies tips', 'casino strategies', 'online casino Australia'],
+    'Master online pokies, live casino games & sports betting with SPACE9. Expert strategies for Australian players including RTP guides, bankroll management & responsible gaming tips.',
+  keywords: [
+    'online pokies Australia',
+    'best online casino Australia',
+    'pokies tips and strategies',
+    'live casino games',
+    'Australian casino guide',
+    'RTP pokies',
+    'bankroll management',
+    'free spins strategy',
+    'online gambling Australia',
+    'responsible gaming',
+  ],
   openGraph: {
-    title: "SPACE9 Casino - Australia's #1 Online Pokies & Casino Games Guide",
-    description: 'Master pokies & casino games with expert strategies from SPACE9 Casino.',
+    title: "SPACE9: Australia's Best Online Pokies & Casino Guide",
+    description:
+      'Expert strategies for online pokies, live dealer games & sports betting. Trusted guide for Australian players.',
     url: 'https://space9au.net',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "SPACE9: Australia's Best Online Pokies & Casino Guide",
+    description:
+      'Master online pokies & casino games with expert strategies. Responsible gaming guide for Australia.',
   },
 };
 
