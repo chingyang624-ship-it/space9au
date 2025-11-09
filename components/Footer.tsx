@@ -134,17 +134,41 @@ export default function Footer() {
             COPYRIGHT © SPACE9 Casino. All rights reserved. Responsible Gaming.
           </p>
 
-          <div className="text-gray-600 text-xs mt-4 space-y-2">
+          <div className="text-gray-600 text-xs mt-6 space-y-3 bg-slate-800 p-6 rounded-lg border border-slate-700">
+            <p className="font-semibold text-amber-400 mb-2">🎮 Responsible Gaming & Support Resources</p>
+
             <p>
-              ⚠️ Players must be 18+ years old to access this site. SPACE9 is committed to responsible gambling.
+              ⚠️ <span className="text-gray-300">Players must be 18+ years old. SPACE9 is committed to responsible gambling.</span>
             </p>
-            <p>
-              🆘 Need help? Call Gambler's Help: <span className="font-semibold">1800 858 858</span>
-            </p>
-            <p>
-              <a href="https://www.betstop.com.au" target="_blank" rel="noopener noreferrer" className="underline hover:text-amber-500">
-                Register with BetStop
-              </a> for national self-exclusion.
+
+            <div className="border-t border-slate-600 pt-2">
+              <p className="text-gray-400 mb-1"><span className="font-semibold">Support Hotlines:</span></p>
+              <p>
+                🆘 <span className="font-semibold text-amber-300">Gambler's Help:</span>
+                <a href="tel:1800858858" className="text-amber-400 hover:text-amber-300"> 1800 858 858</a>
+              </p>
+            </div>
+
+            <div className="border-t border-slate-600 pt-2">
+              <p className="text-gray-400 mb-1"><span className="font-semibold">Self-Exclusion:</span></p>
+              <p>
+                <a href="https://www.betstop.com.au" target="_blank" rel="noopener noreferrer" className="text-amber-400 hover:text-amber-300 underline">
+                  BetStop - National Self-Exclusion Register
+                </a>
+              </p>
+            </div>
+
+            <div className="border-t border-slate-600 pt-2">
+              <p className="text-gray-400 mb-1"><span className="font-semibold">More Resources:</span></p>
+              <p>
+                <a href="https://www.victoriapoint.org.au" target="_blank" rel="noopener noreferrer" className="text-amber-400 hover:text-amber-300 underline">
+                  VictoriaPoint - Gambling Help
+                </a>
+              </p>
+            </div>
+
+            <p className="text-gray-500 text-xs border-t border-slate-600 pt-2">
+              💡 Gamble responsibly. Set limits. It's meant to be fun, not to make money.
             </p>
           </div>
         </div>
