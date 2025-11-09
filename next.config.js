@@ -12,9 +12,6 @@ const nextConfig = {
     ],
     unoptimized: true,
   },
-  redirects: async () => {
-    return [];
-  },
 };
 
 export default nextConfig;
