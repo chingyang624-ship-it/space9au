@@ -1,35 +1,15 @@
 [build]
-  command = "npm run build"
+  command = "npm run build:client"
   functions = "netlify/functions"
-  publish = ".next/standalone/public"
+  publish = "dist/spa"
+
 
 [functions]
-  external_node_modules = ["next"]
+  external_node_modules = ["express"]
   node_bundler = "esbuild"
-
+  
 [[redirects]]
+  force = true
   from = "/api/*"
-  to = "/.netlify/functions/api/:splat"
   status = 200
-
-# Catch all handler for Next.js
-[[redirects]]
-  from = "/*"
-  to = "/404"
-  status = 404
-
-# Cache assets with no-cache headers
-[[headers]]
-  for = "/*.js"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/api/*"
-  [headers.values]
-    Cache-Control = "no-cache, no-store, must-revalidate"
-
-[[headers]]
-  for = "/*.map"
-  [headers.values]
-    Cache-Control = "private, no-cache, no-store, must-revalidate"
+  to = "/.netlify/functions/api/:splat"
