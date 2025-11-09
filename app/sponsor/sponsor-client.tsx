@@ -50,7 +50,7 @@ export default function SponsorClient() {
             {/* Left Image Section */}
             <div className="hidden md:flex w-1/3 bg-black">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F47b974d627d040ceb1812c1a024d4cee"
+                src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fef7cc7dc95c34604bd20392e05fa6527"
                 alt="Ilia Topuria"
                 className="w-full h-full object-cover"
               />
