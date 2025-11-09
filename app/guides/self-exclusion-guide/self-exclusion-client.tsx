@@ -2,6 +2,7 @@
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import RelatedGuides from '@/components/RelatedGuides';
 
 export default function SelfExclusionClient() {
   return (
@@ -277,6 +278,7 @@ export default function SelfExclusionClient() {
           </section>
         </article>
       </main>
+      <RelatedGuides currentPage="/guides/self-exclusion-guide" />
       <Footer />
     </div>
   );
