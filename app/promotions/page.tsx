@@ -15,7 +15,9 @@ export const metadata: Metadata = {
     'daily promotions',
     'free spins no deposit',
   ],
-  canonical: 'https://space9au.net/promotions',
+  alternates: {
+    canonical: 'https://space9au.net/promotions',
+  },
   openGraph: {
     title: 'SPACE9 Promotions | Exclusive Bonuses & Free Spins',
     description:
