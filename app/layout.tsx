@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: 'SPACE9 Casino',
     images: [
       {
-        url: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2f967086f7e14485a125f30caf61f462?format=webp&width=1200',
+        url: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
         width: 1200,
         height: 630,
         alt: 'SPACE9 Casino',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     title: 'SPACE9 Casino',
     description: "Australia's trusted online casino",
     images: [
-      'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2f967086f7e14485a125f30caf61f462?format=webp&width=1200',
+      'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
     ],
   },
   robots: {
@@ -93,7 +93,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               '@type': 'Organization',
               name: 'SPACE9 Casino',
               url: 'https://space9au.net',
-              logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc0a592f10b9e4c43978276155259ccc9',
+              logo: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
               description:
                 "Australia's trusted online casino and pokies guide with expert strategies, game reviews, and responsible gaming resources.",
               sameAs: ['https://space9au.com'],
