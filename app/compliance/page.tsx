@@ -4,7 +4,7 @@ import ComplianceClient from './compliance-client';
 export const metadata: Metadata = {
   title: 'Compliance & Responsible Gaming | SPACE9 Casino Australia',
   description:
-    'Learn about SPACE9\'s commitment to responsible gaming, legal compliance, player protection, and industry regulations in Australia. Age verification and gambling support resources.',
+    "Learn about SPACE9's commitment to responsible gaming, legal compliance, player protection, and industry regulations in Australia. Age verification and gambling support resources.",
   keywords: [
     'responsible gaming Australia',
     'online casino compliance',
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     'problem gambling support',
     'player protection',
     'gambling licensing Australia',
-    'Gambler\'s Help',
+    "Gambler's Help",
     'self-exclusion',
   ],
   alternates: {
@@ -20,8 +20,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Compliance & Responsible Gaming | SPACE9',
-    description:
-      'SPACE9 commitment to responsible gaming, compliance, and player protection.',
+    description: 'SPACE9 commitment to responsible gaming, compliance, and player protection.',
     url: 'https://space9au.net/compliance',
     type: 'website',
     images: [

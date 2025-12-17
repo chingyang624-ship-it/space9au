@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     'problem gambling signs',
     'gambling addiction help',
     'self-exclusion Australia',
-    'Gambler\'s Help',
+    "Gambler's Help",
     'gambling limits',
     'play it safe',
     'gambling addiction recovery',

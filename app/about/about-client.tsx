@@ -15,16 +15,14 @@ export default function AboutClient() {
       <section
         className="relative bg-cover bg-center min-h-96"
         style={{
-          backgroundImage:
-            'url(https://static.gwvkyk.com/media/12a7014a98396747659d3.png)',
+          backgroundImage: 'url(https://static.gwvkyk.com/media/12a7014a98396747659d3.png)',
           backgroundAttachment: 'fixed',
         }}
       >
         <div
           className="absolute inset-0 bg-black/40"
           style={{
-            backgroundImage:
-              'url(https://static.gwvkyk.com/media/12a7014a98396747659d3.png)',
+            backgroundImage: 'url(https://static.gwvkyk.com/media/12a7014a98396747659d3.png)',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
             backgroundSize: 'cover',

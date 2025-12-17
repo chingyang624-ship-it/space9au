@@ -46,9 +46,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'SPACE9 Casino',
     description: "Australia's trusted online casino",
-    images: [
-      'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
-    ],
+    images: ['https://static.gwvkyk.com/media/12a7014a98396747659d3.png'],
   },
   robots: {
     index: true,

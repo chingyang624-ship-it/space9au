@@ -4,7 +4,7 @@ import SponsorClient from './sponsor-client';
 export const metadata: Metadata = {
   title: 'Partner With SPACE9 | Sponsorship & Gaming Partnerships',
   description:
-    'Join forces with SPACE9 - Australia\'s leading online casino guide. Explore brand partnerships, sponsorship deals, and collaborative opportunities for gaming businesses.',
+    "Join forces with SPACE9 - Australia's leading online casino guide. Explore brand partnerships, sponsorship deals, and collaborative opportunities for gaming businesses.",
   keywords: [
     'casino partnership Australia',
     'sponsorship opportunities',

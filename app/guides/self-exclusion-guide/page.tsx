@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     'take a gambling break',
     'exclude from casinos',
     'problem gambling help',
-    'Gambler\'s Help',
+    "Gambler's Help",
     'gambling addiction tools',
   ],
   alternates: {
@@ -20,7 +20,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Self-Exclusion Guide | BetStop & Gambling Breaks',
-    description: 'Learn how to self-exclude from gambling in Australia using BetStop and other tools.',
+    description:
+      'Learn how to self-exclude from gambling in Australia using BetStop and other tools.',
     url: 'https://space9au.net/guides/self-exclusion-guide',
     type: 'article',
     images: [

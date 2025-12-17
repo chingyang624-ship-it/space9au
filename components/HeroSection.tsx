@@ -5,8 +5,7 @@ export default function HeroSection() {
     <section
       className="relative py-12 md:py-20"
       style={{
-        backgroundImage:
-          'url(https://static.gwvkyk.com/media/12a7014a98396747659d3.png)',
+        backgroundImage: 'url(https://static.gwvkyk.com/media/12a7014a98396747659d3.png)',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
         backgroundSize: 'cover',

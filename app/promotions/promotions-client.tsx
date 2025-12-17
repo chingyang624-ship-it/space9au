@@ -9,64 +9,55 @@ export default function PromotionsClient() {
       title: 'AUSSIE FORTUNE CLUB',
       subtitle: 'EXCLUSIVE REWARDS',
       description: 'FOR TRUE AUSSIE LEGENDS',
-      image:
-        'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      image: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
     },
     {
       title: 'VIP UPGRADE BONUS',
       subtitle: 'AUD',
       description: 'DAILY PROGRAM CHECK-IN / DAILY REWARDS',
-      image:
-        'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      image: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
     },
     {
       title: 'VIP LOYALTY BONUS',
       subtitle: 'AUD',
       description: 'LOYAL CUSTOMES WITH GENEROUS REWARD',
-      image:
-        'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      image: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
     },
     {
       title: 'ELITE WEEKLY GIFT',
       subtitle: 'WEEKLY GIFTS FOR',
       description: 'PLAYERS WHO PLAY LIKE CHAMPIONS',
-      image:
-        'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      image: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
     },
     {
       title: 'REFERRAL BONUS',
       subtitle: 'AUD 30',
       description: 'EARN BONUSES EFFORTLESSLY ONCE YOUR REFERRALS REACH DEPOSIT TARGETS',
-      image:
-        'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      image: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
     },
     {
       title: 'DAILY REBATE',
       subtitle: '6%',
       description: 'PLAY MORE, EARN MORE 6%',
-      image:
-        'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      image: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
     },
     {
       title: 'AUSSIE PRIME BONUS',
       subtitle: 'PLAY SMART',
       description: 'WIN PRIME',
-      image:
-        'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      image: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
     },
     {
       title: 'ELITE SLOT RUSH',
       subtitle: 'RUSH IN',
       description: 'SPIN HARD, WIN BIG!',
-      image:
-        'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      image: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
     },
     {
       title: 'SOCIAL BOOST BONUS',
       subtitle: 'SHARE, EARN',
       description: 'BOOST YOUR REWARDS',
-      image:
-        'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      image: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
     },
   ];
 
@@ -78,8 +69,7 @@ export default function PromotionsClient() {
       <section
         className="relative min-h-96"
         style={{
-          backgroundImage:
-            'url(https://static.gwvkyk.com/media/12a7014a98396747659d3.png)',
+          backgroundImage: 'url(https://static.gwvkyk.com/media/12a7014a98396747659d3.png)',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
           backgroundSize: 'cover',

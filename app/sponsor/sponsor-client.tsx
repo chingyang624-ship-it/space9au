@@ -11,23 +11,19 @@ export default function SponsorClient() {
   const tournaments = [
     {
       title: 'Featherweight Champion',
-      image:
-        'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      image: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
     },
     {
       title: 'Lightweight Legend',
-      image:
-        'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      image: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
     },
     {
       title: 'Hall of Fame',
-      image:
-        'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      image: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
     },
     {
       title: 'Championship Contender',
-      image:
-        'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      image: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
     },
   ];
 

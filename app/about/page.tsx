@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import AboutClient from './about-client';
 
 export const metadata: Metadata = {
-  title: "About SPACE9 Casino | Trusted Australian Online Gaming Platform",
+  title: 'About SPACE9 Casino | Trusted Australian Online Gaming Platform',
   description:
-    'Learn about SPACE9 - Australia\'s trusted online casino guide with expert pokies strategies, live dealer games, PayID support, and responsible gaming commitment.',
+    "Learn about SPACE9 - Australia's trusted online casino guide with expert pokies strategies, live dealer games, PayID support, and responsible gaming commitment.",
   keywords: [
     'about SPACE9 casino',
     'online casino Australia trusted',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
       },
     ],
   },
-}
+};
 
 export default function AboutUs() {
   return <AboutClient />;
