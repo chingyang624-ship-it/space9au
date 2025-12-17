@@ -24,6 +24,14 @@ export const metadata: Metadata = {
     description: 'Find the highest RTP pokies and learn strategies to maximize your winnings.',
     url: 'https://space9au.net/guides/high-rtp-pokies',
     type: 'article',
+    images: [
+      {
+        url: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+        width: 1200,
+        height: 630,
+        alt: 'SPACE9 Casino',
+      },
+    ],
   },
 };
 

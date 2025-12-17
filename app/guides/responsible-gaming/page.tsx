@@ -24,6 +24,14 @@ export const metadata: Metadata = {
     description: 'Learn how to gamble safely and recognize problem gambling signs.',
     url: 'https://space9au.net/guides/responsible-gaming',
     type: 'article',
+    images: [
+      {
+        url: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+        width: 1200,
+        height: 630,
+        alt: 'SPACE9 Casino',
+      },
+    ],
   },
 };
 
