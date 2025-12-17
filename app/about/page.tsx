@@ -23,6 +23,14 @@ export const metadata: Metadata = {
       'Expert pokies strategies, live dealer guides, and responsible gaming for Australian players.',
     url: 'https://space9au.net/about',
     type: 'website',
+    images: [
+      {
+        url: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+        width: 1200,
+        height: 630,
+        alt: 'SPACE9 Casino',
+      },
+    ],
   },
 }
 
