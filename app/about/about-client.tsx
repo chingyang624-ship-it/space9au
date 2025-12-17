@@ -16,7 +16,7 @@ export default function AboutClient() {
         className="relative bg-cover bg-center min-h-96"
         style={{
           backgroundImage:
-            'url(https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6f5032b3a24942e29dbbb42dd41c50a6)',
+            'url(https://static.gwvkyk.com/media/12a7014a98396747659d3.png)',
           backgroundAttachment: 'fixed',
         }}
       >
@@ -24,7 +24,7 @@ export default function AboutClient() {
           className="absolute inset-0 bg-black/40"
           style={{
             backgroundImage:
-              'url(https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6f5032b3a24942e29dbbb42dd41c50a6?format=webp)',
+              'url(https://static.gwvkyk.com/media/12a7014a98396747659d3.png)',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
             backgroundSize: 'cover',

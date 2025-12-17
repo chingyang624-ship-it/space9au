@@ -12,22 +12,22 @@ export default function SponsorClient() {
     {
       title: 'Featherweight Champion',
       image:
-        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F26df65479942406f94b8a75350cbdb26',
+        'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
     },
     {
       title: 'Lightweight Legend',
       image:
-        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F3147b3ecb8fb4cff886e544270ac4dd9',
+        'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
     },
     {
       title: 'Hall of Fame',
       image:
-        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F4ceee36db5374a2ab77964315f1c827c',
+        'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
     },
     {
       title: 'Championship Contender',
       image:
-        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F41e6324722dc43d78452532a48486c0e',
+        'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
     },
   ];
 
@@ -50,7 +50,7 @@ export default function SponsorClient() {
             {/* Left Image Section */}
             <div className="hidden md:flex w-2/5 bg-black items-center justify-center">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fef7cc7dc95c34604bd20392e05fa6527"
+                src="https://static.gwvkyk.com/media/12a7014a98396747659d3.png"
                 alt="Ilia Topuria"
                 className="w-full h-full object-contain"
               />
@@ -60,7 +60,7 @@ export default function SponsorClient() {
             <div className="flex-1 p-8 md:p-12 flex flex-col justify-center">
               <div className="flex items-center gap-3 mb-4">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7e2ceb637c4e4d53a72de087e37d94cf"
+                  src="https://static.gwvkyk.com/media/12a7014a98396747659d3.png"
                   alt="Logo"
                   style={{ height: '32px', width: 'auto' }}
                 />
@@ -128,7 +128,7 @@ export default function SponsorClient() {
             className="block rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all hover:scale-105"
           >
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff5c4840c2bca43879e5b2534839c2b60"
+              src="https://static.gwvkyk.com/media/12a7014a98396747659d3.png"
               alt="SPACE9 Sponsor Banner"
               className="w-full h-auto"
             />
