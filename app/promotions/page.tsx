@@ -24,6 +24,14 @@ export const metadata: Metadata = {
       'Claim amazing bonuses and free spins at SPACE9. Maximize your gaming experience with our latest promotions.',
     url: 'https://space9au.net/promotions',
     type: 'website',
+    images: [
+      {
+        url: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+        width: 1200,
+        height: 630,
+        alt: 'SPACE9 Casino',
+      },
+    ],
   },
 };
 

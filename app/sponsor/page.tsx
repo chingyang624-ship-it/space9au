@@ -23,6 +23,14 @@ export const metadata: Metadata = {
       'Build your brand with SPACE9. Explore partnership and sponsorship opportunities in the gaming industry.',
     url: 'https://space9au.net/sponsor',
     type: 'website',
+    images: [
+      {
+        url: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+        width: 1200,
+        height: 630,
+        alt: 'SPACE9 Casino',
+      },
+    ],
   },
 };
 

@@ -25,6 +25,14 @@ export const metadata: Metadata = {
       'Comprehensive guides for improving your gaming skills and winning potential at online casinos.',
     url: 'https://space9au.net/blog',
     type: 'website',
+    images: [
+      {
+        url: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+        width: 1200,
+        height: 630,
+        alt: 'SPACE9 Casino',
+      },
+    ],
   },
 };
 
