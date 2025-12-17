@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           <div>
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F47b974d627d040ceb1812c1a024d4cee"
+              src="https://static.gwvkyk.com/media/12a7014a98396747659d3.png"
               alt="SPACE9"
               className="h-12 mb-4"
             />
@@ -26,7 +26,7 @@ export default function Footer() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="flex flex-col items-center p-3 bg-slate-700 rounded hover:bg-slate-600 transition-colors">
                   <img
-                    src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F03d729d9c0a3496da92a68527e678e08"
+                    src="https://static.gwvkyk.com/media/12a7014a98396747659d3.png"
                     alt="Visa"
                     className="h-8 mb-2"
                   />
@@ -35,7 +35,7 @@ export default function Footer() {
 
                 <div className="flex flex-col items-center p-3 bg-slate-700 rounded hover:bg-slate-600 transition-colors">
                   <img
-                    src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7f2bfd517d8f4e2e80d1fd76a6875843"
+                    src="https://static.gwvkyk.com/media/12a7014a98396747659d3.png"
                     alt="Mastercard"
                     className="h-8 mb-2"
                   />
@@ -49,7 +49,7 @@ export default function Footer() {
 
                 <div className="flex flex-col items-center p-3 bg-slate-700 rounded hover:bg-slate-600 transition-colors">
                   <img
-                    src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdb030dba93fe4f3c81143d911699409e"
+                    src="https://static.gwvkyk.com/media/12a7014a98396747659d3.png"
                     alt="Amopay"
                     style={{ height: '20px', width: '100px', margin: '11px 0 8px' }}
                   />
