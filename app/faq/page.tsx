@@ -23,6 +23,14 @@ export const metadata: Metadata = {
     description: 'Get answers to frequently asked questions about online gaming in Australia.',
     url: 'https://space9au.net/faq',
     type: 'website',
+    images: [
+      {
+        url: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+        width: 1200,
+        height: 630,
+        alt: 'SPACE9 Casino',
+      },
+    ],
   },
 };
 

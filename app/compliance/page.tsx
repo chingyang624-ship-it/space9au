@@ -24,6 +24,14 @@ export const metadata: Metadata = {
       'SPACE9 commitment to responsible gaming, compliance, and player protection.',
     url: 'https://space9au.net/compliance',
     type: 'website',
+    images: [
+      {
+        url: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+        width: 1200,
+        height: 630,
+        alt: 'SPACE9 Casino',
+      },
+    ],
   },
 };
 
