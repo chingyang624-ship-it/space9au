@@ -11,19 +11,23 @@ export default function SponsorClient() {
   const tournaments = [
     {
       title: 'Featherweight Champion',
-      image: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      image:
+        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F26df65479942406f94b8a75350cbdb26',
     },
     {
       title: 'Lightweight Legend',
-      image: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      image:
+        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F3147b3ecb8fb4cff886e544270ac4dd9',
     },
     {
       title: 'Hall of Fame',
-      image: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      image:
+        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F4ceee36db5374a2ab77964315f1c827c',
     },
     {
       title: 'Championship Contender',
-      image: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      image:
+        'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F41e6324722dc43d78452532a48486c0e',
     },
   ];
 
@@ -46,7 +50,7 @@ export default function SponsorClient() {
             {/* Left Image Section */}
             <div className="hidden md:flex w-2/5 bg-black items-center justify-center">
               <img
-                src="https://static.gwvkyk.com/media/12a7014a98396747659d3.png"
+                src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fef7cc7dc95c34604bd20392e05fa6527"
                 alt="Ilia Topuria"
                 className="w-full h-full object-contain"
               />
@@ -56,7 +60,7 @@ export default function SponsorClient() {
             <div className="flex-1 p-8 md:p-12 flex flex-col justify-center">
               <div className="flex items-center gap-3 mb-4">
                 <img
-                  src="https://static.gwvkyk.com/media/12a7014a98396747659d3.png"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7e2ceb637c4e4d53a72de087e37d94cf"
                   alt="Logo"
                   style={{ height: '32px', width: 'auto' }}
                 />

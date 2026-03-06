@@ -6,55 +6,55 @@ const games = {
   SLOT: [
     {
       name: 'Pragmatic Play',
-      img: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd88d036a7edd4ba18e44373fab8d52a0',
     },
     {
       name: 'JILI',
-      img: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F53d139d6af9f445e9da33f0e70f0fe45',
     },
     {
       name: 'BNG',
-      img: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F26ecf2e5fdbc4502a9bfeb7ccca6408e',
     },
     {
       name: '3oaks',
-      img: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F14a8643d1b804b77a9dd20cb24f0d4f9',
     },
     {
       name: 'Imperium Games',
-      img: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc69c2fbd014940f1993cd48bc87a7f7f',
     },
     {
       name: 'Vpower',
-      img: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F59cda8595ac74f058c1c556476a5be37',
     },
   ],
   LIVE: [
     {
       name: 'Sexy Baccarat',
-      img: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fe97cc2a1c15844659ed5f21bc7b20515',
     },
     {
       name: 'Pragmatic Live',
-      img: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F378dcae426164267ac7af7609fb72ae2',
     },
     {
       name: 'CT855',
-      img: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F4b7dcd62237b4259aae1e13d84873c97',
     },
     {
       name: 'Playtech',
-      img: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fef96abd17d28422cb2777df40b596834',
     },
     {
       name: 'Allbet',
-      img: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F96121ce0b00c45aa87e16df7fa59d4ca',
     },
   ],
   SPORTS: [
     {
       name: 'SBObet',
-      img: 'https://static.gwvkyk.com/media/12a7014a98396747659d3.png',
+      img: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fab108bf7341b4fb0a60af4d351638af8',
     },
   ],
 };
