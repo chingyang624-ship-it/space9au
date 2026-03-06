@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { Facebook, Send } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -41,86 +42,115 @@ export default function AboutClient() {
 
           <div className="space-y-6 text-base md:text-lg leading-relaxed text-gray-200">
             <p>
-              SPACE9 is Australia's number one online casino of 2024! We've ascended the charts by
+              SPACE9 is Australia's number one online casino of 2026! We've ascended the charts by
               constantly delivering secure and enjoyable gaming that is out of this world. Whether
-              you are a seasoned cosmopolitan or a novice spaceman taking her tentative steps into
-              space, SPACE9 has it all for everyone who would like to have unforgettable galactic
-              trip at any time.
+              you are a seasoned player or a novice gambler taking your first steps into online
+              gaming, SPACE9 has it all for everyone who would like to have an unforgettable gaming
+              experience at any time.
+            </p>
+
+            <p className="bg-white/10 p-6 rounded-lg border-l-4 border-amber-400 mt-8">
+              <strong className="text-amber-300 block mb-3">Our Mission: Redefining Australian Online Gaming</strong>
+              Founded by a team of iGaming industry experts, SPACE9 was built with one clear mission:
+              to provide Australian players with a transparent, highly secure, and exceptionally
+              entertaining online casino experience. We know what matters most to you—lightning-fast
+              PayID withdrawals, high RTP (Return to Player) pokies, and 24/7 localized support. We
+              aren't just another casino; we are your trusted partner in responsible and premium gaming.
             </p>
 
             <p>
-              At SPACE9, we are proud to offer an extensive range of the most thrilling casinos
-              games in Milky Way galaxy. Get involved with pokies that have stunning graphics and
-              exciting features, find your way to the riches through blackjack or go on a journey
-              full of possibilities from our wide selection of table games. We cater for every kind
-              of gambler and with our ever increasing library there is always another planet to
-              discover.
+              At SPACE9, we are proud to offer an extensive range of the most thrilling online casino
+              games tailored for Australian players. Experience the best online pokies in Australia
+              featuring stunning graphics, high volatility, and massive progressive jackpots. Find
+              your way to the riches through{' '}
+              <Link href="/guides/choose-legal-online-casinos" className="text-amber-300 hover:text-amber-200 underline">
+                blackjack
+              </Link>{' '}
+              or explore our wide selection of{' '}
+              <Link href="/guides/high-rtp-pokies" className="text-amber-300 hover:text-amber-200 underline">
+                table games
+              </Link>
+              . We cater for every kind of gambler and with our ever-increasing library there is
+              always a new game to discover.
             </p>
 
             <p>
-              But SPACE9 isn't all about the games (although they are pretty darn stellar). We also
+              But SPACE9 isn't all about the games (although they are pretty outstanding). We also
               strive to offer excellent customer service and unbeatable rewards. Our customer care
-              team is always ready to help you with any inquiries you may have while our loyal
-              program provides lavish prizes for your dedication. So, come on, space captain; get
-              ready to take off with SPACE9!
+              team is always ready to help you with any inquiries you may have, with 24/7 support
+              for Australian players. Our loyalty program provides generous rewards and exclusive
+              perks for your continued patronage. So, join thousands of satisfied Australian players
+              and experience premium online gaming at SPACE9!
             </p>
           </div>
 
           <h2 className="text-4xl md:text-5xl font-bold mt-12 mb-6">
-            Explore A Universe Of Casino Games
+            Explore Our Complete Selection Of Online Casino Games
           </h2>
 
           <div className="space-y-6 text-base md:text-lg leading-relaxed text-gray-200">
             <p>
-              Ready yourself for a cosmic journey in the world of online casino games on SPACE9! Our
-              list of pokies stretches over light years, with classic fruits and feature-filled
-              video slots that will make you spin with exhilaration.
+              Discover the world's best online pokies and casino games on SPACE9! Our library
+              features hundreds of high RTP pokies, with classic 3-reel slots and feature-filled
+              video pokies that deliver thrilling gameplay and big wins.
             </p>
 
             <p>
-              Try your luck at blackjack or test yourself at roulette; all against dealers. We also
-              provide several other specialty versions including baccarat and poker for players
-              seeking something different. In any case, SPACE9 has a game that will definitely
-              skyrocket your chances of winning.
+              Try your luck at live blackjack, roulette, and baccarat against professional dealers.
+              We also provide specialty games including poker for competitive gaming experiences.
+              Whether you're looking for{' '}
+              <Link href="/guides/no-deposit-pokies" className="text-amber-300 hover:text-amber-200 underline">
+                no deposit pokies
+              </Link>{' '}
+              or high-stakes games, SPACE9 has the perfect match for your gaming style.
             </p>
 
             <p>
-              Our sports betting section is equally impressive, allowing players to bet on a range
-              of sporting activities. Whether it's your passion for football, tennis, basketball or
-              any other sport under the sun, SPACE9 has got the perfect betting options for you.
+              Our sports betting section is equally comprehensive, allowing Australian players to
+              bet on football, tennis, basketball, and a wide range of sporting events. With real-time
+              odds and instant PayID payouts, SPACE9 is your complete platform for online gaming and
+              sports betting in Australia.
             </p>
           </div>
 
           <h2 className="text-4xl md:text-5xl font-bold mt-12 mb-6">
-            Your One-Stop Shop For Secure And Rewarding Game play
+            Security, Fair Gaming & Lightning-Fast Australian Payouts
           </h2>
 
           <div className="space-y-6 text-base md:text-lg leading-relaxed text-gray-200">
             <p>
-              As far as SPACE9, we take your privacy and safety into consideration. We make use of
-              the most up-to-date encryption technology in order to ensure that your private
-              information as well as your transactions remain safe so that you can only concentrate
-              on playing the games without enjoyment. Furthermore, we always see to it that fair and
-              responsible gaming environment is maintained.
+              At SPACE9, we take your privacy and safety very seriously. We use industry-leading
+              SSL encryption technology to protect your personal data and financial transactions. All
+              payments are processed securely with PCI-DSS compliance. We also maintain the highest
+              standards of fair gaming with certified Random Number Generators (RNG) audited by
+              independent third parties, ensuring every spin is truly random and fair.
             </p>
 
             <p>
-              Besides being dedicated to security, SPACE9 also has a rewarding loyalty program. In
-              other words, every time you place a bet on any game you earn points which can be
-              converted into cash prizes, free spins or any kind of thrilling incentives. The more
-              you play, the more you get!
+              Beyond security, SPACE9 is committed to responsible gaming. We provide self-exclusion
+              tools, betting limits, and access to professional help resources. Our loyalty program
+              rewards your continued play with points convertible to cash prizes, free spins, and
+              exclusive promotions. Join our VIP program to unlock additional benefits and personalized
+              support.
             </p>
 
             <p>
-              Besides, we also have a number of bonuses and promotions designed to help you increase
-              your bankroll. Do not forget to claim your welcome bonus when you sign up for a new
-              account and keep checking our promotions page for latest offers.
+              SPACE9 offers competitive bonuses and promotions designed to maximize your bankroll.
+              Claim your welcome bonus for new players, enjoy daily{' '}
+              <Link href="/guides/free-spins-strategy" className="text-amber-300 hover:text-amber-200 underline">
+                free spins
+              </Link>{' '}
+              on selected pokies, and take advantage of our weekly cashback rewards. Check our{' '}
+              <Link href="/promotions" className="text-amber-300 hover:text-amber-200 underline">
+                promotions page
+              </Link>{' '}
+              regularly for the latest PayID bonus offers and seasonal promotions tailored for Australian players.
             </p>
 
             <p>
-              So, why wait? Join SPACE9 today and embark on an exciting online casino journey! With
-              a wide range of games to choose from, excellent services, and unparalleled incentives,
-              SPACE9 is the all-round casino that with your needs.
+              Join thousands of Australian players who trust SPACE9 for fast PayID withdrawals,
+              fair gaming, and premium customer support. Experience the difference of a truly
+              player-focused online casino platform. Sign up today and start your winning journey!
             </p>
           </div>
         </div>
