@@ -4,7 +4,10 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import GameTabs from '@/components/GameTabs';
+import BonusSection from '@/components/BonusSection';
 import ContentSection from '@/components/ContentSection';
+import RealMoneySection from '@/components/RealMoneySection';
+import FAQSection from '@/components/FAQSection';
 import Footer from '@/components/Footer';
 
 export default function HomeClient() {
@@ -13,6 +16,7 @@ export default function HomeClient() {
       <Header />
       <HeroSection />
       <GameTabs />
+      <BonusSection />
       <ContentSection />
 
       {/* Why Choose SPACE9 Section */}
@@ -68,6 +72,8 @@ export default function HomeClient() {
           </div>
         </div>
       </section>
+
+      <RealMoneySection />
 
       {/* Guides & Tips Section */}
       <section className="bg-gradient-to-b from-slate-100 to-white py-16 md:py-24">
@@ -182,6 +188,8 @@ export default function HomeClient() {
           </div>
         </div>
       </section>
+
+      <FAQSection />
 
       <Footer />
     </div>
